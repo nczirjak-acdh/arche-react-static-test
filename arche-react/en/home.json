@@ -23,15 +23,15 @@
         "cards_header_title": "Important Information",
         "card_1_title": "Deposit Resources",
         "card_1_text": "Information on the deposition process, data transfer, archiving, and publication",
-        "card_1_image": "/browser/themes/contrib/arche-theme-bs/images/common/discover_resource_pc.png",
+        "card_1_image": "/browser/images/common/discover_resource_pc.png",
         "card_1_url": "/browser/deposition-process",
         "card_2_title": "Discover Resources",
         "card_2_text": "All collections published in ARCHE with search and filter options",
-        "card_2_image": "/browser/themes/contrib/arche-theme-bs/images/common/find_resource_pc.png",
+        "card_2_image": "/browser/images/common/find_resource_pc.png",
         "card_2_url": "/browser/discover?q=&amp;preferredLang=en&amp;includeBinaries=0&amp;linkNamedEntities=1&amp;page=1&amp;pageSize=10&amp;facets[http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type][]=https%3A%2F%2Fvocabs.acdh.oeaw.ac.at%2Fschema%23TopCollection&amp;noCache=0",
         "card_3_title": "FAQ",
         "card_3_text": "Answers to frequently asked questions and practical tips for depositors",
-        "card_3_image": "/browser/themes/contrib/arche-theme-bs/images/common/faq_pc.png",
+        "card_3_image": "/browser/images/common/faq_pc.png",
         "card_3_url": "/browser/faq"    
     },
     "element_3": {
@@ -42,7 +42,7 @@
         "title_small": "MISSION",
         "title": "Access to Digital Research Data",
         "content_left": "ARCHE’s primary mission is to provide easy and sustainable access to digital research data and resources for researchers in the humanities. To this end, it takes care of long-term preservation of digital data, and promotes the use of open access and open data policies. To support researchers in preparing their data for long-term preservation, ARCHE offers a set of policies and standards as well as consulting…",
-        "content_right": "<img class='img-fluid mission-main-img' src='/browser/themes/contrib/arche-theme-bs/images/common/oeaw_gebaude.png' alt='' width='523' height='345'>",
+        "content_right": "<img class='img-fluid mission-main-img' src='/browser/images/common/oeaw_gebaude.png' alt='' width='523' height='345'>",
         "more_url": "/browser/about-arche#access-to-digital-research-data"
     }
 }
