@@ -1,0 +1,46 @@
+{
+    "element_1": {
+        "title_small": "UNSERE SERVICES",
+        "title": "Was ist ARCHE?",
+        "content_left": ["<iframe width='100%' height='315' src='https://www.youtube.com/embed/zRKW6CdOD-k?si=uHukAhBKAh2N3tjF' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen=''></iframe>"],
+        "content_right": ["<p class=''>",
+            "    ARCHE (A Resource Centre for the HumanitiEs) ist ein Service für die stabile Langzeitarchivierung und Dissemination von digitalen Forschungsdaten und -ressourcen für die österreichische geisteswissenschaftliche Forschungsgemeinschaft.",
+            "</p>",
+            "<p>",
+            "    Wenden Sie sich an uns, wenn Sie über Datenressourcen verfügen, welche Sie teilen wollen und dabei sicherstellen möchten, dass die Daten auch in Zukunft verfügbar sein werden. Wir bieten sowohl die Archivierung als auch die Online-Verfügbarmachung Ihrer Ressourcen an.",
+            "</p>",
+            "<p>",
+            "    Um eine kurze Einführung zu erhalten, können Sie sich eines unserer Videos mit Dante, einem Projektleiter, und Nora, einer Kuratorin bei ARCHE, ansehen…",
+            "</p>",
+            "<div class='d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start'>",
+            "    <a class='btn btn-arche-blue px-4 me-sm-3' href='/browser/de/ueber-arche'>Mehr Info</a>",
+            "</div>"]
+    },
+    "element_2": {
+        "title_small": "ORIENTIERUNG",
+        "title": "Daten einreichen, entdecken und wiederverwenden",
+        "card_1_title": "Ressourcen einreichen",
+        "card_1_text": "Informationen zum Einreichungsprozess, zur Datenübergabe, Archivierung und Publikation",
+        "card_1_image": "/browser/themes/contrib/arche-theme-bs/images/common/discover_resource_pc.png",
+        "card_1_url": "/browser/de/einreichungsprozess",
+        "card_2_title": "Ressourcen entdecken",
+        "card_2_text": "Alle in ARCHE veröffentlichten Sammlungen mit Such- und Filteroptionen",
+        "card_2_image": "/browser/themes/contrib/arche-theme-bs/images/common/find_resource_pc.png",
+        "card_2_url": "/browser/discover?q=&amp;preferredLang=de&amp;includeBinaries=0&amp;linkNamedEntities=1&amp;page=1&amp;pageSize=10&amp;facets[http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type][]=https%3A%2F%2Fvocabs.acdh.oeaw.ac.at%2Fschema%23TopCollection&amp;noCache=0",
+        "card_3_title": "FAQ",
+        "card_3_text": "Antworten auf häufig gestellte Fragen und Praxishinweise für Datengebende",
+        "card_3_image": "/browser/themes/contrib/arche-theme-bs/images/common/faq_pc.png",
+        "card_3_url": "/browser/de/faq-de"    
+    },
+    "element_3": {
+        "title_small": "SAMMLUNGEN",
+        "title": "Überblick über alle in ARCHE veröffentlichten Sammlungen"        
+    },
+    "element_4": {
+        "title_small": "MISSION",
+        "title": "Zugang zu digitalen Forschungsdaten",
+        "content_left": "Die Hauptaufgabe von ARCHE besteht darin, Forschenden in den Geisteswissenschaften einen einfachen und nachhaltigen Zugang zu digitalen Forschungsdaten und -ressourcen zu ermöglichen. Dies geschieht durch die langfristige Erhaltung digitaler Daten und die Förderung der Nutzung von Open Access- und Open Data-Richtlinien. Um Forschende bei der Vorbereitung ihrer Daten für die Langzeitarchivierung zu unterstützen, bietet ARCHE eine Reihe von Richtlinien und Standards sowie Beratung an…",
+        "content_right": "<img class='img-fluid mission-main-img' src='/browser/themes/contrib/arche-theme-bs/images/common/oeaw_gebaude.png' alt='' width='523' height='345'>",
+        "more_url": "/browser/de/ueber-arche#zugang-zu-digitalen-forschungsdaten"
+    }
+}
