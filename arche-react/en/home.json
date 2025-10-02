@@ -1,0 +1,48 @@
+{
+    "element_1": {
+        "title_small": "OUR SERVICES",
+        "title": "What is ARCHE?",
+        "content_left": ["<iframe width='100%' height='315' src='https://www.youtube.com/embed/zRKW6CdOD-k?si=uHukAhBKAh2N3tjF' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen=''></iframe>"],
+        "content_right": ["<p class=''>",
+            "    ARCHE (A Resource Centre for the HumanitiEs) is a service that offers stable and persistent hosting as well as the dissemination of digital research data and resources for the Austrian humanities community.",
+            "</p>",
+            "<p>",
+            "    If you have resources, would like to share them, and want to make sure that the data will be around in the future, contact us. We offer both archiving and online availability for your resources.",
+            "</p>",
+            "<p>",
+            "    To get a quick introduction, you may watch one of our videos featuring Dante, a project leader, and Nora, a curator at ARCHE…",
+            "</p>",
+            "<div class='d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start'>",
+            "    <a class='btn btn-arche-blue px-4 me-sm-3' href='/browser/about-arche'>More</a>",
+            "</div>"]
+    },
+    "element_2": {
+        "title_small": "GUIDANCE",
+        "title": "Deposit, Discover, and Reuse Data",
+        "cards_header_title_small": "GUIDANCE",
+        "cards_header_title": "Important Information",
+        "card_1_title": "Deposit Resources",
+        "card_1_text": "Information on the deposition process, data transfer, archiving, and publication",
+        "card_1_image": "/browser/themes/contrib/arche-theme-bs/images/common/discover_resource_pc.png",
+        "card_1_url": "/browser/deposition-process",
+        "card_2_title": "Discover Resources",
+        "card_2_text": "All collections published in ARCHE with search and filter options",
+        "card_2_image": "/browser/themes/contrib/arche-theme-bs/images/common/find_resource_pc.png",
+        "card_2_url": "/browser/discover?q=&amp;preferredLang=en&amp;includeBinaries=0&amp;linkNamedEntities=1&amp;page=1&amp;pageSize=10&amp;facets[http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type][]=https%3A%2F%2Fvocabs.acdh.oeaw.ac.at%2Fschema%23TopCollection&amp;noCache=0",
+        "card_3_title": "FAQ",
+        "card_3_text": "Answers to frequently asked questions and practical tips for depositors",
+        "card_3_image": "/browser/themes/contrib/arche-theme-bs/images/common/faq_pc.png",
+        "card_3_url": "/browser/faq"    
+    },
+    "element_3": {
+        "title_small": "COLLECTIONS",
+        "title": "Overview of All Collections Published in ARCHE"        
+    },
+    "element_4": {
+        "title_small": "MISSION",
+        "title": "Access to Digital Research Data",
+        "content_left": "ARCHE’s primary mission is to provide easy and sustainable access to digital research data and resources for researchers in the humanities. To this end, it takes care of long-term preservation of digital data, and promotes the use of open access and open data policies. To support researchers in preparing their data for long-term preservation, ARCHE offers a set of policies and standards as well as consulting…",
+        "content_right": "<img class='img-fluid mission-main-img' src='/browser/themes/contrib/arche-theme-bs/images/common/oeaw_gebaude.png' alt='' width='523' height='345'>",
+        "more_url": "/browser/about-arche#access-to-digital-research-data"
+    }
+}
