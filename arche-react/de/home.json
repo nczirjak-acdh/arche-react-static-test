@@ -21,15 +21,15 @@
         "title": "Daten einreichen, entdecken und wiederverwenden",
         "card_1_title": "Ressourcen einreichen",
         "card_1_text": "Informationen zum Einreichungsprozess, zur Datenübergabe, Archivierung und Publikation",
-        "card_1_image": "/browser/themes/contrib/arche-theme-bs/images/common/discover_resource_pc.png",
+        "card_1_image": "/browser/images/common/discover_resource_pc.png",
         "card_1_url": "/browser/de/einreichungsprozess",
         "card_2_title": "Ressourcen entdecken",
         "card_2_text": "Alle in ARCHE veröffentlichten Sammlungen mit Such- und Filteroptionen",
-        "card_2_image": "/browser/themes/contrib/arche-theme-bs/images/common/find_resource_pc.png",
+        "card_2_image": "/browser/images/common/find_resource_pc.png",
         "card_2_url": "/browser/discover?q=&amp;preferredLang=de&amp;includeBinaries=0&amp;linkNamedEntities=1&amp;page=1&amp;pageSize=10&amp;facets[http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type][]=https%3A%2F%2Fvocabs.acdh.oeaw.ac.at%2Fschema%23TopCollection&amp;noCache=0",
         "card_3_title": "FAQ",
         "card_3_text": "Antworten auf häufig gestellte Fragen und Praxishinweise für Datengebende",
-        "card_3_image": "/browser/themes/contrib/arche-theme-bs/images/common/faq_pc.png",
+        "card_3_image": "/browser/images/common/faq_pc.png",
         "card_3_url": "/browser/de/faq-de"    
     },
     "element_3": {
