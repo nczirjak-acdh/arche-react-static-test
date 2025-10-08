@@ -40,7 +40,7 @@
         "title_small": "MISSION",
         "title": "Zugang zu digitalen Forschungsdaten",
         "content_left": "Die Hauptaufgabe von ARCHE besteht darin, Forschenden in den Geisteswissenschaften einen einfachen und nachhaltigen Zugang zu digitalen Forschungsdaten und -ressourcen zu ermöglichen. Dies geschieht durch die langfristige Erhaltung digitaler Daten und die Förderung der Nutzung von Open Access- und Open Data-Richtlinien. Um Forschende bei der Vorbereitung ihrer Daten für die Langzeitarchivierung zu unterstützen, bietet ARCHE eine Reihe von Richtlinien und Standards sowie Beratung an…",
-        "content_right": "<img class='img-fluid mission-main-img' src='/browser/themes/contrib/arche-theme-bs/images/common/oeaw_gebaude.png' alt='' width='523' height='345'>",
+        "content_right": "<img class='img-fluid mission-main-img' src='/browser/images/common/oeaw_gebaude.png' alt='' width='523' height='345'>",
         "more_url": "/browser/de/ueber-arche#zugang-zu-digitalen-forschungsdaten"
     }
 }
