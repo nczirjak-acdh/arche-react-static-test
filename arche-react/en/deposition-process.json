@@ -1,0 +1,72 @@
+{
+    "element_1": {
+        "header_title_small": "DEPOSITION PROCESS",
+        "header_title": "How does the data deposition work?",
+        "video_url": "<iframe width='100%' height='315' src='https://www.youtube.com/embed/mmRfc7fNNSA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen=''></iframe>",
+        "text": "During the submission of digital resources to the repository the data undergoes a curation process in order to ensure quality and consistency. We assist you in meeting necessary requirements for sustainable resource archiving: data have to be provided with metadata and in preferred formats, persistent identifiers (PIDs) have to be assigned, IPR issues have to be resolved and clear statements with regard to licensing and possible use of the resources are to be made."
+    },
+    "element_2": {
+        "accordion_1_title": "1. Before Submission: Preparation steps on your side",
+        "accordion_1_body": ["<ul>", 
+            "<li>Gather information: Please have a look at our <a style='text-decoration:none;' href='/browser/collection-policy'>Collection Policy</a> to make sure your data fits into the scope of ARCHE. You will find further information about the formats, metadata, licences and legal issues on the page <a style='text-decoration:none;' href='/browser/filenames-formats-metadata'>Filenames, Formats, and Metadata</a> and in the <a style='text-decoration:none;' href='/browser/faq'>FAQ</a>.</li>",
+            "<li>Contact ACDH: You can get in touch with us prior to the actual submission in order to answer open questions, make sure your data suits the ARCHE requirements, and inform us about your deposition plans well in advance.</li>",
+            "<li>Select data: All data might not be relevant for archiving. Please assess your data and select your data with reference to our <a style='text-decoration:none;' href='/browser/collection-policy'>Collection Policy</a>. Ask yourself: Is my data suitable for ARCHE? Do I have the rights to deposit it? How significant is my data? Is it unique or non-replicable? Is the quality of the data adequate? Can I provide required metadata? Is there sensitive data which needs special attendance?<br>For a quick self-assessment you can have a look at the <a style='text-decoration:none;' href='http://www.dpconline.org/handbook/organisational-activities/decision-tree'>Decision Tree provided by the Digital Preservation Coalition</a>.</li>",
+            "<li>Compile lists: In order for the ARCHE team to decide upon ingesting your data, a list of files with a short overall description is necessary. Tools for this task are listed in the <a style='text-decoration:none;' href='/browser/faq#faq-file-list'>FAQ</a>.</li>",
+            "<li>Rename and restructure: Make sure your file names adhere to our <a style='text-decoration:none;' href='/browser/filenames-formats-metadata#filenames'>file naming conventions</a>, and do not contain any special characters. Ask yourself if your file structure is understandable for others and adjust or document where necessary.</li>",
+            "<li>Formats: Please take a look at the corresponding section on page <a style='text-decoration:none;' href='/browser/filenames-formats-metadata#formats'>Filenames, Formats, and Metadata</a> section. If your data are not in the correct format, please convert them or contact us for further guidance.</li>",
+            "<li>Documentation and metadata: Providing adequate and comprehensive documentation is fundamental. Please take a look at the corresponding section on page <a style='text-decoration:none;' href='/browser/filenames-formats-metadata#metadata'>Filenames, Formats, and Metadata</a> section.</li>",
+            "<li>Rights and legal issues: Before the actual deposition of your data legal issues have to be attended for. You will be required to sign the <a style='text-decoration:none;' href='/browser/deposition-agreement'>Deposition Agreement</a> acknowledging that you are the holder of rights to the data and that you have the right to grant the rights set forth in this agreement. Choosing a <a style='text-decoration:none;' href='/browser/faq#faq-chose-licence'>suitable licence and access mode</a> to your data is also part of this process.</li>",
+            "<li>Protecting sensitive data: Finally, you also have to make sure any sensitive information, like personal information, confidential data or geographical information about archaeological find-places at risk is either anonymised, left out or obfuscated. If you have consent for publishing sensitive data, please provide it. Consult the <a style='text-decoration:none;' href='https://archaeologydataservice.ac.uk/help-guidance/how-to-prepare-data/sensitive-data/'>Guidance on the Deposition of Sensitive Digital Data by the ADS</a> for further advice.</li>",
+            "</ul>"
+        ],
+        "accordion_2_title": "2. Submission: The actual submission and handing in of the data",
+        "accordion_2_body": [
+            "<p>When all of the above is settled, you are ready to deliver your data to ARCHE.</p>",
+            "<p>Please approach us under <a href='mailto:acdh-helpdesk@oeaw.ac.at'>acdh-helpdesk(at)oeaw.ac.at</a> with a request for deposition. Please consider that the deposition including curation may be a lengthy process and allow for enough time.</p>",
+            "<p>We will use our <a style='text-decoration:none;' href='/browser/collection-policy'>Collection Policy</a> to evaluate the information provided and determine whether your data is suitable for deposit in ARCHE. In case of rejection, we will try to help you find an alternative repository.</p>",
+            "<p>In case of acceptance, the actual handing over of the data is planned on an individual basis—usually by either handing over offline mobile storage devices or transferring the data online (email, SFTP, oeawCloud storage).</p>"
+        ],
+        "accordion_3_title": "3. Curation: Checks on the data, which can result in the need to review and resubmit data by the depositor",
+        "accordion_3_body": [
+            "<ul>",
+            "<li>Automated checks: After your data is deposited in ARCHE, the data passes through some automatic checks, including virus check, check for conformance of file names (no blank space or special characters used), check for completeness of the minimum amount of metadata, check for accepted formats, and validation of formats.</li>",
+            "<li>Documentation and completeness: A data curator goes through your provided metadata to check for consistency, understandability and completeness. The curator will also look into your data to verify that it matches the provided metadata and nothing is missing. If any issues come up, the data curator will get back to you. We will try to delegate this task to a curator with expertise in the field your data covers, although we cannot guarantee this for all subjects.</li>",
+            "<li>Rights clearance: A data curator will check for any legal issues not touched upon and make sure the signed contracts are valid.</li>",
+            "<li>Customisation of presentation: Optionally the online presentation of the data can be customised by including logos, title images, and tweaking other details.</li>",
+            "</ul>",
+            "<p>If any of the above results in errors or open questions, a data curator will get back to you.</p>"
+        ],
+        "accordion_4_title": "4. Archiving &amp; Publication: The actual archiving and publication of data",
+        "accordion_4_body": [
+            "<ul>",
+            "<li>Archiving: As soon as your data has passed all checks and the legal issues are settled, they will be archived, which means all data will be safely stored in the repository system. This is detailed in  <a href='/browser/technical-setup#storage-procedures'>Storage Procedures</a>.</li>",
+            "<li>Publication: Data will be published on ARCHE and assigned a PID for stable reference. ARCHE uses handles for persistent identification.</li>",
+            "</ul>"
+        ]
+    },
+    "element_3": {
+        "header_title_small": "EFFORT",
+        "header_title": "Costs",
+        "text": "The deposition and storage itself are free of charge. The repository is run as part of the research infrastructure as a service to the community. If the data requires further processing and extensive curation, we might charge for the curation effort."
+    },
+    "element_4": {
+        "cards_header_title_small": "GUIDANCE",
+        "cards_header_title": "Important Information",
+        "card_1_title": "Collection Policy",
+        "card_1_text": "Scope of collections, evaluation, and storage duration",
+        "card_1_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-collection-policy.png",
+        "card_1_url": "/browser/collection-policy",
+        "card_2_title": "Deposition Agreement",
+        "card_2_text": "Legal agreement between ARCHE and depositors",
+        "card_2_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-deposition-agreement.png",
+        "card_2_url": "/browser/deposition-agreement",
+        "card_3_title": "Filenames, Formats &amp; Metadata",
+        "card_3_text": "Prepare data correctly",
+        "card_3_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-filenames.png",
+        "card_3_url": "/browser/filenames-formats-metadata",
+        "card_4_title": "FAQ",
+        "card_4_text": "Answers to frequently asked questions and practical tips for depositors",
+        "card_4_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-faq-new.png",
+        "card_4_url": "/browser/faq"
+    }
+}
