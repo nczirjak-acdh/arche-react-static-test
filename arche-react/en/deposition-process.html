@@ -250,112 +250,97 @@ dddd
     </div>
 </div>
 
-
 <div class="w-full flex justify-center resources-container-home">
-
-    <div class="grid grid-cols-6 gap-4">              
-
-        <div class="col-span-4 col-start-2 container-w980 ">
-            <div class="w-full">
-                <div class="container">
-                    <div class="grid grid-cols-1 sm:grid-cols-4 gap-6 items-stretch">
-
-                        <div class="w-full max-w-sm">   <!-- centers because of justify-items-center + max width -->
-                            <div class="rounded-2xl bg-white p-8 shadow-[0_20px_60px_-20px_rgba(2,6,23,0.2)] ring-1 ring-black/5">
-                                <div class="mb-6 flex items-center justify-center">
-                                    <img class="card-img-top home-resources-images w-full h-auto"
-                                         src="{{ element_4.card_1_image }}" alt="{{ element_4.card_1_title }}"
-                                         width="165" height="138">
-                                </div>
-                                <div class="card-body home-resources-body p-4">
-                                    <h5 class="card-title mb-3 text-center">
-                                        <a class="home-resources-title" href="{{ element_4.card_1_url }}">
-                                            {{ element_4.card_1_title }}
-                                        </a>
-                                    </h5>
-                                    <p class="card-text home-resources-text">
-                                        {{ element_4.card_1_text }}
-                                    </p>
-                                    <p class="mt-auto">
-                                        <a class="btn basic-arche-btn home-resources-btn" href="{{ element_4.card_1_url }}">Show</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="w-full max-w-sm">   <!-- centers because of justify-items-center + max width -->
-                            <div class="rounded-2xl bg-white p-8 shadow-[0_20px_60px_-20px_rgba(2,6,23,0.2)] ring-1 ring-black/5">
-                                <div class="mb-6 flex items-center justify-center">
-                                    <img class="card-img-top home-resources-images w-full h-auto"
-                                         src="{{ element_4.card_2_image }}" alt="{{ element_4.card_2_title }}"
-                                         width="165" height="138">
-                                </div>
-                                <div class="card-body home-resources-body p-4">
-                                    <h5 class="card-title mb-3 text-center">
-                                        <a class="home-resources-title" href="{{ element_4.card_2_url }}">
-                                            {{ element_4.card_2_title }}
-                                        </a>
-                                    </h5>
-                                    <p class="card-text home-resources-text">
-                                        {{ element_4.card_2_text }}
-                                    </p>
-                                    <p class="mt-auto">
-                                        <a class="btn basic-arche-btn home-resources-btn" href="{{ element_4.card_2_url }}">Show</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="w-full max-w-sm">   <!-- centers because of justify-items-center + max width -->
-                            <div class="rounded-2xl bg-white p-8 shadow-[0_20px_60px_-20px_rgba(2,6,23,0.2)] ring-1 ring-black/5">
-                                <div class="mb-6 flex items-center justify-center">
-                                    <img class="card-img-top home-resources-images w-full h-auto"
-                                         src="{{ element_4.card_3_image }}" alt="{{ element_4.card_3_title }}"
-                                         width="165" height="138">
-                                </div>
-                                <div class="card-body home-resources-body p-4">
-                                    <h5 class="card-title mb-3 text-center">
-                                        <a class="home-resources-title" href="{{ element_4.card_3_url }}">
-                                            {{ element_4.card_3_title }}
-                                        </a>
-                                    </h5>
-                                    <p class="card-text home-resources-text">
-                                        {{ element_4.card_3_text }}
-                                    </p>
-                                    <p class="mt-auto">
-                                        <a class="btn basic-arche-btn home-resources-btn" href="{{ element_4.card_3_url }}">Show</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="w-full max-w-sm">   <!-- centers because of justify-items-center + max width -->
-                            <div class="rounded-2xl bg-white p-8 shadow-[0_20px_60px_-20px_rgba(2,6,23,0.2)] ring-1 ring-black/5">
-                                <div class="mb-6 flex items-center justify-center">
-                                    <img class="card-img-top home-resources-images w-full h-auto"
-                                         src="{{ element_4.card_4_image }}" alt="{{ element_4.card_4_title }}"
-                                         width="165" height="138">
-                                </div>
-                                <div class="card-body home-resources-body p-4">
-                                    <h5 class="card-title mb-3 text-center">
-                                        <a class="home-resources-title" href="{{ element_4.card_4_url }}">
-                                            {{ element_4.card_4_title }}
-                                        </a>
-                                    </h5>
-                                    <p class="card-text home-resources-text">
-                                        {{ element_4.card_4_text }}
-                                    </p>
-                                    <p class="mt-auto">
-                                        <a class="btn basic-arche-btn home-resources-btn" href="{{ element_4.card_4_url }}">Show</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
+  <div class="grid grid-cols-6 gap-4">
+    <div class="col-span-4 col-start-2 container-w980">
+      <!-- 1 col on xs, 4 cols from sm up -->
+      <div class="grid grid-cols-1 sm:grid-cols-4 gap-6 items-stretch">
+        
+        <!-- CARD 1 -->
+        <div class="h-full">
+          <div class="h-full rounded-2xl bg-white p-8 shadow-[0_20px_60px_-20px_rgba(2,6,23,0.2)] ring-1 ring-black/5 flex flex-col">
+            <div class="mb-6 flex items-center justify-center">
+              <img class="card-img-top home-resources-images max-w-full h-auto"
+                   src="{{ element_4.card_1_image }}" alt="{{ element_4.card_1_title }}"
+                   width="165" height="138">
             </div>
+            <div class="card-body home-resources-body p-4">
+              <h5 class="card-title mb-3 text-center">
+                <a class="home-resources-title" href="{{ element_4.card_1_url }}">{{ element_4.card_1_title }}</a>
+              </h5>
+              <p class="card-text home-resources-text">{{ element_4.card_1_text }}</p>
+              <p class="mt-auto">
+                <a class="btn basic-arche-btn home-resources-btn" href="{{ element_4.card_1_url }}">Show</a>
+              </p>
+            </div>
+          </div>
         </div>
+
+        <!-- CARD 2 -->
+        <div class="h-full">
+          <div class="h-full rounded-2xl bg-white p-8 shadow-[0_20px_60px_-20px_rgba(2,6,23,0.2)] ring-1 ring-black/5 flex flex-col">
+            <div class="mb-6 flex items-center justify-center">
+              <img class="card-img-top home-resources-images max-w-full h-auto"
+                   src="{{ element_4.card_2_image }}" alt="{{ element_4.card_2_title }}"
+                   width="165" height="138">
+            </div>
+            <div class="card-body home-resources-body p-4">
+              <h5 class="card-title mb-3 text-center">
+                <a class="home-resources-title" href="{{ element_4.card_2_url }}">{{ element_4.card_2_title }}</a>
+              </h5>
+              <p class="card-text home-resources-text">{{ element_4.card_2_text }}</p>
+              <p class="mt-auto">
+                <a class="btn basic-arche-btn home-resources-btn" href="{{ element_4.card_2_url }}">Show</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="h-full">
+          <div class="h-full rounded-2xl bg-white p-8 shadow-[0_20px_60px_-20px_rgba(2,6,23,0.2)] ring-1 ring-black/5 flex flex-col">
+            <div class="mb-6 flex items-center justify-center">
+              <img class="card-img-top home-resources-images max-w-full h-auto"
+                   src="{{ element_4.card_3_image }}" alt="{{ element_4.card_3_title }}"
+                   width="165" height="138">
+            </div>
+            <div class="card-body home-resources-body p-4">
+              <h5 class="card-title mb-3 text-center">
+                <a class="home-resources-title" href="{{ element_4.card_3_url }}">{{ element_4.card_3_title }}</a>
+              </h5>
+              <p class="card-text home-resources-text">{{ element_4.card_3_text }}</p>
+              <p class="mt-auto">
+                <a class="btn basic-arche-btn home-resources-btn" href="{{ element_4.card_3_url }}">Show</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="h-full">
+          <div class="h-full rounded-2xl bg-white p-8 shadow-[0_20px_60px_-20px_rgba(2,6,23,0.2)] ring-1 ring-black/5 flex flex-col">
+            <div class="mb-6 flex items-center justify-center">
+              <img class="card-img-top home-resources-images max-w-full h-auto"
+                   src="{{ element_4.card_4_image }}" alt="{{ element_4.card_4_title }}"
+                   width="165" height="138">
+            </div>
+            <div class="card-body home-resources-body p-4">
+              <h5 class="card-title mb-3 text-center">
+                <a class="home-resources-title" href="{{ element_4.card_4_url }}">{{ element_4.card_4_title }}</a>
+              </h5>
+              <p class="card-text home-resources-text">{{ element_4.card_4_text }}</p>
+              <p class="mt-auto">
+                <a class="btn basic-arche-btn home-resources-btn" href="{{ element_4.card_4_url }}">Show</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
+  </div>
 </div>
+
 
 
 <div class="container maxw-980">
