@@ -108,30 +108,40 @@
 
 
 <!-- ELEMENT 3 - BOX -->
+<div class="w-full flex justify-center mission-container-home">
 
-<div class="container maxw-980 padding-bottom24 padding-top24">
-    <div class="container white-bg-container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="text-center text-xl-start">
-                    <h5 class="section-header-title-small text-start">
-                        {{ element_3.header_title_small }}
-                    </h5>
-                    <h2 id="costs" class="section-header-title text-start">
-                        {{ element_3.header_title }}
-                        <a href="#costs" class="anchor-link" aria-label="Link to this section: Costs">#</a>
-                    </h2>
-                    <p>
-                        {{ element_3.text }}
-                    </p>
+    <div class="grid grid-cols-6 gap-4">     
+
+        <div class="col-span-4 col-start-2">
+            <div class="w-full ">
+                <div class="container mission-container">
+                    <div class="grid grid-cols-12 gap-y-8">
+                        <div class="col-span-12 lg:col-span-6">
+                            <div class="text-center xl:text-left">
+                                <h5 class="section-header-title-small text-start">
+                                    {{ element_3.header_title_small }}
+                                </h5>
+                                <h2 id="costs" class="section-header-title text-start">
+                                    {{ element_3.header_title }}
+                                    <a href="#costs" class="anchor-link" aria-label="Link to this section: Costs">#</a>
+                                </h2>
+                                <p>
+                                    {{ element_3.text }}
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-span-12 lg:col-span-6 text-center">
+                            <img class="img-fluid mission-main-img" src="/browser/themes/contrib/arche-theme-bs/images/common/Kosten-Nora.png" alt="..." width="523" height="439">
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-6 text-center">
-                <img class="img-fluid mission-main-img" src="/browser/themes/contrib/arche-theme-bs/images/common/Kosten-Nora.png" alt="..." width="523" height="439">
             </div>
         </div>
     </div>
+
 </div>
+
 
 
 
