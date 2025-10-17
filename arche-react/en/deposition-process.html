@@ -46,46 +46,68 @@
 
 
 <!-- Element 2 - ACCORDION -->
+<!-- Accordion -->
+<div class="w-full max-w-2xl mx-auto border rounded-lg divide-y">
+  <!-- Item 1 -->
+  <div class="group">
+    <input id="acc-1" type="radio" name="accordion" class="peer sr-only" checked>
+    <label for="acc-1"
+      class="flex items-center justify-between gap-3 p-4 cursor-pointer select-none
+             transition-colors
+             peer-checked:bg-blue-50 peer-checked:text-blue-700
+             peer-focus-visible:outline-none peer-focus-visible:ring peer-focus-visible:ring-blue-300">
+      <span class="font-medium">Collection Policy</span>
+      <!-- chevron -->
+      <svg class="shrink-0 h-5 w-5 transition-transform peer-checked:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+        <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+      </svg>
+    </label>
+    <div class="overflow-hidden transition-[max-height] duration-300 max-h-0 peer-checked:max-h-[60vh]">
+      <div class="p-4 pt-0 text-sm text-gray-700">
+        Scope of collections, evaluation, and storage duration.
+      </div>
+    </div>
+  </div>
 
-<div class="space-y-3">
-    <!-- Item 1 -->
-    <details class="group rounded-lg border border-neutral-200 open:bg-indigo-50 open:border-indigo-300 transition-colors">
-        <summary class="flex cursor-pointer items-center justify-between gap-3 p-4 text-neutral-800 group-open:text-indigo-700">
-            <span class="font-medium">Section 1</span>
-            <svg class="h-4 w-4 shrink-0 transition-transform group-open:rotate-180 group-open:text-indigo-700" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-            <path d="M5.23 7.21a.75.75 0 0 1 1.06.02L10 10.94l3.71-3.71a.75.75 0 1 1 1.08 1.04l-4.25 4.25a.75.75 0 0 1-1.06 0L5.21 8.27a.75.75 0 0 1 .02-1.06z"/>
-            </svg>
-        </summary>
-        <div class="border-t border-indigo-100 p-4 text-sm text-neutral-700">
-            Your content here…
-        </div>
-    </details>
+  <!-- Item 2 -->
+  <div class="group">
+    <input id="acc-2" type="radio" name="accordion" class="peer sr-only">
+    <label for="acc-2"
+      class="flex items-center justify-between gap-3 p-4 cursor-pointer select-none
+             transition-colors
+             peer-checked:bg-blue-50 peer-checked:text-blue-700
+             peer-focus-visible:outline-none peer-focus-visible:ring peer-focus-visible:ring-blue-300">
+      <span class="font-medium">Deposition Agreement</span>
+      <svg class="shrink-0 h-5 w-5 transition-transform peer-checked:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+        <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+      </svg>
+    </label>
+    <div class="overflow-hidden transition-[max-height] duration-300 max-h-0 peer-checked:max-h-[60vh]">
+      <div class="p-4 pt-0 text-sm text-gray-700">
+        Legal agreement between ARCHE and depositors.
+      </div>
+    </div>
+  </div>
 
-    <!-- Item 2 -->
-    <details class="group rounded-lg border border-neutral-200 open:bg-indigo-50 open:border-indigo-300 transition-colors">
-        <summary class="flex cursor-pointer items-center justify-between gap-3 p-4 text-neutral-800 group-open:text-indigo-700">
-            <span class="font-medium">Section 2</span>
-            <svg class="h-4 w-4 shrink-0 transition-transform group-open:rotate-180 group-open:text-indigo-700" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-            <path d="M5.23 7.21a.75.75 0 0 1 1.06.02L10 10.94l3.71-3.71a.75.75 0 1 1 1.08 1.04l-4.25 4.25a.75.75 0 0 1-1.06 0L5.21 8.27a.75.75 0 0 1 .02-1.06z"/>
-            </svg>
-        </summary>
-        <div class="border-t border-indigo-100 p-4 text-sm text-neutral-700">
-            More content…
-        </div>
-    </details>
-
-    <!-- Item 3 -->
-    <details class="group rounded-lg border border-neutral-200 open:bg-indigo-50 open:border-indigo-300 transition-colors">
-        <summary class="flex cursor-pointer items-center justify-between gap-3 p-4 text-neutral-800 group-open:text-indigo-700">
-            <span class="font-medium">Section 3</span>
-            <svg class="h-4 w-4 shrink-0 transition-transform group-open:rotate-180 group-open:text-indigo-700" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-            <path d="M5.23 7.21a.75.75 0 0 1 1.06.02L10 10.94l3.71-3.71a.75.75 0 1 1 1.08 1.04l-4.25 4.25a.75.75 0 0 1-1.06 0L5.21 8.27a.75.75 0 0 1 .02-1.06z"/>
-            </svg>
-        </summary>
-        <div class="border-t border-indigo-100 p-4 text-sm text-neutral-700">
-            Even more content…
-        </div>
-    </details>
+  <!-- Item 3 -->
+  <div class="group">
+    <input id="acc-3" type="radio" name="accordion" class="peer sr-only">
+    <label for="acc-3"
+      class="flex items-center justify-between gap-3 p-4 cursor-pointer select-none
+             transition-colors
+             peer-checked:bg-blue-50 peer-checked:text-blue-700
+             peer-focus-visible:outline-none peer-focus-visible:ring peer-focus-visible:ring-blue-300">
+      <span class="font-medium">Filenames, Formats & Metadata</span>
+      <svg class="shrink-0 h-5 w-5 transition-transform peer-checked:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+        <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+      </svg>
+    </label>
+    <div class="overflow-hidden transition-[max-height] duration-300 max-h-0 peer-checked:max-h-[60vh]">
+      <div class="p-4 pt-0 text-sm text-gray-700">
+        Prepare data correctly.
+      </div>
+    </div>
+  </div>
 </div>
 
 
