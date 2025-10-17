@@ -42,41 +42,66 @@
     </div>
 </div>
 
-<div class="accordion">
-  <div class="accordion-item" id="item1">
-    <a href="#item1" class="accordion-header">Accordion Item 1</a>
-    <div class="accordion-content">
-      <p>This is the hidden content.</p>
+
+
+<div class="accordion w-full max-w-2xl mx-auto divide-y rounded-lg border">
+  <!-- Item 1 -->
+  <details name="acc" class="group">
+    <summary
+      class="flex items-center justify-between cursor-pointer p-4 select-none
+             transition-colors open:bg-blue-50 open:text-blue-700
+             [&::-webkit-details-marker]:hidden">
+      <span class="font-medium">Accordion Item 1</span>
+      <!-- chevron -->
+      <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+        <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+      </svg>
+    </summary>
+    <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+      <div class="p-4 pt-0 text-sm text-gray-700">
+        This is the content for item 1. It becomes visible when the user clicks the header.
+      </div>
     </div>
-  </div>
-</div>
+  </details>
 
-<div class="accordion">
-  <div class="accordion-item" id="item2">
-    <a href="#item2" class="accordion-header">Accordion Item 2</a>
-    <div class="accordion-content">
-      <p>This is the hidden content.</p>
+  <!-- Item 2 -->
+  <details name="acc" class="group">
+    <summary
+      class="flex items-center justify-between cursor-pointer p-4 select-none
+             transition-colors open:bg-blue-50 open:text-blue-700
+             [&::-webkit-details-marker]:hidden">
+      <span class="font-medium">Accordion Item 2</span>
+      <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+        <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+      </svg>
+    </summary>
+    <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+      <div class="p-4 pt-0 text-sm text-gray-700">
+        This is the content for item 2. You can place text, images, or any HTML here.
+      </div>
     </div>
-  </div>
+  </details>
+
+  <!-- Item 3 -->
+  <details name="acc" class="group">
+    <summary
+      class="flex items-center justify-between cursor-pointer p-4 select-none
+             transition-colors open:bg-blue-50 open:text-blue-700
+             [&::-webkit-details-marker]:hidden">
+      <span class="font-medium">Accordion Item 3</span>
+      <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+        <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+      </svg>
+    </summary>
+    <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+      <div class="p-4 pt-0 text-sm text-gray-700">
+        This is the content for item 3. It collapses when you open another item.
+      </div>
+    </div>
+  </details>
 </div>
 
 
-<div class="accordion">
-  <details>
-    <summary>Accordion Item 1</summary>
-    <p>This is the content for item 1. It becomes visible when the user clicks the header.</p>
-  </details>
-
-  <details>
-    <summary>Accordion Item 2</summary>
-    <p>This is the content for item 2. You can place text, images, or any HTML here.</p>
-  </details>
-
-  <details>
-    <summary>Accordion Item 3</summary>
-    <p>This is the content for item 3. It collapses when the user clicks again.</p>
-  </details>
-</div>
 
 
 
