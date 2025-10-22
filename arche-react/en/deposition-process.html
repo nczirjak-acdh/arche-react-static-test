@@ -21,11 +21,11 @@
 <div class="w-full flex justify-center bg-white">
     <div class="grid grid-cols-6 gap-4">
         <div class="col-span-4 col-start-2">
-            <div class="grid grid-cols-6 gap-4">
-                <div class="col-span-3">
+            <div class="grid grid-cols-6 sm:grid-cols-1 gap-4">
+                <div class="col-span-3 sm:col-span-1">
                     {{ element_1.video_url }}
                 </div>
-                <div class="col-span-3">
+                <div class="col-span-3 sm:col-span-1">
                     <p class="">
                         {{ element_1.text }}
                     </p>
@@ -223,125 +223,6 @@
                         <div class="h-full shadow bg-white flex flex-col border-0">
                             <img
                                 class="card-img-top cards-static-images max-w-full h-auto"
-                                src="{{ element_4.card_1_image }}" alt="{{ element_4.card_1_title }}"
-                                loading="lazy"
-                                />
-
-                            <div class="card-body home-resources-body p-4 h-full">
-                                <h5 class="card-title mb-3">
-                                    <a class="text-left block"  href="{{ element_4.card_1_url }}">{{ element_4.card_1_title }}</a>
-                                </h5>
-
-                                <p class="card-text home-resources-text text-left  h-full">
-                                    {{ element_4.card_1_text }}
-                                </p>
-
-                                <!-- display: contents -->
-                                <p class="contents">
-                                    <a class="btn basic-arche-btn home-resources-btn" href="{{ element_4.card_1_url }}">Show</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="h-full shadow bg-white flex flex-col border-0">
-                        <div class="h-full shadow bg-white flex flex-col border-0">
-                            <img
-                                class="card-img-top cards-static-images max-w-full h-auto"
-                                src="{{ element_4.card_1_image }}" alt="{{ element_4.card_1_title }}"
-                                loading="lazy"
-                                />
-
-                            <div class="card-body home-resources-body p-4 h-full">
-                                <h5 class="card-title mb-3">
-                                    <a class="text-left block"  href="{{ element_4.card_1_url }}">{{ element_4.card_1_title }}</a>
-                                </h5>
-
-                                <p class="card-text home-resources-text text-left  h-full">
-                                    {{ element_4.card_1_text }}
-                                </p>
-
-                                <!-- display: contents -->
-                                <p class="contents">
-                                    <a class="btn basic-arche-btn home-resources-btn" href="{{ element_4.card_1_url }}">Show</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="h-full shadow bg-white flex flex-col border-0">
-                        <div class="h-full shadow bg-white flex flex-col border-0">
-                            <img
-                                class="card-img-top cards-static-images max-w-full h-auto"
-                                src="{{ element_4.card_1_image }}" alt="{{ element_4.card_1_title }}"
-                                loading="lazy"
-                                />
-
-                            <div class="card-body home-resources-body p-4 h-full">
-                                <h5 class="card-title mb-3">
-                                    <a class="text-left block"  href="{{ element_4.card_1_url }}">{{ element_4.card_1_title }}</a>
-                                </h5>
-
-                                <p class="card-text home-resources-text text-left  h-full">
-                                    {{ element_4.card_1_text }}
-                                </p>
-
-                                <!-- display: contents -->
-                                <p class="contents">
-                                    <a class="btn basic-arche-btn home-resources-btn" href="{{ element_4.card_1_url }}">Show</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-<div class="w-full flex justify-center cards-container">
-    <div class="grid grid-cols-6 gap-4">
-        <div class="col-span-4 col-start-2">
-            <!-- inner row -->
-            <div class="flex flex-nowrap gap-6 container-w980">
-                <!-- card 1 -->
-                <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mb-12">
-                    <div class="h-full shadow bg-white flex flex-col border-0">
-                        <div class="h-full shadow bg-white flex flex-col border-0">
-                            <img
-                                class="card-img-top cards-static-images max-w-full h-auto"
-                                src="{{ element_4.card_1_image }}" alt="{{ element_4.card_1_title }}"
-                                loading="lazy"
-                                />
-
-                            <div class="card-body home-resources-body p-4 h-full">
-                                <h5 class="card-title mb-3">
-                                    <a class="text-left block"  href="{{ element_4.card_1_url }}">{{ element_4.card_1_title }}</a>
-                                </h5>
-
-                                <p class="card-text home-resources-text text-left  h-full">
-                                    {{ element_4.card_1_text }}
-                                </p>
-
-                                <!-- display: contents -->
-                                <p class="contents">
-                                    <a class="btn basic-arche-btn home-resources-btn" href="{{ element_4.card_1_url }}">Show</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- card 2 -->
-                <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mb-12">
-                    <div class="h-full shadow bg-white flex flex-col border-0">
-                        <div class="h-full shadow bg-white flex flex-col border-0">
-                            <img
-                                class="card-img-top cards-static-images max-w-full h-auto"
                                 src="{{ element_4.card_2_image }}" alt="{{ element_4.card_2_title }}"
                                 loading="lazy"
                                 />
@@ -351,7 +232,7 @@
                                     <a class="text-left block"  href="{{ element_4.card_2_url }}">{{ element_4.card_2_title }}</a>
                                 </h5>
 
-                                <p class="card-text home-resources-text text-left h-full">
+                                <p class="card-text home-resources-text text-left  h-full">
                                     {{ element_4.card_2_text }}
                                 </p>
 
@@ -363,9 +244,7 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- card 3 -->
-                <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mb-12">
+                <div class="">
                     <div class="h-full shadow bg-white flex flex-col border-0">
                         <div class="h-full shadow bg-white flex flex-col border-0">
                             <img
@@ -379,7 +258,7 @@
                                     <a class="text-left block"  href="{{ element_4.card_3_url }}">{{ element_4.card_3_title }}</a>
                                 </h5>
 
-                                <p class="card-text home-resources-text text-left h-full">
+                                <p class="card-text home-resources-text text-left  h-full">
                                     {{ element_4.card_3_text }}
                                 </p>
 
@@ -391,9 +270,7 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- card 4 -->
-                <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mb-12">
+                <div class="">
                     <div class="h-full shadow bg-white flex flex-col border-0">
                         <div class="h-full shadow bg-white flex flex-col border-0">
                             <img
@@ -407,7 +284,7 @@
                                     <a class="text-left block"  href="{{ element_4.card_4_url }}">{{ element_4.card_4_title }}</a>
                                 </h5>
 
-                                <p class="card-text home-resources-text text-left h-full">
+                                <p class="card-text home-resources-text text-left  h-full">
                                     {{ element_4.card_4_text }}
                                 </p>
 
@@ -423,6 +300,7 @@
         </div>
     </div>
 </div>
+
 
 
 
