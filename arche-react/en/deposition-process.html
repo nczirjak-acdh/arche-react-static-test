@@ -21,11 +21,11 @@
 <div class="w-full flex justify-center bg-white">
     <div class="grid grid-cols-6 gap-4">
         <div class="col-span-4 col-start-2">
-            <div class="grid grid-cols-6 gap-4">
-                <div class="col-span-3">
+            <div class="grid grid-cols-6 sm:grid-cols-1 gap-4 container-w980">
+                <div class="col-span-3 sm:col-span-1 md:col-span-3">
                     {{ element_1.video_url }}
                 </div>
-                <div class="col-span-3">
+                <div class="col-span-3 sm:col-span-1 md:col-span-3 ">
                     <p class="">
                         {{ element_1.text }}
                     </p>
@@ -42,91 +42,85 @@
     </div>
 </div>
 
-<div class="w-full flex justify-center">
 
-    <div class="grid grid-cols-6 gap-4">     
 
-        <div class="col-span-4 col-start-2">
-            <div class="w-full ">           
+<div class="grid grid-cols-12 gap-y-8 container-w980">      
 
-                <div class="accordion-static ">
-                    <!-- Item 1 -->
-                    <details name="acc" class="group">
-                        <summary
-                            class="flex items-center justify-between cursor-pointer p-4 select-none
-                            transition-colors open:bg-blue-50 open:text-blue-700
-                            [&::-webkit-details-marker]:hidden">
-                            <span class="static-acc-title">{{ element_2.accordion_1_title }}</span>
-                            <!-- chevron -->
-                            <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                            <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                            </svg>
-                        </summary>
-                        <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                            <div class="p-4 pt-0 text-sm accordion-static-body">
-                                {{ element_2.accordion_1_body }}
-                            </div>
-                        </div>
-                    </details>
-
-                    <!-- Item 2 -->
-                    <details name="acc" class="group">
-                        <summary
-                            class="flex items-center justify-between cursor-pointer p-4 select-none
-                            transition-colors open:bg-blue-50 open:text-blue-700
-                            [&::-webkit-details-marker]:hidden">
-                            <span class="static-acc-title">{{ element_2.accordion_2_title }}</span>
-                            <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                            <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                            </svg>
-                        </summary>
-                        <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                            <div class="p-4 pt-0 text-sm accordion-static-body">
-                                {{ element_2.accordion_2_body }}
-                            </div>
-                        </div>
-                    </details>
-
-                    <!-- Item 3 -->
-                    <details name="acc" class="group">
-                        <summary
-                            class="flex items-center justify-between cursor-pointer p-4 select-none
-                            transition-colors open:bg-blue-50 open:text-blue-700
-                            [&::-webkit-details-marker]:hidden">
-                            <span class="static-acc-title">{{ element_2.accordion_3_title }}</span>
-                            <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                            <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                            </svg>
-                        </summary>
-                        <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                            <div class="p-4 pt-0 text-sm accordion-static-body">
-                                {{ element_2.accordion_3_body }}
-                            </div>
-                        </div>
-                    </details>
-
-                    <details name="acc" class="group">
-                        <summary
-                            class="flex items-center justify-between cursor-pointer p-4 select-none
-                            transition-colors open:bg-blue-50 open:text-blue-700
-                            [&::-webkit-details-marker]:hidden">
-                            <span class="static-acc-title">{{ element_2.accordion_4_title }}</span>
-                            <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                            <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                            </svg>
-                        </summary>
-                        <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                            <div class="p-4 pt-0 text-sm accordion-static-body">
-                                {{ element_2.accordion_4_body }}
-                            </div>
-                        </div>
-                    </details>
+    <div class="accordion-static ">
+        <!-- Item 1 -->
+        <details name="acc" class="group">
+            <summary
+                class="flex items-center justify-between cursor-pointer p-4 select-none
+                transition-colors open:bg-blue-50 open:text-blue-700
+                [&::-webkit-details-marker]:hidden">
+                <span class="static-acc-title">{{ element_2.accordion_1_title }}</span>
+                <!-- chevron -->
+                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                </svg>
+            </summary>
+            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                <div class="p-4 pt-0 text-sm accordion-static-body">
+                    {{ element_2.accordion_1_body }}
                 </div>
             </div>
+        </details>
 
-        </div>
+        <!-- Item 2 -->
+        <details name="acc" class="group">
+            <summary
+                class="flex items-center justify-between cursor-pointer p-4 select-none
+                transition-colors open:bg-blue-50 open:text-blue-700
+                [&::-webkit-details-marker]:hidden">
+                <span class="static-acc-title">{{ element_2.accordion_2_title }}</span>
+                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                </svg>
+            </summary>
+            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                <div class="p-4 pt-0 text-sm accordion-static-body">
+                    {{ element_2.accordion_2_body }}
+                </div>
+            </div>
+        </details>
+
+        <!-- Item 3 -->
+        <details name="acc" class="group">
+            <summary
+                class="flex items-center justify-between cursor-pointer p-4 select-none
+                transition-colors open:bg-blue-50 open:text-blue-700
+                [&::-webkit-details-marker]:hidden">
+                <span class="static-acc-title">{{ element_2.accordion_3_title }}</span>
+                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                </svg>
+            </summary>
+            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                <div class="p-4 pt-0 text-sm accordion-static-body">
+                    {{ element_2.accordion_3_body }}
+                </div>
+            </div>
+        </details>
+
+        <details name="acc" class="group">
+            <summary
+                class="flex items-center justify-between cursor-pointer p-4 select-none
+                transition-colors open:bg-blue-50 open:text-blue-700
+                [&::-webkit-details-marker]:hidden">
+                <span class="static-acc-title">{{ element_2.accordion_4_title }}</span>
+                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                </svg>
+            </summary>
+            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                <div class="p-4 pt-0 text-sm accordion-static-body">
+                    {{ element_2.accordion_4_body }}
+                </div>
+            </div>
+        </details>
     </div>
 </div>
+
 
 
 
@@ -165,8 +159,8 @@
     </div>
 
 </div>
+ddd
 
-sss
 
 <!-- ELEMENT 4 four cards -->
 
@@ -189,11 +183,11 @@ sss
 
 <div class="w-full flex justify-center cards-container">
     <div class="grid grid-cols-6 gap-4">
-        <div class="col-span-4 col-start-2">
+        <div class="col-span-4 col-start-2 container-w980">
 
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
                 <div class="">
-                    <div class="h-full shadow bg-white flex flex-col border-0">
+                    <div class="h-full shadow bg-white flex flex-col rounded-[12px] shadow overflow-hidden">
                         <div class="h-full shadow bg-white flex flex-col border-0">
                             <img
                                 class="card-img-top cards-static-images max-w-full h-auto"
@@ -219,126 +213,7 @@ sss
                     </div>
                 </div>
                 <div class="">
-                    <div class="h-full shadow bg-white flex flex-col border-0">
-                        <div class="h-full shadow bg-white flex flex-col border-0">
-                            <img
-                                class="card-img-top cards-static-images max-w-full h-auto"
-                                src="{{ element_4.card_1_image }}" alt="{{ element_4.card_1_title }}"
-                                loading="lazy"
-                                />
-
-                            <div class="card-body home-resources-body p-4 h-full">
-                                <h5 class="card-title mb-3">
-                                    <a class="text-left block"  href="{{ element_4.card_1_url }}">{{ element_4.card_1_title }}</a>
-                                </h5>
-
-                                <p class="card-text home-resources-text text-left  h-full">
-                                    {{ element_4.card_1_text }}
-                                </p>
-
-                                <!-- display: contents -->
-                                <p class="contents">
-                                    <a class="btn basic-arche-btn home-resources-btn" href="{{ element_4.card_1_url }}">Show</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="h-full shadow bg-white flex flex-col border-0">
-                        <div class="h-full shadow bg-white flex flex-col border-0">
-                            <img
-                                class="card-img-top cards-static-images max-w-full h-auto"
-                                src="{{ element_4.card_1_image }}" alt="{{ element_4.card_1_title }}"
-                                loading="lazy"
-                                />
-
-                            <div class="card-body home-resources-body p-4 h-full">
-                                <h5 class="card-title mb-3">
-                                    <a class="text-left block"  href="{{ element_4.card_1_url }}">{{ element_4.card_1_title }}</a>
-                                </h5>
-
-                                <p class="card-text home-resources-text text-left  h-full">
-                                    {{ element_4.card_1_text }}
-                                </p>
-
-                                <!-- display: contents -->
-                                <p class="contents">
-                                    <a class="btn basic-arche-btn home-resources-btn" href="{{ element_4.card_1_url }}">Show</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="h-full shadow bg-white flex flex-col border-0">
-                        <div class="h-full shadow bg-white flex flex-col border-0">
-                            <img
-                                class="card-img-top cards-static-images max-w-full h-auto"
-                                src="{{ element_4.card_1_image }}" alt="{{ element_4.card_1_title }}"
-                                loading="lazy"
-                                />
-
-                            <div class="card-body home-resources-body p-4 h-full">
-                                <h5 class="card-title mb-3">
-                                    <a class="text-left block"  href="{{ element_4.card_1_url }}">{{ element_4.card_1_title }}</a>
-                                </h5>
-
-                                <p class="card-text home-resources-text text-left  h-full">
-                                    {{ element_4.card_1_text }}
-                                </p>
-
-                                <!-- display: contents -->
-                                <p class="contents">
-                                    <a class="btn basic-arche-btn home-resources-btn" href="{{ element_4.card_1_url }}">Show</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-<div class="w-full flex justify-center cards-container">
-    <div class="grid grid-cols-6 gap-4">
-        <div class="col-span-4 col-start-2">
-            <!-- inner row -->
-            <div class="flex flex-nowrap gap-6 container-w980">
-                <!-- card 1 -->
-                <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mb-12">
-                    <div class="h-full shadow bg-white flex flex-col border-0">
-                        <div class="h-full shadow bg-white flex flex-col border-0">
-                            <img
-                                class="card-img-top cards-static-images max-w-full h-auto"
-                                src="{{ element_4.card_1_image }}" alt="{{ element_4.card_1_title }}"
-                                loading="lazy"
-                                />
-
-                            <div class="card-body home-resources-body p-4 h-full">
-                                <h5 class="card-title mb-3">
-                                    <a class="text-left block"  href="{{ element_4.card_1_url }}">{{ element_4.card_1_title }}</a>
-                                </h5>
-
-                                <p class="card-text home-resources-text text-left  h-full">
-                                    {{ element_4.card_1_text }}
-                                </p>
-
-                                <!-- display: contents -->
-                                <p class="contents">
-                                    <a class="btn basic-arche-btn home-resources-btn" href="{{ element_4.card_1_url }}">Show</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- card 2 -->
-                <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mb-12">
-                    <div class="h-full shadow bg-white flex flex-col border-0">
+                    <div class="h-full shadow bg-white flex flex-col rounded-[12px] shadow overflow-hidden">
                         <div class="h-full shadow bg-white flex flex-col border-0">
                             <img
                                 class="card-img-top cards-static-images max-w-full h-auto"
@@ -351,7 +226,7 @@ sss
                                     <a class="text-left block"  href="{{ element_4.card_2_url }}">{{ element_4.card_2_title }}</a>
                                 </h5>
 
-                                <p class="card-text home-resources-text text-left h-full">
+                                <p class="card-text home-resources-text text-left  h-full">
                                     {{ element_4.card_2_text }}
                                 </p>
 
@@ -363,10 +238,8 @@ sss
                         </div>
                     </div>
                 </div>
-
-                <!-- card 3 -->
-                <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mb-12">
-                    <div class="h-full shadow bg-white flex flex-col border-0">
+                <div class="">
+                    <div class="h-full shadow bg-white flex flex-col rounded-[12px] shadow overflow-hidden">
                         <div class="h-full shadow bg-white flex flex-col border-0">
                             <img
                                 class="card-img-top cards-static-images max-w-full h-auto"
@@ -379,7 +252,7 @@ sss
                                     <a class="text-left block"  href="{{ element_4.card_3_url }}">{{ element_4.card_3_title }}</a>
                                 </h5>
 
-                                <p class="card-text home-resources-text text-left h-full">
+                                <p class="card-text home-resources-text text-left  h-full">
                                     {{ element_4.card_3_text }}
                                 </p>
 
@@ -391,10 +264,8 @@ sss
                         </div>
                     </div>
                 </div>
-
-                <!-- card 4 -->
-                <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mb-12">
-                    <div class="h-full shadow bg-white flex flex-col border-0">
+                <div class="">
+                    <div class="h-full shadow bg-white flex flex-col rounded-[12px] shadow overflow-hidden">
                         <div class="h-full shadow bg-white flex flex-col border-0">
                             <img
                                 class="card-img-top cards-static-images max-w-full h-auto"
@@ -407,7 +278,7 @@ sss
                                     <a class="text-left block"  href="{{ element_4.card_4_url }}">{{ element_4.card_4_title }}</a>
                                 </h5>
 
-                                <p class="card-text home-resources-text text-left h-full">
+                                <p class="card-text home-resources-text text-left  h-full">
                                     {{ element_4.card_4_text }}
                                 </p>
 
@@ -423,6 +294,7 @@ sss
         </div>
     </div>
 </div>
+
 
 
 
