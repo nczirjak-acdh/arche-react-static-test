@@ -104,7 +104,7 @@
                             </div>
                         </div>
                     </details>
-                    
+
                     <details name="acc" class="group">
                         <summary
                             class="flex items-center justify-between cursor-pointer p-4 select-none
@@ -166,7 +166,7 @@
 
 </div>
 
-
+sss
 
 <!-- ELEMENT 4 four cards -->
 
@@ -187,86 +187,119 @@
     </div>
 </div>
 
-
 <div class="w-full flex justify-center cards-container">
-  <div class="w-full max-w-[980px] px-4">
-    <!-- 1 col <400px, 2 col >=400px & <768px, 4 col >=768px -->
-    <div class="grid grid-cols-1 min-[400px]:grid-cols-2 md:grid-cols-4 gap-6">
-      
-      <!-- card -->
-      <div class="h-full shadow bg-white flex flex-col border-0">
-        <img class="card-img-top cards-static-images w-full h-auto"
-             src="https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-collection-policy.png"
-             alt="Collection Policy" loading="lazy">
-        <div class="card-body home-resources-body p-4 h-full">
-          <h5 class="card-title mb-3">
-            <a class="text-left block" href="/browser/collection-policy">Collection Policy</a>
-          </h5>
-          <p class="card-text home-resources-text text-left h-full">
-            Scope of collections, evaluation, and storage duration
-          </p>
-          <p class="contents">
-            <a class="btn basic-arche-btn home-resources-btn" href="/browser/collection-policy">Show</a>
-          </p>
-        </div>
-      </div>
+    <div class="grid grid-cols-6 gap-4">
+        <div class="col-span-4 col-start-2">
 
-      <!-- duplicate this card 3x with your other content ... -->
-      <!-- card 2 -->
-      <div class="h-full shadow bg-white flex flex-col border-0">
-        <img class="card-img-top cards-static-images w-full h-auto"
-             src="https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-collection-policy.png"
-             alt="Collection Policy" loading="lazy">
-        <div class="card-body home-resources-body p-4 h-full">
-          <h5 class="card-title mb-3">
-            <a class="text-left block" href="/browser/collection-policy">Collection Policy</a>
-          </h5>
-          <p class="card-text home-resources-text text-left h-full">
-            Scope of collections, evaluation, and storage duration
-          </p>
-          <p class="contents">
-            <a class="btn basic-arche-btn home-resources-btn" href="/browser/collection-policy">Show</a>
-          </p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="">
+                    <div class="h-full shadow bg-white flex flex-col border-0">
+                        <div class="h-full shadow bg-white flex flex-col border-0">
+                            <img
+                                class="card-img-top cards-static-images max-w-full h-auto"
+                                src="{{ element_4.card_1_image }}" alt="{{ element_4.card_1_title }}"
+                                loading="lazy"
+                                />
+
+                            <div class="card-body home-resources-body p-4 h-full">
+                                <h5 class="card-title mb-3">
+                                    <a class="text-left block"  href="{{ element_4.card_1_url }}">{{ element_4.card_1_title }}</a>
+                                </h5>
+
+                                <p class="card-text home-resources-text text-left  h-full">
+                                    {{ element_4.card_1_text }}
+                                </p>
+
+                                <!-- display: contents -->
+                                <p class="contents">
+                                    <a class="btn basic-arche-btn home-resources-btn" href="{{ element_4.card_1_url }}">Show</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="h-full shadow bg-white flex flex-col border-0">
+                        <div class="h-full shadow bg-white flex flex-col border-0">
+                            <img
+                                class="card-img-top cards-static-images max-w-full h-auto"
+                                src="{{ element_4.card_1_image }}" alt="{{ element_4.card_1_title }}"
+                                loading="lazy"
+                                />
+
+                            <div class="card-body home-resources-body p-4 h-full">
+                                <h5 class="card-title mb-3">
+                                    <a class="text-left block"  href="{{ element_4.card_1_url }}">{{ element_4.card_1_title }}</a>
+                                </h5>
+
+                                <p class="card-text home-resources-text text-left  h-full">
+                                    {{ element_4.card_1_text }}
+                                </p>
+
+                                <!-- display: contents -->
+                                <p class="contents">
+                                    <a class="btn basic-arche-btn home-resources-btn" href="{{ element_4.card_1_url }}">Show</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="h-full shadow bg-white flex flex-col border-0">
+                        <div class="h-full shadow bg-white flex flex-col border-0">
+                            <img
+                                class="card-img-top cards-static-images max-w-full h-auto"
+                                src="{{ element_4.card_1_image }}" alt="{{ element_4.card_1_title }}"
+                                loading="lazy"
+                                />
+
+                            <div class="card-body home-resources-body p-4 h-full">
+                                <h5 class="card-title mb-3">
+                                    <a class="text-left block"  href="{{ element_4.card_1_url }}">{{ element_4.card_1_title }}</a>
+                                </h5>
+
+                                <p class="card-text home-resources-text text-left  h-full">
+                                    {{ element_4.card_1_text }}
+                                </p>
+
+                                <!-- display: contents -->
+                                <p class="contents">
+                                    <a class="btn basic-arche-btn home-resources-btn" href="{{ element_4.card_1_url }}">Show</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="h-full shadow bg-white flex flex-col border-0">
+                        <div class="h-full shadow bg-white flex flex-col border-0">
+                            <img
+                                class="card-img-top cards-static-images max-w-full h-auto"
+                                src="{{ element_4.card_1_image }}" alt="{{ element_4.card_1_title }}"
+                                loading="lazy"
+                                />
+
+                            <div class="card-body home-resources-body p-4 h-full">
+                                <h5 class="card-title mb-3">
+                                    <a class="text-left block"  href="{{ element_4.card_1_url }}">{{ element_4.card_1_title }}</a>
+                                </h5>
+
+                                <p class="card-text home-resources-text text-left  h-full">
+                                    {{ element_4.card_1_text }}
+                                </p>
+
+                                <!-- display: contents -->
+                                <p class="contents">
+                                    <a class="btn basic-arche-btn home-resources-btn" href="{{ element_4.card_1_url }}">Show</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <!-- card 3 -->
-      <div class="h-full shadow bg-white flex flex-col border-0">
-        <img class="card-img-top cards-static-images w-full h-auto"
-             src="https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-collection-policy.png"
-             alt="Collection Policy" loading="lazy">
-        <div class="card-body home-resources-body p-4 h-full">
-          <h5 class="card-title mb-3">
-            <a class="text-left block" href="/browser/collection-policy">Collection Policy</a>
-          </h5>
-          <p class="card-text home-resources-text text-left h-full">
-            Scope of collections, evaluation, and storage duration
-          </p>
-          <p class="contents">
-            <a class="btn basic-arche-btn home-resources-btn" href="/browser/collection-policy">Show</a>
-          </p>
-        </div>
-      </div>
-      <!-- card 4 -->
-      <div class="h-full shadow bg-white flex flex-col border-0">
-        <img class="card-img-top cards-static-images w-full h-auto"
-             src="https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-collection-policy.png"
-             alt="Collection Policy" loading="lazy">
-        <div class="card-body home-resources-body p-4 h-full">
-          <h5 class="card-title mb-3">
-            <a class="text-left block" href="/browser/collection-policy">Collection Policy</a>
-          </h5>
-          <p class="card-text home-resources-text text-left h-full">
-            Scope of collections, evaluation, and storage duration
-          </p>
-          <p class="contents">
-            <a class="btn basic-arche-btn home-resources-btn" href="/browser/collection-policy">Show</a>
-          </p>
-        </div>
-      </div>
     </div>
-  </div>
 </div>
-
 
 
 
