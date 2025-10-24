@@ -101,9 +101,11 @@
                             <br>
                             &nbsp;
                         </p>
-                        
-                            <div class="grid grid-cols-12">
-                                <div class="grid-cols-6">
+
+
+                        <div class="grid grid-cols-12 gap-y-8">
+                            <div class="col-span-12 lg:col-span-6">
+                                <div class="text-center xl:text-left">
                                     <p>
                                         <strong>{{ bottom.label_1 }}</strong>
                                     </p>
@@ -111,21 +113,26 @@
                                         {{ bottom.date_sign }}
                                     </p>
                                 </div>
-                                <div class="grid-cols-6">
-                                    <p class="pt-2">
-                                        <strong>{{ bottom.label_2 }}</strong>
-                                    </p>
-                                    <p> ________________________<br>
-                                        {{ bottom.date_sign }}
-                                    </p>
-                                </div>
                             </div>
+
+                            <div class="col-span-12 lg:col-span-6 text-center">
+                                <p class="pt-2">
+                                    <strong>{{ bottom.label_2 }}</strong>
+                                </p>
+                                <p> ________________________<br>
+                                    {{ bottom.date_sign }}
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+
+
 
 <div class="w-full flex justify-center mb-[100px]">
     <div class="grid grid-cols-6 gap-4">
