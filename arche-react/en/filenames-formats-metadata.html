@@ -1,28 +1,36 @@
-<div class="container-fluid bg-white m-0 p-0">
-    <div class="container maxw-980 bg-white">
-        <div class="row gx-5 justify-content-center">
-            <div class="col">
-                <div class="my-5 text-center">
+<div class="w-full flex justify-center bg-white">
+    <div class="grid grid-cols-6 gap-4">
+        <div class="col-span-4 col-start-2">
+            <div class="w-full">
+                <div class="my-12 text-center">
                     <h5 class="section-header-title-small">
-                         {{ element_1.header_title_small }} 
+                        {{ element_1.header_title_small }} 
                     </h5>
-                    <h2 class="section-header-title" id="filenames">
-                        {{ element_1.header_title }}&nbsp;<a class="anchor-link" href="#filenames" aria-label="Link to this section: Filenames">#</a>
+                    <h2 id="filenames" class="section-header-title">
+                        {{ element_1.header_title }}
+                        <a href="#filenames" class="anchor-link" aria-label="Link to this section: Filenames">#</a>
                     </h2>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container maxw-980 bg-white padding-bottom24">
-        <div class="row gx-5 justify-content-center">
-            <div class="col text-left">
-                <p>
+</div>
+
+<div class="w-full flex justify-center">
+
+    <div class="grid grid-cols-6 gap-4">     
+
+        <div class="col-span-4 col-start-2">
+            <div class="w-full ">
+                <div class="container-w980">
                     {{ element_1.content }}
-                </p>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+
 <!-- formats -->
 
 <div class="container-fluid bg-white m-0 p-0">
@@ -44,9 +52,9 @@
         <div class="row gx-5 justify-content-center">
             <div class="col text-left">
                 {{ element_2.content }}
-                 <div class="filenames-formats-dynamic-table-en"></div>
-               
-                
+                <div class="filenames-formats-dynamic-table-en"></div>
+
+
             </div>
         </div>
     </div>
@@ -60,10 +68,10 @@
             <div class="col">
                 <div class="my-5 text-center">
                     <h5 class="section-header-title-small">
-                         {{ element_3.header_title_small }}
+                        {{ element_3.header_title_small }}
                     </h5>
                     <h2 class="section-header-title" id="metadata">
-                         {{ element_3.header_title }}&nbsp;<a class="anchor-link" href="#metadata" aria-label="Link to this section: Metadata">#</a>
+                        {{ element_3.header_title }}&nbsp;<a class="anchor-link" href="#metadata" aria-label="Link to this section: Metadata">#</a>
                     </h2>
                 </div>
             </div>
