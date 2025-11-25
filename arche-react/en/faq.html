@@ -1,19 +1,79 @@
 
 <!-- Accordion 1 -->
-<div class="container maxw-980">
-    <div class="row gx-5 align-items-center justify-content-center">
-        <div class="col">
-            <div class="my-5 text-center">
-                <h5 class="section-header-title-small">
-                    {{ element_1.header_title_small }}
-                </h5>
-                <h2 class="section-header-title" id="archive-data">
-                    {{ element_1.header_title }}&nbsp;<a class="anchor-link" href="#archive-data" aria-label="Link to this section: Archive Data">#</a>
-                </h2>
+
+<div class="w-full flex justify-center bg-white">
+    <div class="grid grid-cols-6 gap-4">
+        <div class="col-span-4 col-start-2">
+            <div class="w-full">
+                <div class="my-12 text-center">
+                    <h5 class="section-header-title-small">
+                        {{ element_1.header_title_small }} 
+                    </h5>
+                    <h2 id="archive-data" class="section-header-title">
+                        {{ element_1.header_title }}&nbsp;<a class="anchor-link" href="#archive-data" aria-label="Link to this section: Archive Data">#</a>
+                    </h2>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+
+
+
+<div class="w-full flex justify-center">
+    <div class="grid w-full grid-cols-6 gap-4">     
+        <div class="col-span-4 col-start-2 w-full flex justify-center">            
+                <div class="container-w980 w-full">
+                    <div class="grid grid-cols-12 gap-y-8">
+                        <div class="accordion-static col-span-full w-full">
+                            <!-- Item 1 -->
+                            <details name="acc" class="group">
+                                <summary
+                                    class="flex items-center justify-between cursor-pointer p-4 select-none
+                                    transition-colors open:bg-blue-50 open:text-blue-700
+                                    [&::-webkit-details-marker]:hidden">
+                                    <span class="static-acc-title">{{ accordion_1.item_1_title }}</span>
+                                    <!-- chevron -->
+                                    <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                    </svg>
+                                </summary>
+                                <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                    <div class="p-4 pt-0 text-sm accordion-static-body">
+                                        {{ accordion_1.item_1_body }}
+                                    </div>
+                                </div>
+                            </details>
+
+                            <!-- Item 2 -->
+                            <details name="acc" class="group">
+                                <summary
+                                    class="flex items-center justify-between cursor-pointer p-4 select-none
+                                    transition-colors open:bg-blue-50 open:text-blue-700
+                                    [&::-webkit-details-marker]:hidden">
+                                    <span class="static-acc-title">{{ accordion_1.item_2_title }}</span>
+                                    <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                    </svg>
+                                </summary>
+                                <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                    <div class="p-4 pt-0 text-sm accordion-static-body">
+                                        {{ accordion_1.item_2_title }}
+                                    </div>
+                                </div>
+                            </details>
+
+                            
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+</div>
+
+
 <div class="container maxw-980">
     <div class="row gx-5 align-items-center justify-content-center">
         <div class="accordion" id="accordionDiv">
