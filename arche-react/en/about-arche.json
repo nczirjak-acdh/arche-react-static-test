@@ -11,7 +11,7 @@
             "    <p>",
             "        If you have resources, would like to share them, and want to make sure that the data will be around in the future, contact us. We offer both archiving and online availability for your resources. If needed, we will assist you in converting data and metadata into required formats.",
             "    </p>",
-            
+            "     <br/>",
             
              "<h4 class='text-start'>",
             "         What is ARCHE?",
@@ -26,9 +26,11 @@
             "    <p>",
             "        To get a quick introduction to ARCHE, you may watch our videos featuring Dante, a project leader, and Nora, a curator at ARCHE.",
             "    </p>",
+            "     <br/>",
             "     <h4 class='text-end'>",
             "         The deposition process",
             "     </h4>",
+            
             "     <p>",
             "         <iframe width='100%' height='315' src='https://www.youtube.com/embed/mmRfc7fNNSA?si=iOypDytKB2aF4drI' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen=''></iframe>",
             "    </p>",
