@@ -1,0 +1,174 @@
+{
+    "element_1": {
+        "content":[ "<p>Das Austrian Centre for Digital Humanities (ACDH)  an der Österreichischen Akademie der Wissenschaften (ÖAW) betreibt ARCHE. Dieses Dokument informiert über die Richtlinien des ACDH hinsichtlich der Erhebung, Verwendung und Weitergabe personenbezogener Daten, die vom Benutzer von ARCHE erhoben werden.</p>",
+                "<p>Das ACDH nimmt den Schutz personenbezogener Daten ernst und verwendet diese ausschließlich zur Bereitstellung und Verbesserung der Dienste von ARCHE. Durch die Nutzung der Dienste erklärt sich der Benutzer mit der Erhebung und Verwendung von Daten gemäß dieser Richtlinie und der <a href='https://dsgvo-gesetz.de/'>Datenschutz-Grundverordnung</a>.</p>",
+                "<p>Im Allgemeinen ist die Nutzung von ARCHE ohne Angabe personenbezogener Daten möglich. Die Erhebung personenbezogener Daten ist beispielsweise für die Registrierung als Benutzer oder die Hinterlegung von Ressourcen erforderlich, erfolgt jedoch auf freiwilliger Basis. Die Daten werden ohne ausdrückliche Zustimmung des Benutzers nicht an Dritte weitergegeben.</p>"]
+    },
+    "element_2": {
+        "title": "Name des Service",
+        "title_url" : "#name-des-service",
+        "title_url_text" : "Link to this section: Name des Service",
+        "content":["<p>ARCHE - A Resource Centre for HumanitiEs</p>"]
+    },
+    "element_3": {
+        "title": "Beschreibung des Service",
+        "title_url" : "#beschreibung-des-service",
+        "title_url_text" : "Link to this section: Beschreibung des Service",
+        "content":["<p>ARCHE bietet der österreichischen geisteswissenschaftlichen Forschungsgemeinschaft die Hinterlegung und stabile Speicherung digitaler Forschungsdaten an. Der Dienst ist darauf ausgelegt, ein breites Spektrum an geisteswissenschaftlichen Forschungsdaten abzudecken, darunter (kommentierte) digitale Texte, lexikalische Ressourcen, tabellarische Daten, Datenbanken, Bilder, Sammlungen mit GIS-, 3D- oder CAD-Daten, Multimedia-Dateien (Ton und/oder Video), Websites und Social-Media-Daten usw. sowie Software (Applikationen, Quellcode usw.).</p>"]
+    },
+    "element_4": {
+        "title": "Verarbeitete personenbezogene Daten",
+        "title_url" : "#verarbeitete-personenbezogene-daten",
+        "title_url_text" : "Link to this section: Verarbeitete personenbezogene Daten",
+        "content":["<p>Wenn Sie sich über <em>Federated Login (Shibboleth)</em> bei dem Dienst anmelden, werden folgende personenbezogene Daten verarbeitet:</p>",
+           " <ul>",
+           "     <li>",
+           "         Daten, die bei Bedarf von der Heimatorganisation des Benutzers angefordert werden:",
+           "         <ul>",
+           "             <li>",
+           "                 persistenter SAML-Identifikator (Attribut: eduPersonTargetedID) – eindeutige ID zur Identifizierung des Benutzers",
+           "             </li>",
+           "         </ul>",
+           "     </li>",
+           "     <li>",
+           "        Von der Heimatorganisation des Benutzers angeforderte Daten (optional):",
+           "         <ul>",
+           "             <li>",
+           "                 alternativer Identifikator (Attribut: eduPersonPrincipalName)",
+           "             </li>",
+           "             <li>",
+           "                 Name des Benutzers (Attribute: displayName, sn, givenName)",
+           "             </li>",
+           "             <li>",
+           "                 E-Mail-Adresse des Benutzers (Attribut: mail)",
+           "             </li>",
+           "             <li>",
+           "                 Zugehörigkeit des Benutzers innerhalb der Heimatinstitution (Attribut: eduPersonScopedAffiliation)",
+           "             </li>",
+           "         </ul>",
+           "     </li>",
+           "     <li>",
+           "         Daten, die vom Benutzer erhoben werden:",
+           "         <ul>",
+           "             <li>",
+           "                 falls die Heimatorganisation einige der angeforderten Attribute nicht bereitstellt, wird der Benutzer möglicherweise aufgefordert, die fehlenden Informationen anzugeben, um bestimmte Funktionen nutzen zu können. Andernfalls stehen ihm diese Funktionen möglicherweise nicht zur Verfügung.",
+           "             </li>",
+           "             <li>",
+           "                 falls der Benutzer Personalisierungsfunktionen nutzt (z. B. Speichern personalisierter Arbeitsbereichseinstellungen).",
+           "             </li>",
+            "            <li>",
+            "                falls der Benutzer zu den Ressourcen beiträgt (Arbeit in einer kollaborativen Umgebung), werden alle Änderungen nachverfolgt.",
+           "             </li>",
+           "         </ul>",
+            "    </li>",
+          "      <li>",
+           "         Allgemeine Netzwerkverkehrsdaten (wie IP-Adresse oder <em>Referrer</em>) werden protokolliert und in anonymisierten Nutzungsstatistiken verwendet.",
+           "     </li>",
+            "</ul>"]
+    },
+    "element_5": {
+        "title": "Zweck der Verarbeitung personenbezogener Daten",
+        "title_url" : "#zweck-der-verarbeitung-personenbezogener-daten",
+        "title_url_text" : "Link to this section: Zweck der Verarbeitung personenbezogener Daten",
+        "content":["<p>Die eindeutige Benutzerkennung wird benötigt, um den Benutzer über mehrere Sitzungen hinweg zu erkennen und benutzerbezogene Informationen (Anpassungen, Berechtigungseinstellungen, benutzergenerierte Inhalte) zuzuordnen. Die Identifizierung des Benutzers sowie die Zugehörigkeitsinformationen dienen dazu, die Berechtigung für den Zugriff auf geschützte Ressourcen zu bestimmen (die bestimmten Gruppen, wie Mitgliedern eines Instituts oder Partnern eines Projekts, gewährt werden kann).</p>",
+            "<p>Attribute, die den Namen des Benutzers betreffen, werden für die Kommunikation mit dem Benutzer (per E-Mail und auf der Website) sowie zur Kennzeichnung des Beitrags des Benutzers verwendet. Wenn die angeforderten Attribute abgerufen werden, werden sie standardmäßig verwendet, der Benutzer hat jedoch weiterhin die Möglichkeit, den Anzeigenamen zu ändern.</p>",
+            "<p>Die Zugehörigkeit des Benutzers kann zur Verwaltung des Zugriffs auf Ressourcen (Autorisierung) verwendet werden, z. B. wenn Mitgliedern einer Einrichtung Zugriff auf eine Ressource gewährt wird. Wenn keine Informationen zur Zugehörigkeit verfügbar sind, wird eine benutzerbasierte Autorisierung verwendet.</p>",
+            "<p>Durch die Angabe einer E-Mail-Adresse kann der Benutzer über Neuigkeiten oder Aktivitäten auf der Plattform informiert werden, insbesondere über Änderungen durch andere Mitglieder eines Teams, das an einer gemeinsamen Ressourcensammlung arbeitet. Dies ist keine kritische Funktion, daher ist die Angabe der E-Mail-Adresse optional. Das ACDH kann die personenbezogenen Daten des Benutzers verwenden, um ihn mit Newslettern und anderen Informationen zu den Dienstleistungen von ARCHE zu kontaktieren.</p>",
+            "<p>Allgemeine Daten zum Netzwerkverkehr werden protokolliert, um anonymisierte Statistiken über die Nutzung unserer Ressourcen zu erstellen. Hierfür wird Matomo (siehe entsprechenden Abschnitt) verwendet.</p>"]
+    },
+    "element_6": {
+        "title": "Cookies",
+        "title_url" : "#cookies",
+        "title_url_text" : "Link to this section: Cookies",
+        "content":["<p>Cookies sind Dateien mit einer kleinen Menge harmloser Daten, die eine anonyme eindeutige Kennung enthalten können. Cookies werden von einer Website an den Browser des Benutzers gesendet und auf der Festplatte des Benutzers gespeichert.</p>",
+            "<p>Wie viele andere Websites verwendet auch das ACDH Cookies. Cookies sammeln Informationen ausschließlich zur Verbesserung der ARCHE-Dienste und der Benutzerfreundlichkeit. Der Benutzer kann seinen Browser so einstellen, dass er alle Cookies ablehnt oder anzeigt, wenn ein Cookie gesendet wird. Wenn der Benutzer jedoch keine Cookies akzeptiert, kann er möglicherweise einige Teile der ARCHE-Dienste nicht nutzen.</p>",
+            "<p>ARCHE verwendet sowohl Sitzungscookies als auch dauerhafte Cookies, um bestimmte Funktionen des ARCHE-Dienstes zu ermöglichen, Analysen durchzuführen und Benutzereinstellungen zu speichern. Cookies werden nicht für Werbezwecke verwendet.</p>"]
+    },
+    "element_7": {
+        "title": "Matomo",
+        "title_url" : "#matomo",
+        "title_url_text" : "Link to this section: Matomo",
+        "content":["<p>Wie die meisten Websitebetreiber sammelt ARCHE nicht-personenbezogene Daten, die in der Regel von Webbrowsern und Servern zur Verfügung gestellt werden, wie z. B. Browsertyp, Spracheinstellung, verweisende Website sowie Datum und Uhrzeit jeder Besucheranfrage. Zu diesem Zweck wird eine eigene Instanz von Matomo verwendet.</p>",
+            "<p>Der Zweck der Erhebung nicht-personenbezogener Daten durch ARCHE besteht darin, besser zu verstehen, wie Besucher von ARCHE die Website und die Dienste von ARCHE nutzen. ARCHE kann nicht-personenbezogene Daten in zusammengefasster Form veröffentlichen, z. B. durch die Veröffentlichung eines Berichts über Trends bei der Nutzung seiner Website, um aufzuzeigen, wie oft eine bestimmte Ressource heruntergeladen wurde oder welche Ressourcen am beliebtesten sind.</p>",
+            "<p>ARCHE sammelt auch potenziell personenbezogene Daten wie Internetprotokolladressen (IP-Adressen). ARCHE verwendet diese Daten jedoch nicht zur Identifizierung seiner Besucher und gibt sie nicht weiter, außer unter denselben Umständen, unter denen es personenbezogene Daten verwendet und weitergibt, wie oben beschrieben.</p>"]
+    },
+    "element_8": {
+        "title": "Deaktivierung der Website-Verfolgung",
+        "title_url" : "#deaktivierung-der-website-verfolgung",
+        "title_url_text" : "Link to this section: Deaktivierung der Website-Verfolgung",
+        "content":["<p>Sie können sich dafür entscheiden, dass Ihrem Computer keine eindeutige Webanalyse-Cookie-Identifikationsnummer zugewiesen wird, um die Aggregation und Analyse der auf dieser Website gesammelten Daten zu vermeiden. Um diese Wahl zu treffen, klicken Sie bitte unten, um ein Opt-out-Cookie zu erhalten.</p>"]
+    },
+    "element_9": {
+        "title": "Dritte, an welche personenbezogene Daten weitergegeben werden",
+        "title_url" : "#dritte-an-welche-personenbezogene-daten-weitergegeben-werden",
+        "title_url_text" : "Link to this section: Dritte, an welche personenbezogene Daten weitergegeben werden",
+        "content":["<p>Es werden keine personenbezogenen Daten an Dritte weitergegeben.</p>"]
+    },
+    "element_10": {
+        "title": "Sicherheit",
+        "title_url" : "#sicherheit",
+        "title_url_text" : "Link to this section: Sicherheit",
+        "content":["<p>Die Sicherheit personenbezogener Daten ist für das ACDH von großer Bedeutung, jedoch ist keine Methode der Übertragung über das Internet oder der elektronischen Speicherung zu 100 % sicher. Das ACDH ist bestrebt, personenbezogene Daten mit kommerziell akzeptablen Mitteln zu schützen, kann jedoch keine absolute Sicherheit garantieren.</p>"]
+    },
+    "element_11": {
+        "title": "Wie Sie auf Ihre personenbezogenen Daten zugreifen, diese berichtigen und löschen können",
+        "title_url" : "#wie-sie-auf-ihre-personenbezogenen-daten-zugreifen-diese-berichtigen-und-loeschen-koennen",
+        "title_url_text" : "Link to this section: Wie Sie auf Ihre personenbezogenen Daten zugreifen, diese berichtigen und löschen können",
+        "content":["<p>Wenn Sie auf personenbezogene Daten, die wir über Sie gespeichert oder die Sie uns zur Verfügung gestellt haben, zugreifen, diese berichtigen und/oder löschen möchten, wenden Sie sich bitte an uns. Die Kontaktdaten finden Sie unter <em>Datenverantwortlicher und Ansprechpartner</em>.</p>"]
+    },
+    "element_12": {
+        "title": "Änderungen dieser Datenschutzbestimmungen",
+        "title_url" : "#aenderungen-dieser-datenschutzbestimmungen",
+        "title_url_text" : "Änderungen dieser Datenschutzbestimmungen",
+        "content":["<p>Diese Datenschutzbestimmungen treten im September 2017 in Kraft und bleiben gültig, mit Ausnahme etwaiger künftiger Änderungen ihrer Bestimmungen, die unmittelbar nach ihrer Veröffentlichung auf dieser Seite in Kraft treten.</p>",
+            "<p>Das ACDH behält sich das Recht vor, seine Datenschutzbestimmungen jederzeit zu aktualisieren oder zu ändern, und der Benutzer sollten diese Datenschutzbestimmungen regelmäßig überprüfen. Die fortgesetzte Nutzung des Dienstes durch den Benutzer nach der Veröffentlichung von Änderungen an den Datenschutzbestimmungen auf dieser Seite gilt als Anerkennung der Änderungen durch den Benutzer und als Zustimmung, die geänderten Datenschutzbestimmungen einzuhalten und an sie gebunden zu sein.</p>",
+            "<p>Wenn das ACDH wesentliche Änderungen an diesen Datenschutzbestimmungen vornimmt, wird es den Benutzer entweder über die angegebene E-Mail-Adresse oder durch einen gut sichtbaren Hinweis auf der Website von ARCHE darüber informieren.</p>"]
+    },
+    "element_13": {
+        "title": "Verhaltenskodex zum Datenschutz",
+        "title_url" : "#verhaltenskodex-zum-datenschutz",
+        "title_url_text" : "Link to this section: Verhaltenskodex zum Datenschutz",
+        "content":["<p>Die personenbezogenen Daten der Benutzer werden gemäß dem <a href='http://www.geant.net/uri/dataprotection-code-of-conduct/v1'>Verhaltenskodex für Dienstleister</a> geschützt, einem gemeinsamen Standard für den Forschungs- und Hochschulbereich zum Schutz der Privatsphäre der Benutzer.</p>"]
+    },
+    "element_14": {
+        "title": "Datenverantwortlicher und Ansprechpartner",
+        "title_url" : "#datenverantwortlicher-und-ansprechpartner",
+        "title_url_text" : "Link to this section: Datenverantwortlicher und Ansprechpartner",
+        "content":["<p>",
+            "    ARCHE<br>",
+            "    Austrian Centre for Digital Humanities<br>",
+            "    Österreichische Akademie der Wissenschaften (ÖAW)<br>",
+            "    Bäckerstraße 13<br>",
+            "    1010 Wien<br>",
+            "    Österreich<br>",
+            "    E-Mail: <a href='mailto:acdh@oeaw.ac.at'>acdh(at)oeaw.ac.at</a>",
+            "</p>"]
+    },
+    "element_15": {
+        "title": "Gerichtsstand",
+        "title_url" : "#gerichtsstand",
+        "title_url_text" : "Link to this section: Gerichtsstand",
+        "content":["<p>Für diesen Vertrag gelten die Bestimmungen des österreichischen Rechts. Gerichtsstand ist Wien.</p>"]
+    },
+    "cards": {
+        "cards_header_title_small": "ORIENTIERUNG",
+        "cards_header_title": "Wichtige Informationen",
+        "card_1_title": "Sammlungsstrategie",
+        "card_1_text": "Sammlungsbereich, Evaluierung und Speicherdauer",
+        "card_1_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-sammlungsstrategie.png",
+        "card_1_url": "/browser/de/sammlungsstrategie",
+        "card_2_title": "Konservierungsrichtlinien",
+        "card_2_text": "Archivierung, Wartung und Risikomanagement",
+        "card_2_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-konservierungsrichtlinien.png",
+        "card_2_url": "/browser/de/konservierungsrichtlinien",
+        "card_3_title": "Nutzungsbedingungen",
+        "card_3_text": "Bedingungen für die Hinterlegung, den Zugang und die Verwendung von Daten",
+        "card_3_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-nutzungsbedingungen.png",
+        "card_3_url": "/browser/de/nutzungsbedingungen",
+        "card_4_title": "FAQ",
+        "card_4_text": "Antworten auf häufig gestellte Fragen und Praxishinweise für Datengebende",
+        "card_4_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-faq-new.png",
+        "card_4_url": "/browser/de/faq-de"
+    }
+}
+
