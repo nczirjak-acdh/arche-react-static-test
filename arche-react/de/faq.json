@@ -1,7 +1,7 @@
 {
     "element_1": {
-        "title_small": "NACHHALTIGKEIT",
-        "title": "Daten archivieren",
+        "header_title_small": "NACHHALTIGKEIT",
+        "header_title": "Daten archivieren",
         "title_url": "#daten-archivieren",
         "title_url_text": "Link to this section: Daten archivieren"
     },
@@ -69,8 +69,8 @@
         "item_17_body": ["<p> ...im Aufbau...</p>"]
     },
     "element_2": {
-        "title_small": "VERFÜGBARKEIT",
-        "title": "Daten suchen und nutzen",
+        "header_title_small": "VERFÜGBARKEIT",
+        "header_title": "Daten suchen und nutzen",
         "title_url": "#daten-suchen-und-nutzen",
         "title_url_text": "Link to this section: Daten suchen und nutzen"
     },
@@ -103,8 +103,8 @@
         "item_9_body": ["<p>DIP steht für <em>Dissemination Information Package</em>. Ein DIP kann von einem oder mehreren AIPs abgeleitet werden und dient dazu, die Daten und Metadaten den Nutzer:innen zu präsentieren. Der Inhalt eines DIPs wird in Lieferformaten präsentiert, die sich von den im AIP verwendeten Archivformaten unterscheiden können. Die Lieferformate sind auf die verfügbare Bandbreite und die Anforderungen der Nutzer:innen zugeschnitten. Eine einzelne Datei kann in verschiedenen Lieferformaten verfügbar sein.</p>"]
     },
     "element_3": {
-        "title_small": "EMPFEHLUNGEN",
-        "title": "Praxishinweise für Datengebende",
+        "header_title_small": "EMPFEHLUNGEN",
+        "header_title": "Praxishinweise für Datengebende",
         "title_url": "#praxishinweise-fuer-datengebende",
         "title_url_text": "Link to this section: Praxishinweise für Datengebende"
     },
@@ -158,8 +158,8 @@
         "item_16_body": ["<p> ...im Aufbau...</p>"]
     },
     "element_4": {
-        "title_small": "FORTSCHRITT",
-        "title": "Technische Basis",
+        "header_title_small": "FORTSCHRITT",
+        "header_title": "Technische Basis",
         "title_url": "#technische-basis",
         "title_url_text": "Link to this section: Technische Basis"
     },
