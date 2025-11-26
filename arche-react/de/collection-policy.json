@@ -1,0 +1,92 @@
+{
+    "element_1": {
+        "title_small": "PRÄAMBEL",
+        "title": "Grundsätze der Akquise",
+        "title_url": "#grundsaetze-der-akquise",
+        "title_url_text": "Link to this section: Grundsätze der Akquise",
+        "content": ["<p>ARCHE bietet eine stabile Langzeitarchivierung digitaler Forschungsdaten für die österreichische geisteswissenschaftliche Forschungsgemeinschaft. Dieses Dokument beschreibt die Grundsätze der Akquise, Kuratierung und Verwaltung von Ressourcen in ARCHE und erläutert neben der Sammlungsstrategie auch die Art der zulässigen Inhalte.</p>"]
+    },
+    "element_2": {
+        "title_small": "SAMMLUNGSBEREICH",
+        "title": "Teil der Infrastruktur von CLARIAH-AT",
+        "title_url": "#teil-der-infrastruktur-von-clariah-at",
+        "title_url_text": "Link to this section: Teil der Infrastruktur von CLARIAH-AT",
+        "content": ["<p>Als Teil der Infrastruktur von CLARIAH-AT, ist ARCHE primär als digitaler Dienst zur Aufbewahrung von Daten aus den Geisteswissenschaften in Österreich intendiert. Daher sind Daten aus allen Fachbereichen der Geisteswissenschaften gleichermaßen willkommen. Dazu gehören moderne Philologien, klassische Philologien, Linguistik, Literaturwissenschaft, Geschichte, Jura, Philosophie, Archäologie, vergleichende Religionswissenschaft, Ethik und Kunstgeschichte. ARCHEs Vorgänger, das CLARIN Centre Vienna / Language Resources Portal (https://clarin.oeaw.ac.at) war auf digitale Sprachressourcen spezialisiert, während ARCHE nun Dienste für einen breiteren Fachbereich anbietet.</p>",
+                "<p> Der Dienst wurde so gestaltet, dass eine breite Auswahl digitaler geisteswissenschaftlicher Forschungsdaten unterstützt werden kann. Wir akzeptieren (annotierte) digitale Texte, lexikalische Ressourcen, tabellarische Daten, Datenbanken, Bilder, Sammlungen mit GIS-, 3D- oder CAD-Daten, multimediale Dateien (Audio und/oder Video), Webseiten und soziale Medien etc. Darüber hinaus wird auch Software (Anwendungen, Quellcode etc.) angenommen.</p>",
+                "<p> ARCHE ist vor allem für Ressourcen mit Österreich-Bezug gedacht: Daten, die in Österreich erstellt oder erfasst wurden bzw. solche, die in historischer oder geografischer Hinsicht für österreichische Forschende von Interesse sind. Jedoch werden Ressourcen ohne direkten Bezug zu Österreich nicht kategorisch ausgeschlossen.</p>",
+                "<p> ARCHE zielt sowohl auf die Erhaltung primärer Forschungsdaten, als auch auf abgeleitete und prozessierte Daten in unterschiedlichen Versionen ab. Herkömmliche Publikationen zu bewahren, ist nicht der Schwerpunkt von ARCHE, da es dafür zahlreiche Alternativen gibt.</p>",
+               " <p> ARCHE ist nicht nur als Repositorium für vollständige und abgeschlossene Datensammlungen von beendeten Projekten gedacht, sondern begrüßt ausdrücklich auch Daten aus laufenden Projekten in Form von Zwischenständen, die weitere Überarbeitungen erwarten, wie beispielsweise Transkriptionen historischer Texte, die schrittweise mit zusätzlichen Informationen oder Annotationsebenen angereichert werden. Nichtsdestotrotz werden alle gespeicherten Daten als unveränderlich betrachtet, das heißt, Daten mit dem gleichen persistenten Identifikator bleiben unverändert.</p>",
+                "<p> ARCHE wird von Fall zu Fall über die Annahme einer Einreichung entscheiden und gegebenenfalls auf besser geeignete Archive oder Repositorien verweisen.</p>"]
+    },
+    "element_3": {
+        "title_small": "EVALUIERUNG",
+        "title": "Peer-Review-Verfahren",
+        "title_url": "#peer-review-verfahren",
+        "title_url_text": "Link to this section: Peer-Review-Verfahren",
+        "content": ["<p> ARCHE erkennt an, dass es für Datengebende und -nutzende von Vorteil ist, wenn eingereichte Daten ein effektives und rigoroses Peer-Review-Verfahren durchlaufen. Die Daten werden durch Kurator:innen nach den unten genannten Kriterien evaluiert, wobei auch deren Handhabbarkeit und eventuell notwendige Maßnahmen zu deren Erhaltung und Dissemination berücksichtigt werden. In diesem Zusammenhang ist beabsichtigt, geeignete Kurator:innen für die jeweilige Fachdisziplin, aus der die Daten stammen, einzusetzen.</p>",
+                "<p> ARCHE ist sich seiner Verantwortung bewusst, eng mit den Datengebenden zu kooperieren, um die Verfügbarkeit der erforderlichen Metadaten zu gewährleisten.</p>",
+                "<p> Die folgende Liste enthält allgemeine Auswahlkriterien zur Beurteilung von eingereichten Daten. Diese Kriterien dienen als allgemeine Richtlinie; die Nichterfüllung eines Kriteriums muss nicht zwingend zum Ausschluss von Daten führen. In jedem Fall wird die endgültige Entscheidung zur Annahme oder Ablehnung der eingereichten Daten gemeinsam mit dem:der Datengebenden gefällt.</p>",
+                "<ul>",
+                "    <li>",
+                "        Risiko: Sind die Daten in Gefahr, zu verschwinden oder auf andere Weise unzugänglich zu werden?",
+                "    </li>",
+                "    <li>",
+                "        Grad der Verfügbarkeit: Können die Daten bereits anderswo gefunden werden?",
+                "    </li>",
+                "    <li>",
+                "        Nachfrage: In welchem Ausmaß werden die Daten verwendet?",
+                "    </li>",
+                "    <li>",
+                "        Geografischer oder historischer Bezug: Haben die Daten eine Beziehung zu Österreich?",
+                "    </li>",
+                "    <li>",
+                "        Kuratierungsaufwand: Wie viel Arbeit ist notwendig, um die Daten zur Archivierung vorzubereiten?",
+                "    </li>",
+                "    <li>",
+                "        Stabilität der Daten: Handelt es sich bei den Daten um einen Zwischenstand oder eine finale Version?",
+                "    </li>",
+                "</ul>"]
+    },
+    "element_4": {
+        "title_small": "SPEICHERDAUER",
+        "title": "Permanentes Speichern",
+        "title_url": "#permanentes-speichern",
+        "title_url_text": "Link to this section: Permanentes Speichern",
+        "content": ["<p> Es ist beabsichtigt, alle in ARCHE aufgenommenen Ressourcen permanent zu speichern. Auf Ersuchen von Datengebenden können Daten entfernt werden, wobei ARCHE jedoch mindestens einen Hinweis auf das Vorhandensein der Daten bis zum Löschdatum beibehalten wird. Daher bleiben Metadaten erhalten und werden mit dem zusätzlichen Hinweis darauf versehen, dass die Dateien selbst entfernt wurden. Die zugewiesene PID bleibt erhalten und verweist auf eine sogenannte Tombstone-Seite, welche die Metadaten enthält.</p>"]
+    },
+    "element_5": {
+        "title_small": "QUELLEN",
+        "title": "Adaptiert von und inspiriert durch",
+        "title_url": "#adaptiert-von-und-inspiriert-durch",
+        "title_url_text": "Link to this section: Adaptiert von und inspiriert durch",
+        "content": ["<p>",
+                    "<a href='https://digital.library.yorku.ca/tags/digital-preservation-policy'>https://digital.library.yorku.ca/tags/digital-preservation-policy</a>&nbsp;<br>",
+                   " <a href='https://archaeologydataservice.ac.uk/about/policies/collections-policy/'>https://archaeologydataservice.ac.uk/about/policies/collections-policy</a><br>",
+                   " <a href='http://datenportal.ianus-fdz.de/resources/documents/Sammlungsstrategie.pdf'>http://datenportal.ianus-fdz.de/resources/documents/Sammlungsstrategie.pdf</a><br>",
+                   " <a href='https://spotdocs.scholarsportal.info/display/OAIS/Collection+Policy'>https://spotdocs.scholarsportal.info/display/OAIS/Collection+Policy</a>",
+                "</p>"]
+    },
+    "element_6": {
+        "content": ["<p> <a class='btn btn-arche-blue' href='https://raw.githubusercontent.com/acdh-oeaw/arche-static-text/main/CollectionPolicy/ARCHE_Sammlungsstrategie.pdf' target='_blank'>PDF herunterladen</a></p>"]
+    },
+    "cards": {
+        "cards_header_title_small": "ORIENTIERUNG",
+        "cards_header_title": "Wichtige Informationen",
+        "card_1_title": "Konservierungsrichtlinien",
+        "card_1_text": "Archivierung, Wartung und Risikomanagement",
+        "card_1_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-konservierungsrichtlinien.png",
+        "card_1_url": "/browser/de/konservierungsrichtlinien",
+        "card_2_title": "Datenschutzbestimmungen",
+        "card_2_text": "Schutzmaßnahmen für personenbezogene Daten",
+        "card_2_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-datenschutzbestimmungen.png",
+        "card_2_url": "/browser/de/datenschutzbestimmungen",
+        "card_3_title": "Nutzungsbedingungen",
+        "card_3_text": "Bedingungen für die Hinterlegung, den Zugang und die Verwendung von Daten",
+        "card_3_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-nutzungsbedingungen.png",
+        "card_3_url": "/browser/de/nutzungsbedingungen",
+        "card_4_title": "FAQ",
+        "card_4_text": "Antworten auf häufig gestellte Fragen und Praxishinweise für Datengebende",
+        "card_4_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-faq-new.png",
+        "card_4_url": "/browser/de/faq-de"
+    }
+}
