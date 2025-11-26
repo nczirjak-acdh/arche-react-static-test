@@ -1,34 +1,49 @@
-<div class="container-fluid bg-white m-0 p-0">
-    <div class="container maxw-980 bg-white">
-        <div class="row gx-5 justify-content-center">
-            <div class="col">
-                <div class="my-5 text-center">
-                    <h5 class="section-header-title-small">
-                        {{ element_1.title_small }} - test
-                    </h5>
-                    <h2 class="section-header-title" id="preservation-and-dissemination-of-digital-research-data">
-                        {{ element_1.title }}&nbsp;<a class="anchor-link" href="{{ element_1.title_url }}" aria-label="{{ element_1.title_url_text }}">#</a>
-                    </h2>
+<div class="w-full justify-center">
+    <div class="w-full flex justify-center">
+        <div class="grid grid-cols-6 gap-4">
+            <div class="col-span-4 col-start-2">
+                <div class="w-full">
+                    <div class="my-12 text-center">
+                        <h5 class="section-header-title-small">
+                            {{ element_1.title_small }}
+                        </h5>
+                        <h2 class="section-header-title" id="preservation-and-dissemination-of-digital-research-data">
+                            {{ element_1.title }}&nbsp;<a class="anchor-link" href="{{ element_1.title_url }}" aria-label="{{ element_1.title_url_text }}">#</a>
+                        </h2>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container maxw-980 bg-white padding-bottom24">
-        <div class="row gx-5 justify-content-center">
-            {{ element_1.content_top }}
-            
+    <div class="w-full flex justify-center">
+        <div class="grid grid-cols-6 gap-4">
+            <div class="col-span-4 col-start-2">
+                <div class="grid grid-cols-6 gap-4">
+                    <div class="col-span-3 ">
+                        <div class="text-center">  {{ element_1.content_top }}</div>
+                    </div>
+                    <div class="col-span-3 gap-6 ">
+                        <div class="flex flex-col gap-6"> {{ element_1.content_bottom }}</div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row gx-5 justify-content-center">
-            {{ element_1.content_bottom }}
-        </div>
-    </div>
-    <div class="container-fluid bubble-line-container pt-2">
-        <div class="image-wrapper">
-            <img src="/browser/themes/contrib/arche-theme-bs/images/common/bubble-line.png" alt="Bubble line" width="1600" height="36">
+    </div>    
+</div>
+
+<div class="w-full justify-center">
+    <div class="w-full flex justify-center">
+        <div class="grid grid-cols-6 gap-4">
+            <div class="col-span-4 col-start-2">
+                <div class="w-full">
+                    <div class="image-wrapper">
+                        <img src="/browser/themes/contrib/arche-theme-bs/images/common/bubble-line.png" alt="Bubble line" width="1600" height="36">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-
 
 <!-- box 2 -->
 
@@ -46,11 +61,11 @@
     <div class="row">
         <div class="col-lg-6">
             {{ element_2.content_left }}
-            
+
         </div>
         <div class="col-lg-6">
             {{ element_2.content_right }}
-            
+
         </div>
     </div>
 </div>
@@ -70,11 +85,11 @@
     <div class="row">
         <div class="col-lg-6">
             {{ element_3.content_left }}
-            
+
         </div>
         <div class="col-lg-6">
             {{ element_3.content_right }}
-            
+
         </div>
     </div>
 </div>
