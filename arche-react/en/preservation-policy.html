@@ -6,12 +6,12 @@
             <div class="col-span-4 col-start-2">
                 <div class="w-full">
                     <div class="my-12 text-center">
-                      <h5 class="section-header-title-small">
-                         {{ element_1.title_small }}
-                    </h5>
-                    <h2 class="section-header-title" id="supporting-current-and-future-research">
-                        {{ element_1.title }}&nbsp;<a class="anchor-link" href="{{ element_1.title_url }}" aria-label="{{ element_1.title_url_text }}">#</a>
-                    </h2>
+                        <h5 class="section-header-title-small">
+                            {{ element_1.title_small }}
+                        </h5>
+                        <h2 class="section-header-title" id="supporting-current-and-future-research">
+                            {{ element_1.title }}&nbsp;<a class="anchor-link" href="{{ element_1.title_url }}" aria-label="{{ element_1.title_url_text }}">#</a>
+                        </h2>
                     </div>
                 </div>
             </div>
@@ -43,12 +43,12 @@
             <div class="col-span-4 col-start-2">
                 <div class="w-full">
                     <div class="my-12 text-center">
-                       <h5 class="section-header-title-small">
-                        {{ element_2.title_small }}
-                    </h5>
-                    <h2 class="section-header-title" id="digital-data-collections">
-                        {{ element_2.title }}&nbsp;<a class="anchor-link" href="{{ element_2.title_url }}" aria-label="{{ element_2.title_url_text }}">#</a>
-                    </h2>
+                        <h5 class="section-header-title-small">
+                            {{ element_2.title_small }}
+                        </h5>
+                        <h2 class="section-header-title" id="digital-data-collections">
+                            {{ element_2.title }}&nbsp;<a class="anchor-link" href="{{ element_2.title_url }}" aria-label="{{ element_2.title_url_text }}">#</a>
+                        </h2>
                     </div>
                 </div>
             </div>
@@ -80,13 +80,13 @@
             <div class="col-span-4 col-start-2">
                 <div class="w-full">
                     <div class="my-12 text-center">
-                     <h5 class="section-header-title-small">
-                        {{ element_3.title_small }}
-                    </h5>
-                    <h2 class="section-header-title" id="preservation-principles">
-                        {{ element_3.title }}&nbsp;<a class="anchor-link" href="{{ element_3.title_url }}" aria-label="{{ element_3.title_url_text }}">#</a>
-                        
-                    </h2>
+                        <h5 class="section-header-title-small">
+                            {{ element_3.title_small }}
+                        </h5>
+                        <h2 class="section-header-title" id="preservation-principles">
+                            {{ element_3.title }}&nbsp;<a class="anchor-link" href="{{ element_3.title_url }}" aria-label="{{ element_3.title_url_text }}">#</a>
+
+                        </h2>
                     </div>
                 </div>
             </div>
@@ -111,78 +111,121 @@
 
 <!-- accordion 1 -->
 
-<div class="container maxw-980 bg-white">
-    <div class="row gx-5 align-items-center justify-content-center">
-        <div class="accordion" id="accordionDiv">
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                       {{ accordion_1.item_1_title }}
-                        </button>
-                </h2>
-                <div class="accordion-collapse collapse show" id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#accordionDiv">
-                    <div class="accordion-body">
-                        {{ accordion_1.item_1_body }}                       
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                         {{ accordion_1.item_2_title }}
-                                                                                                                                                                                                        </button>
-                </h2>
-                <div class="accordion-collapse collapse" id="collapseTwo" aria-labelledby="headingTwo" data-bs-parent="#accordionDiv">
-                    <div class="accordion-body">
-                        {{ accordion_1.item_2_body }}      
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        {{ accordion_1.item_3_title }}
-                                                                                                                                                                                                        </button>
-                </h2>
-                <div class="accordion-collapse collapse" id="collapseThree" aria-labelledby="headingThree" data-bs-parent="#accordionDiv">
-                    <div class="accordion-body">
-                        {{ accordion_1.item_3_body }}      
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingFour">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        {{ accordion_1.item_4_title }}
-                                                                                                                                                                                                        </button>
-                </h2>
-                <div class="accordion-collapse collapse" id="collapseFour" aria-labelledby="headingFour" data-bs-parent="#accordionDiv">
-                    <div class="accordion-body">
-                        {{ accordion_1.item_4_body }} 
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingFive">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"> 
-                        {{ accordion_1.item_5_title }}
-                </h2>
-                <div class="accordion-collapse collapse" id="collapseFive" aria-labelledby="headingFive" data-bs-parent="#accordionDiv">
-                    <div class="accordion-body">
-                        {{ accordion_1.item_5_body }}
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingSix">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                        {{ accordion_1.item_6_title }}
-                </h2>
-                <div class="accordion-collapse collapse" id="collapseSix" aria-labelledby="headingSix" data-bs-parent="#accordionDiv">
-                    <div class="accordion-body">
-                        {{ accordion_1.item_6_body }}
+
+<div class="w-full flex justify-center">
+    <div class="grid w-full grid-cols-6 gap-4">     
+        <div class="col-span-4 col-start-2 w-full flex justify-center">            
+            <div class="container-w980 w-full">
+                <div class="grid grid-cols-12 gap-y-8">
+                    <div class="accordion-static col-span-full w-full">
+                        <!-- Item 1 -->
+                        <details name="acc" class="group">
+                            <summary
+                                class="flex items-center justify-between cursor-pointer p-4 select-none
+                                transition-colors open:bg-blue-50 open:text-blue-700
+                                [&::-webkit-details-marker]:hidden">
+                                <span class="static-acc-title">{{ accordion_1.item_1_title }}</span>
+                                <!-- chevron -->
+                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                </svg>
+                            </summary>
+                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                <div class="p-4 pt-0 text-sm accordion-static-body">
+                                    {{ accordion_1.item_1_body }}
+                                </div>
+                            </div>
+                        </details>
+
+                        <details name="acc" class="group">
+                            <summary
+                                class="flex items-center justify-between cursor-pointer p-4 select-none
+                                transition-colors open:bg-blue-50 open:text-blue-700
+                                [&::-webkit-details-marker]:hidden">
+                                <span class="static-acc-title">{{ accordion_1.item_2_title }}</span>
+                                <!-- chevron -->
+                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                </svg>
+                            </summary>
+                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                <div class="p-4 pt-0 text-sm accordion-static-body">
+                                    {{ accordion_1.item_2_body }}
+                                </div>
+                            </div>
+                        </details>
+
+                        <details name="acc" class="group">
+                            <summary
+                                class="flex items-center justify-between cursor-pointer p-4 select-none
+                                transition-colors open:bg-blue-50 open:text-blue-700
+                                [&::-webkit-details-marker]:hidden">
+                                <span class="static-acc-title">{{ accordion_1.item_3_title }}</span>
+                                <!-- chevron -->
+                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                </svg>
+                            </summary>
+                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                <div class="p-4 pt-0 text-sm accordion-static-body">
+                                    {{ accordion_1.item_3_body }}
+                                </div>
+                            </div>
+                        </details>
+
+                        <details name="acc" class="group">
+                            <summary
+                                class="flex items-center justify-between cursor-pointer p-4 select-none
+                                transition-colors open:bg-blue-50 open:text-blue-700
+                                [&::-webkit-details-marker]:hidden">
+                                <span class="static-acc-title">{{ accordion_1.item_4_title }}</span>
+                                <!-- chevron -->
+                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                </svg>
+                            </summary>
+                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                <div class="p-4 pt-0 text-sm accordion-static-body">
+                                    {{ accordion_1.item_4_body }}
+                                </div>
+                            </div>
+                        </details>
+
+                        <details name="acc" class="group">
+                            <summary
+                                class="flex items-center justify-between cursor-pointer p-4 select-none
+                                transition-colors open:bg-blue-50 open:text-blue-700
+                                [&::-webkit-details-marker]:hidden">
+                                <span class="static-acc-title">{{ accordion_1.item_5_title }}</span>
+                                <!-- chevron -->
+                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                </svg>
+                            </summary>
+                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                <div class="p-4 pt-0 text-sm accordion-static-body">
+                                    {{ accordion_1.item_5_body }}
+                                </div>
+                            </div>
+                        </details>
+
+                        <details name="acc" class="group">
+                            <summary
+                                class="flex items-center justify-between cursor-pointer p-4 select-none
+                                transition-colors open:bg-blue-50 open:text-blue-700
+                                [&::-webkit-details-marker]:hidden">
+                                <span class="static-acc-title">{{ accordion_1.item_6_title }}</span>
+                                <!-- chevron -->
+                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                </svg>
+                            </summary>
+                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                <div class="p-4 pt-0 text-sm accordion-static-body">
+                                    {{ accordion_1.item_6_body }}
+                                </div>
+                            </div>
+                        </details>
                     </div>
                 </div>
             </div>
@@ -211,7 +254,7 @@
         <div class="row gx-5 justify-content-center">
             <div class="col text-left">
                 {{ element_4.content }}
-                
+
             </div>
         </div>
     </div>
@@ -229,7 +272,7 @@
                     </h5>
                     <h2 class="section-header-title" id="roles-and-responsibilities">
                         {{ element_5.title }}&nbsp;<a class="anchor-link" href="{{ element_5.title_url }}" aria-label="{{ element_5.title_url_text }}">#</a>
-                        
+
                     </h2>
                 </div>
             </div>
@@ -238,7 +281,7 @@
     <div class="container maxw-980 bg-white padding-bottom24">
         <div class="row gx-5 justify-content-center">
             <div class="col text-left">
-                 {{ element_5.content }}                
+                {{ element_5.content }}                
             </div>
         </div>
     </div>
@@ -255,7 +298,7 @@
                     </h5>
                     <h2 class="section-header-title" id="funding-sustainability">
                         {{ element_6.title }}&nbsp;<a class="anchor-link" href="{{ element_6.title_url }}" aria-label="{{ element_6.title_url_text }}">#</a>
-                        
+
                     </h2>
                 </div>
             </div>
@@ -277,11 +320,11 @@
             <div class="col">
                 <div class="my-5 text-center">
                     <h5 class="section-header-title-small">
-                         {{ element_7.title_small }}
+                        {{ element_7.title_small }}
                     </h5>
                     <h2 class="section-header-title" id="addressing-risks-to-digital-continuity">
                         {{ element_7.title }}&nbsp;<a class="anchor-link" href="{{ element_7.title_url }}" aria-label="{{ element_7.title_url_text }}">#</a>
-                        
+
                     </h2>
                 </div>
             </div>
@@ -304,8 +347,8 @@
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                     {{ accordion_2.item_1_title }}
-                                                                                                    </button>
+                        {{ accordion_2.item_1_title }}
+                    </button>
                 </h2>
                 <div class="accordion-collapse collapse show" id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#accordionDivTwo">
                     <div class="accordion-body">
@@ -316,47 +359,47 @@
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                {{ accordion_2.item_2_title }}
-                                                                                                    </button>
+                        {{ accordion_2.item_2_title }}
+                    </button>
                 </h2>
                 <div class="accordion-collapse collapse" id="collapseTwo" aria-labelledby="headingTwo" data-bs-parent="#accordionDivTwo">
                     <div class="accordion-body">
                         {{ accordion_2.item_2_body }}
-                        
+
                     </div>
                 </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    {{ accordion_2.item_3_title }}
-                                                                                                    </button>
+                        {{ accordion_2.item_3_title }}
+                    </button>
                 </h2>
                 <div class="accordion-collapse collapse" id="collapseThree" aria-labelledby="headingThree" data-bs-parent="#accordionDivTwo">
                     <div class="accordion-body">
                         {{ accordion_2.item_3_body }}
-                        
+
                     </div>
                 </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingFour">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    {{ accordion_2.item_4_title }}
-                                                                                                    </button>
+                        {{ accordion_2.item_4_title }}
+                    </button>
                 </h2>
                 <div class="accordion-collapse collapse" id="collapseFour" aria-labelledby="headingFour" data-bs-parent="#accordionDivTwo">
                     <div class="accordion-body">
                         {{ accordion_2.item_4_body }}
-                        
+
                     </div>
                 </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingFive">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                     {{ accordion_2.item_5_title }}
-                                                                                                    </button>
+                        {{ accordion_2.item_5_title }}
+                    </button>
                 </h2>
                 <div class="accordion-collapse collapse" id="collapseFive" aria-labelledby="headingFive" data-bs-parent="#accordionDivTwo">
                     <div class="accordion-body">
@@ -367,13 +410,13 @@
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingSix">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                {{ accordion_2.item_6_title }}
-                                                                                                    </button>
+                        {{ accordion_2.item_6_title }}
+                    </button>
                 </h2>
                 <div class="accordion-collapse collapse" id="collapseSix" aria-labelledby="headingSix" data-bs-parent="#accordionDivTwo">
                     <div class="accordion-body">
                         {{ accordion_2.item_6_body }}
-                        
+
                     </div>
                 </div>
             </div>
@@ -400,7 +443,7 @@
             <div class="col">
                 <div class="my-5 text-center">
                     <h5 class="section-header-title-small">
-                       {{ element_8.title_small }} 
+                        {{ element_8.title_small }} 
                     </h5>
                     <h2 class="section-header-title" id="relevant-standards-and-frameworks">
                         {{ element_8.title }}&nbsp;<a class="anchor-link" href="{{ element_8.title_url }}" aria-label="{{ element_8.title_url_text }}">#</a>
@@ -412,8 +455,8 @@
     <div class="container maxw-980 bg-white padding-bottom24">
         <div class="row gx-5 justify-content-center">
             <div class="col text-left">
-                 {{ element_8.content }}         
-                
+                {{ element_8.content }}         
+
             </div>
         </div>
     </div>
@@ -439,7 +482,7 @@
     <div class="container maxw-980 bg-white padding-bottom24">
         <div class="row gx-5 justify-content-center">
             <div class="col text-left">
-               {{ element_9.content }}        
+                {{ element_9.content }}        
             </div>
         </div>
     </div>
@@ -454,7 +497,7 @@
                 <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         {{ accordion_3.item_1_title }}
-                                                                                                                        </button>
+                    </button>
                 </h2>
                 <div class="accordion-collapse collapse show" id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#accordionDivThree">
                     <div class="accordion-body">
@@ -465,39 +508,39 @@
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    {{ accordion_3.item_2_title }}
-                                                                                                                        </button>
+                        {{ accordion_3.item_2_title }}
+                    </button>
                 </h2>
                 <div class="accordion-collapse collapse" id="collapseTwo" aria-labelledby="headingTwo" data-bs-parent="#accordionDivThree">
                     <div class="accordion-body">
                         {{ accordion_3.item_2_body }}
-                        
+
                     </div>
                 </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                                                                                          {{ accordion_3.item_3_title }}  
-                                                                                                                        </button>
+                        {{ accordion_3.item_3_title }}  
+                    </button>
                 </h2>
                 <div class="accordion-collapse collapse" id="collapseThree" aria-labelledby="headingThree" data-bs-parent="#accordionDivThree">
                     <div class="accordion-body">
                         {{ accordion_3.item_3_body }}  
-                       
+
                     </div>
                 </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingFour">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    {{ accordion_3.item_4_title }}  
-                                                                                                                        </button>
+                        {{ accordion_3.item_4_title }}  
+                    </button>
                 </h2>
                 <div class="accordion-collapse collapse" id="collapseFour" aria-labelledby="headingFour" data-bs-parent="#accordionDivThree">
                     <div class="accordion-body">
                         {{ accordion_3.item_4_body }}  
-                        
+
                     </div>
                 </div>
             </div>
@@ -509,7 +552,7 @@
 <div class="row pt-5">
     <div class="col-lg-12 text-center">
         {{ element_10.content }}         
-        
+
     </div>
 </div>
 
