@@ -1,0 +1,106 @@
+{
+    "element_1": {
+        "content":[ "<p>The following terms and conditions apply to the use of resources and services provided by ARCHE - A Resource Centre for Humanities (henceforth ‘the Repository’) on the website https://arche.acdh.oeaw.ac.at/browser/ which is run and represented by the Austrian Centre for Digital Humanities (ACDH) of the Austrian Academy of Sciences.</p>",
+                "<p>The Repository’s main task is to provide archiving services for and access to digital resources. The Repository operates in the context of the Austrian digital humanities community and the European research infrastructure consortia CLARIN and DARIAH.</p>",
+                "<p>By accessing the Resources and using the services, the User agrees to the following terms and conditions concerning the viewing, downloading and using of electronic resources stored in the Repository.</p>"]
+    },
+    "element_2": {
+        "title": "§ 1. Definitions",
+        "title_url" : "#definitions",
+        "title_url_text" : "Link to this section: Definitions",
+        "content":["<p>",
+             "   <strong>Depositor:</strong> Person or organisation authorised to transfer and deposit digital resources, stored in the Repository.<br>",
+            "    <strong>Metadata:</strong> Information that may serve to identify, discover, interpret, manage, and describe content and structure of digital data.<br>",
+            "    <strong>Public Domain:</strong> Content, metadata or other subject matter not protected by IPR or subject to a waiver of IPR.<br>",
+            "    <strong>Repository:</strong> ARCHE - A Resource Centre for Humanities.<br>",
+            "    <strong>Resource:</strong> Information, files, and data stored in the Repository.<br>",
+            "    <strong>User:</strong> Person accessing the digital resources made available by the Repository.<br>",
+            "    &nbsp;",
+            "</p>"]
+    },
+     "element_3": {
+        "title": "§ 2. Deposition of Resources",
+        "title_url" : "#deposition-of-resources",
+        "title_url_text" : "Link to this section: Deposition of Resources",
+        "content":["<p>",
+             "   During the submission of Resources to the Repository, the data undergo a curation process by the Repository administrator. In collaboration with the Depositor basic levels of quality and consistency of the data is verified.<br>",
+            "    Before accepting the Resources from the Depositor, the Depositor has to sign the <a href='/browser/deposition-agreement'>Deposition Agreement</a> in which (s)he acknowledges that (s)he has the right to submit the data and gives the Repository the right to distribute the data on his/her behalf.",
+            "</p>"]
+    },
+     "element_4": {
+        "title": "§ 3. Access to and Use of the Resources",
+        "title_url" : "#access-to-and-use-of-the-resources",
+        "title_url_text" : "Link to this section: Access to and Use of the Resources",
+        "content":["<p>",
+           "     The Repository offers access to the deposited resources in compliance with the licensing information applying to the Resource. Every Resource is represented by a short textual description and a structured metadata record, which includes a licence statement and information about the access mode. All Metadata is available without any restriction of access and use.",
+           " </p>",
+           " <p>",
+           "     The Repository offers three access modes:",
+           " </p>",
+           " <p>",
+           "     Academic content (ACA): to access the Resource the User has to register as an academic user. This is accomplished by authentication with the home identity provider by means of the Identity Federation.",
+           " </p>",
+           " <p>",
+           "     Restricted content (RES): includes Resources with a special access mode. Special authorisation rules apply that are detailed in the accompanying Metadata record.",
+           " </p>",
+           " <p>",
+           "     The default licence of use of Resources is the Creative Commons licence <a href='https://creativecommons.org/licenses/by/4.0/'>CC-BY 4.0 (International)</a>.",
+           " </p>",
+           " <p>",
+            "    The User agrees to adhere to the <a href='http://www.allea.org/wp-content/uploads/2017/03/ALLEA-European-Code-of-Conduct-for-Research-Integrity-2017-1.pdf'>European Code of Conduct for Research Integrity</a>.",
+            "</p>"]
+    },
+     "element_5": {
+        "title": "§ 4. Intellectual Property Rights, Copyright",
+        "title_url" : "#intellectual-property-rights-copyright",
+        "title_url_text" : "Link to this section: Intellectual Property Rights, Copyright",
+        "content":["<p>All intellectual property rights concerning the provided Resources belong to the original creator. The Repository has the right to deposit and publish the Resources on behalf of the Depositor, according to the agreed conditions (see <a href='/browser/deposition-agreement'>Deposition Agreement</a>). The Depositor is solely responsible for taking care of IPR issues before publishing digital resources by submitting these to the Repository.</p>"]
+    },
+     "element_6": {
+        "title": "§ 5. Citation",
+        "title_url" : "#citation",
+        "title_url_text" : "Link to this section: Citation",
+        "content":["<p>The User must acknowledge any use of Resources retrieved from the Repository and cite data sources properly in all publications and output according to the licence under which the Resource is published. The specific citation for every Resource is derived from the accompanying metadata record. See the FAQ: <a href='/browser/faq#faq-cite'>How can the archived data be cited?</a></p>"]
+    },
+     "element_7": {
+        "title": "§ 6. Limitation of Liability",
+        "title_url" : "#limitation-of-liability",
+        "title_url_text" : "Link to this section: Limitation of Liability",
+        "content":["<p>The data offered by the Repository are provided to the User on an “as is” basis without warranty of any kind or claim to correctness or completeness.</p>",
+            "<p>The Repository operates on a best-effort basis. It does not guarantee faultless functioning of its services or permanent availability. In case of failures, in particular because of force majeure or manipulation by third parties the Repository is not liable. The Repository does not assume any liability for the usability of the data for the purposes intended by the User.</p>",
+            "<p>The Repository may deny access for technical, organisational or other reasons. It reserves the right to temporarily suspend services for purposes of maintenance, technical changes or similar reasons.</p>"]
+    },
+     "element_8": {
+        "title": "§ 7. Data Protection and Privacy Policy",
+        "title_url" : "#data-protection-and-privacy-policy",
+        "title_url_text" : "Link to this section: Data Protection and Privacy Policy",
+        "content":["<p>The Repository protects any personal information it collects from the User as required by the Austrian legislation on data protection. The <a href='/browser/privacy-policy'>Privacy Policy</a> describes what personal data is collected and how it is processed.</p>"]
+    },
+     "element_9": {
+        "title": "§ 8. Jurisdiction",
+        "title_url" : "#jurisdiction",
+        "title_url_text" : "Link to this section: Jurisdiction",
+        "content":["<p>The provisions of Austrian law apply to this agreement. Place of jurisdiction is Vienna.</p>"]
+    },
+    "cards": {
+        "cards_header_title_small": "GUIDANCE",
+        "cards_header_title": "Important Information",
+        "card_1_title": "Collection Policy",
+        "card_1_text": "Scope of collections, evaluation, and storage duration",
+        "card_1_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-collection-policy.png",
+        "card_1_url": "/browser/collection-policy",
+        "card_2_title": "Preservation Policy",
+        "card_2_text": "Archiving, maintenance, and risk management",
+        "card_2_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-preservation-policy.png",
+        "card_2_url": "/browser/preservation-policy",
+        "card_3_title": "Privacy Policy",
+        "card_3_text": "Protective measures for personal data",
+        "card_3_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-privacy-policy.png",
+        "card_3_url": "/browser/privacy-policy",
+        "card_4_title": "FAQ",
+        "card_4_text": "Answers to frequently asked questions and practical tips for depositors",
+        "card_4_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-faq-new.png",
+        "card_4_url": "/browser/faq"
+    }
+}
+
