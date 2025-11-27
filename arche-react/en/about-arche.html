@@ -31,34 +31,53 @@
     </div>    
 </div>
 
-<div class="w-full justify-center">
-    <img src="/browser/images/common/bubble-line.png" alt="Bubble line" width="100%" height="36">
+<div class="w-full flex justify-center bg-white">
+    <div class="w-full bubble-line-container pt-2">
+        <div class="image-wrapper w-full">
+            <img src="/browser/images/common/bubble-line.png" alt="Bubble line" width="100%" height="36px">
+        </div>
+    </div>
 </div>
 
 <!-- box 2 -->
 
-<div class="container white-bg-container maxw-980 mt-5">
-    <div class="row-fluid w-100">
-        <div class="col-lg-12 text-center">
-            <h5 class="section-header-title-small text-center">
+<div class="w-full flex justify-center">
+
+    <div class="grid grid-cols-6 gap-4">     
+
+        <div class="col-span-4 col-start-2">
+            <div class="w-full ">
+                <div class="container mission-container">
+                    <div class="grid grid-cols-12 gap-y-8">
+                        <div class="col-span-12">
+                             <h5 class="section-header-title-small text-center">
                 {{ element_2.title_small }}
             </h5>
             <h2 class="section-header-title text-center" id="institutional-affiliation-and-development-of-the-repository">
                 {{ element_2.title }}&nbsp;<a class="anchor-link" href="{{ element_2.title_url }}" aria-label="{{ element_2.title_url_text }}">#</a>
             </h2>
+                        </div>
+                        <div class="col-span-12 lg:col-span-6">
+                            <div class="text-center xl:text-left">
+                                
+                                <p>
+                                   {{ element_2.content_left }}
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-span-12 lg:col-span-6 text-center">
+                            {{ element_2.content_right }}
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-lg-6">
-            {{ element_2.content_left }}
 
-        </div>
-        <div class="col-lg-6">
-            {{ element_2.content_right }}
-
-        </div>
-    </div>
 </div>
+
+
 
 <!-- box 3 -->
 <div class="container white-bg-container maxw-980 mt-5">
