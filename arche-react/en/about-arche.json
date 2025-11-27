@@ -89,7 +89,7 @@
             "    <a class='btn btn-arche-blue text-start' href='mailto:acdh-helpdesk@oeaw.ac.at'>Contact</a>",
             "</p>"],
         "content_right": ["<div class='row justify-content-center align-items-center'>",
-            "    <img class='img-fluid justify-content m-3' src='/browser/themes/contrib/arche-theme-bs/images/common/oeaw_gebaude.png' width='523' height='345'>&nbsp;<br>",
+            "    <img class='img-fluid justify-content m-3' src='/browser/images/common/oeaw_gebaude.png' width='523' height='345'>&nbsp;<br>",
             "    &nbsp;",
             "</div>",
             "<div class='row text-center'>",
