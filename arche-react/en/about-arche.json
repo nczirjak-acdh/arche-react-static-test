@@ -58,10 +58,10 @@
             "    <a class='btn btn-arche-blue text-start' href='mailto:acdh-helpdesk@oeaw.ac.at'>Contact</a>",
             "</p>"],
         "content_right": ["<div class='row d-flex justify-content-center align-items-center' style='height:50%;'>",
-            "    <img class='img-fluid justify-content' style='max-width:300px;' src='/browser/images/partner-logos/CoreTrustSeal.png' width='1240' height='1240'>&nbsp;",
+            "    <img class='max-w-full h-auto justify-content' style='max-width:300px;' src='/browser/images/partner-logos/CoreTrustSeal.png' width='1240' height='1240'>&nbsp;",
             "</div>",
             "<div class='row d-flex justify-content-center align-items-center' style='height:50%;'>",
-            "    <img class='img-fluid justify-content' style='max-width:300px;' src='/browser/images/partner-logos/clarin-b-centre-transparent.png' width='283' height='85'>",
+            "    <img class='max-w-full h-auto justify-content' style='max-width:300px;' src='/browser/images/partner-logos/clarin-b-centre-transparent.png' width='283' height='85'>",
             "</div>"]
     },
     "element_3": {
@@ -85,20 +85,20 @@
             "    <a class='btn btn-arche-blue text-start' href='mailto:acdh-helpdesk@oeaw.ac.at'>Contact</a>",
             "</p>"],
         "content_right": ["<div class='row justify-content-center align-items-center'>",
-            "    <img class='img-fluid justify-content m-3' src='/browser/images/common/oeaw_gebaude.png' width='523' height='345'>&nbsp;<br>",
+            "    <img class='max-w-full h-auto justify-content m-3' src='/browser/images/common/oeaw_gebaude.png' width='523' height='345'>&nbsp;<br>",
             "    &nbsp;",
             "</div>",
             "<div class='row text-center'>",
             "    <div class='col-4'>",
-            "        <img class='img-fluid' src='/browser/images/logos/mission-acdh-logo.png' width='56' height='62'><br>",
+            "        <img class='max-w-full h-auto' src='/browser/images/logos/mission-acdh-logo.png' width='56' height='62'><br>",
             "        &nbsp;",
             "    </div>",
             "    <div class='col-4'>",
-            "        <img class='img-fluid' src='/browser/images/logos/mission-oaw-logo.png' width='120' height='59'><br>",
+            "        <img class='max-w-full h-auto' src='/browser/images/logos/mission-oaw-logo.png' width='120' height='59'><br>",
             "        &nbsp;",
             "    </div>",
             "    <div class='col-4'>",
-            "        <img class='img-fluid' src='/browser/images/logos/mission-arche-logo.png' width='120' height='39'>",
+            "        <img class='max-w-full h-auto' src='/browser/images/logos/mission-arche-logo.png' width='120' height='39'>",
             "    </div>",
             "</div>"]
     },
@@ -119,7 +119,7 @@
         "card_3_url": "/browser/technical-setup",
         "card_4_title": "FAQ",
         "card_4_text": "Answers to frequently asked questions and practical tips for depositors",
-        "card_4_image": "browser/images/common/card-img-faq-new.png",
+        "card_4_image": "/browser/images/common/card-img-faq-new.png",
         "card_4_url": "/browser/faq"
     }
 }
