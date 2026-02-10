@@ -84,7 +84,7 @@
            " <p>",
             "    <a class='btn btn-arche-blue text-start' href='mailto:acdh-helpdesk@oeaw.ac.at'>Contact</a>",
             "</p>"],
-        "content_right": ["<div class='grid grid-cols-1 sm:grid-cols-3 gap-6 place-items-center'>",
+        "content_right": ["<div class='grid gap-6 place-items-center'>",
             "    <img class='max-w-full h-auto m-3' src='/browser/images/common/oeaw_gebaude.png' width='523' height='345'>&nbsp;<br>",
             "    &nbsp;",
             "</div>",
