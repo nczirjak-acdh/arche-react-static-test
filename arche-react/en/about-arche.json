@@ -89,15 +89,11 @@
             "    &nbsp;",
             "</div>",
             "<div class='grid grid-cols-1 sm:grid-cols-3 gap-6'>",
-            
-            "        <img class='max-w-full h-auto' src='/browser/images/logos/mission-acdh-logo.png' width='56' height='62'><br>",
+            "        <img class='max-w-full h-auto' src='/browser/images/logos/mission-acdh-logo.png' width='56' height='62'>",
             "        &nbsp;",
-            
-            
-            "        <img class='max-w-full h-auto' src='/browser/images/logos/mission-oaw-logo.png' width='120' height='59'><br>",
+            "        <img class='max-w-full h-auto' src='/browser/images/logos/mission-oaw-logo.png' width='120' height='59'>",
             "        &nbsp;",
             "        <img class='max-w-full h-auto' src='/browser/images/logos/mission-arche-logo.png' width='120' height='39'>",
-            
             "</div>"]
     },
     "cards": {
