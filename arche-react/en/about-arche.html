@@ -11,9 +11,9 @@
                 <a class="anchor-link" href="{{ element_1.title_url }}" aria-label="{{ element_1.title_url_text }}">#</a>
             </h2>
         </div>
-            {{ element_1.content_top }}
-            
-            {{ element_1.content_bottom }}
+        {{ element_1.content_top }}
+
+        {{ element_1.content_bottom }}
     </div>
 </div>
 
@@ -30,53 +30,40 @@
 
 <div class="container-w980 mx-auto">
 
-    <div class="grid grid-cols-6 gap-4">     
+    <div class="mx-auto w-full max-w-6xl px-6">
+        <div class="container mission-container">
 
-        <div class="col-span-4 col-start-2">
-            <div class="w-full ">
-                <div class="container mission-container">
+            <div class="w-full flex justify-center">
+                <h1 class="section-header-title-small flex justify-center items-center">
+                    {{ element_2.title_small }}
+                </h1>
+                <h2 class="section-header-title flex justify-center" id="institutional-affiliation-and-development-of-the-repository">
+                    {{ element_2.title }}&nbsp;<a class="anchor-link" href="{{ element_2.title_url }}" aria-label="{{ element_2.title_url_text }}">#</a>
+                </h2>
+            </div>
 
-                    <div class="w-full flex justify-center">
-                        <div class="grid grid-cols-6 gap-4">
-                            <div class="col-span-12">
-                                <div class="w-full">
-                                    <div class="">
-                                        <h5 class="section-header-title-small flex justify-center items-center">
-                                            {{ element_2.title_small }}
-                                        </h5>
-                                        <h2 class="section-header-title flex justify-center" id="institutional-affiliation-and-development-of-the-repository">
-                                            {{ element_2.title }}&nbsp;<a class="anchor-link" href="{{ element_2.title_url }}" aria-label="{{ element_2.title_url_text }}">#</a>
-                                        </h2>
-                                    </div>
-                                </div>
-                            </div>
+            <div class='flex w-full'>
+                <div class='flex gap-6 w-full'>
+                    <div class='w-full w-1/2'>
+
+                        <div class="text-center xl:text-left">
+                            <p>
+                                {{ element_2.content_left }}
+                            </p>
                         </div>
                     </div>
-
-
-
-                    <div class="grid grid-cols-12 gap-y-8">
-
-                        <div class="col-span-12 lg:col-span-6">
-                            <div class="text-center xl:text-left">
-
-                                <p>
-                                    {{ element_2.content_left }}
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-span-12 lg:col-span-6 text-center">
+                    <div class='w-full w-1/2'>
+                        <div class="text-center">
                             {{ element_2.content_right }}
                         </div>
                     </div>
+
+
                 </div>
             </div>
         </div>
     </div>
-
 </div>
-
 
 
 <!-- box 3 -->
