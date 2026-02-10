@@ -36,7 +36,7 @@
                 <h1 class="section-header-title-small">
                     {{ element_2.title_small }}
                 </h1>
-                <h2 class="section-header-title" id="preservation-and-dissemination-of-digital-research-data">
+                <h2 class="section-header-title" id="institutional-affiliation-and-development-of-the-repository">
                     {{ element_2.title }}&nbsp;
                     <a class="anchor-link" href="{{ element_2.title_url }}" aria-label="{{ element_2.title_url_text }}">#</a>
                 </h2>
@@ -47,7 +47,7 @@
                 <div class='flex gap-6 w-full'>
                     <div class='w-full w-1/2'>
 
-                        <div class="text-center xl:text-left">
+                        <div class="xl:text-left">
                             <p>
                                 {{ element_2.content_left }}
                             </p>
@@ -70,83 +70,40 @@
 <!-- box 3 -->
 
 
-<div class="max-w-[980px] mx-auto">
+<div class="container-w980 mx-auto">
 
-    <div class="grid grid-cols-6 gap-4">     
+    <div class="container mission-container">
 
-        <div class="col-span-4 col-start-2">
-            <div class="w-full ">
-                <div class="container mission-container">
+        <div class="w-full flex justify-center">
 
-                    <div class="w-full flex justify-center">
-
-                        <div class="col-span-12">
-                            <div class="w-full">
-                                <div class="">
-                                    <h5 class="section-header-title-small flex justify-center items-center">
-                                        {{ element_3.title_small }}
-                                    </h5>
-                                    <h2 class="section-header-title flex justify-center" id="access-to-digital-research-data">
-                                        {{ element_3.title }}&nbsp;<a class="anchor-link" href="{{ element_3.title_url }}" aria-label="{{ element_3.title_url_text }}">#</a>
-                                    </h2>
-                                </div>
-                            </div>
-                        </div>
+            <div class="col-span-12">
+                <div class="w-full">
+                    <div class="">
+                        <h5 class="section-header-title-small flex justify-center items-center">
+                            {{ element_3.title_small }}
+                        </h5>
+                        <h2 class="section-header-title flex justify-center" id="access-to-digital-research-data">
+                            {{ element_3.title }}&nbsp;<a class="anchor-link" href="{{ element_3.title_url }}" aria-label="{{ element_3.title_url_text }}">#</a>
+                        </h2>
                     </div>
-
-
-
-                    <div class="grid grid-cols-12 gap-y-8">                            
-                        <div class="col-span-12 lg:col-span-6">
-                            <div class="text-center xl:text-left">
-                                {{ element_3.content_left }}
-                            </div>
-                        </div>
-
-                        <div class="col-span-12 lg:col-span-6 text-center">
-                            {{ element_3.content_right }}
-                        </div>
-                    </div>
-
-                    <!--<div class="grid grid-cols-12 items-center mt-6 w-full">
-
-                        <div class="col-span-12 lg:col-span-6">
-                            <div class="container">
-                                <div class="grid grid-cols-3 text-center items-center">
-                                    <div>
-                                        <img
-                                            class="max-w-full h-auto"
-                                            src="/browser/images/logos/mission-acdh-logo.png"
-                                            alt="..."
-                                            width="56"
-                                            height="62"
-                                            />
-                                    </div>
-                                    <div>
-                                        <img
-                                            class="max-w-full h-auto"
-                                            src="/browser/images/logos/mission-oaw-logo.png"
-                                            alt="..."
-                                            width="120"
-                                            height="59"
-                                            />
-                                    </div>
-                                    <div>
-                                        <img
-                                            class="max-w-full h-auto"
-                                            src="/browser/images/logos/mission-arche-logo.png"
-                                            alt="..."
-                                            width="120"
-                                            height="39"
-                                            />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>-->
                 </div>
             </div>
         </div>
+
+
+
+        <div class="grid grid-cols-12 gap-y-8">                            
+            <div class="col-span-12 lg:col-span-6">
+                <div class="text-center xl:text-left">
+                    {{ element_3.content_left }}
+                </div>
+            </div>
+
+            <div class="col-span-12 lg:col-span-6 text-center">
+                {{ element_3.content_right }}
+            </div>
+        </div>
+
     </div>
 
 </div>
