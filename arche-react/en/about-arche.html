@@ -1,38 +1,26 @@
-<div class="w-full">
-  <div class="mx-auto w-full max-w-6xl px-6">
-<div class="grid grid-cols-2 gap-6 border border-red-500">
-      <div class="border border-blue-500">
-        LEFT
-      </div>
 
-      <div class="border border-green-500">
-        RIGHT
-      </div>
-    </div>
-      </div>
-    </div>
 
 <div class="w-full">
-  <div class="mx-auto w-full max-w-6xl px-6">
-    <div class="my-12 text-center">
-      <h5 class="section-header-title-small">
-        {{ element_1.title_small }}
-      </h5>
-      <h2 class="section-header-title" id="preservation-and-dissemination-of-digital-research-data">
-        {{ element_1.title }}&nbsp;
-        <a class="anchor-link" href="{{ element_1.title_url }}" aria-label="{{ element_1.title_url_text }}">#</a>
-      </h2>
-    </div>
+    <div class="mx-auto w-full max-w-6xl px-6">
+        <div class="my-12 text-center">
+            <h5 class="section-header-title-small">
+                {{ element_1.title_small }}
+            </h5>
+            <h2 class="section-header-title" id="preservation-and-dissemination-of-digital-research-data">
+                {{ element_1.title }}&nbsp;
+                <a class="anchor-link" href="{{ element_1.title_url }}" aria-label="{{ element_1.title_url_text }}">#</a>
+            </h2>
+        </div>
 
-    <div class="grid grid-cols-2 gap-6 border border-red-500">
-      <div class="border border-blue-500">
-        {{ element_1.content_left }}
-      </div>
-      <div class="border border-green-500">
-          {{ element_1.content_right }}
-      </div>
+        <div class="flex gap-6 w-full">
+            <div class="w-full w-1/2">
+                {{ element_1.content_left }}
+            </div>
+            <div class="w-full w-1/2">
+                {{ element_1.content_right }}
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 
 
