@@ -57,10 +57,10 @@
             "<p>",
             "    <a class='btn btn-arche-blue text-start' href='mailto:acdh-helpdesk@oeaw.ac.at'>Contact</a>",
             "</p>"],
-        "content_right": ["<div class='row d-flex justify-content-center align-items-center' style='height:50%;'>",
+        "content_right": ["<div class='flex items-center justify-center h-64' style='height:50%;'>",
             "    <img class='max-w-full h-auto justify-content' style='max-width:300px;' src='/browser/images/partner-logos/CoreTrustSeal.png' width='1240' height='1240'>&nbsp;",
             "</div>",
-            "<div class='row d-flex justify-content-center align-items-center' style='height:50%;'>",
+            "<div class='flex items-center justify-center h-64' style='height:50%;'>",
             "    <img class='max-w-full h-auto justify-content' style='max-width:300px;' src='/browser/images/partner-logos/clarin-b-centre-transparent.png' width='283' height='85'>",
             "</div>"]
     },
