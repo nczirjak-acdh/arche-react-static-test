@@ -88,18 +88,16 @@
             "    <img class='max-w-full h-auto justify-content m-3' src='/browser/images/common/oeaw_gebaude.png' width='523' height='345'>&nbsp;<br>",
             "    &nbsp;",
             "</div>",
-            "<div class='row text-center'>",
-            "    <div class='col-4'>",
+            "<div class='grid grid-cols-1 sm:grid-cols-3 gap-6'>",
+            
             "        <img class='max-w-full h-auto' src='/browser/images/logos/mission-acdh-logo.png' width='56' height='62'><br>",
             "        &nbsp;",
-            "    </div>",
-            "    <div class='col-4'>",
+            
+            
             "        <img class='max-w-full h-auto' src='/browser/images/logos/mission-oaw-logo.png' width='120' height='59'><br>",
             "        &nbsp;",
-            "    </div>",
-            "    <div class='col-4'>",
             "        <img class='max-w-full h-auto' src='/browser/images/logos/mission-arche-logo.png' width='120' height='39'>",
-            "    </div>",
+            
             "</div>"]
     },
     "cards": {
