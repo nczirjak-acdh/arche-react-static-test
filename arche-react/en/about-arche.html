@@ -2,7 +2,7 @@
 
 <div class="w-full">
     <div class="mx-auto w-full max-w-6xl px-6">
-        <div class="my-12 text-center">
+        <div class="my-[3rem] text-center">
             <h5 class="section-header-title-small">
                 {{ element_1.title_small }}
             </h5>
@@ -11,14 +11,9 @@
                 <a class="anchor-link" href="{{ element_1.title_url }}" aria-label="{{ element_1.title_url_text }}">#</a>
             </h2>
         </div>
-
-        
+            {{ element_1.content_top }}
             
-                {{ element_1.content_top }}
-            
-                {{ element_1.content_bottom }}
-            
-        
+            {{ element_1.content_bottom }}
     </div>
 </div>
 
