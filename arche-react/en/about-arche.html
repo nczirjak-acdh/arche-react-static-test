@@ -1,24 +1,22 @@
-<div class="w-full justify-center">
+<div class="w-full">
+  <div class="mx-auto w-full max-w-6xl px-6">
+    <div class="my-12 text-center">
+      <h5 class="section-header-title-small">
+        {{ element_1.title_small }}
+      </h5>
+      <h2 class="section-header-title" id="preservation-and-dissemination-of-digital-research-data">
+        {{ element_1.title }}&nbsp;
+        <a class="anchor-link" href="{{ element_1.title_url }}" aria-label="{{ element_1.title_url_text }}">#</a>
+      </h2>
+    </div>
 
-    <div class="grid grid-cols-12 gap-4">
-        <div class="col-span-12">
-            <div class="w-full">
-                <div class="my-12 text-center">
-                    <h5 class="section-header-title-small">
-                        {{ element_1.title_small }}
-                    </h5>
-                    <h2 class="section-header-title" id="preservation-and-dissemination-of-digital-research-data">
-                        {{ element_1.title }}&nbsp;<a class="anchor-link" href="{{ element_1.title_url }}" aria-label="{{ element_1.title_url_text }}">#</a>
-                    </h2>
-                </div>
-            </div>
-        </div>
+    <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+      <div>{{ element_1.content_left }}</div>
+      <div>{{ element_1.content_right }}</div>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div class="">  {{ element_1.content_left }}</div>
-        <div class=""> {{ element_1.content_right }}</div>
-    </div>
+  </div>
 </div>
+
 
 <div class="w-full flex justify-center bg-white">
     <div class="w-full bubble-line-container pt-5 pb-5">
