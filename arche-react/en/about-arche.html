@@ -1,5 +1,5 @@
 
-
+<section>
 <div class="container-w980 mx-auto">
     <div class="mx-auto w-full max-w-6xl px-6">
         <div class="static-heading-div text-center">
@@ -18,6 +18,7 @@
 </div>
 
 
+
 <div class="w-full bg-white">
     <div class="w-screen bubble-line-container">
         <div class="image-wrapper w-full">
@@ -25,9 +26,9 @@
         </div>
     </div>
 </div>
-
+</section>
 <!-- box 2 -->
-
+<section>
 <div class="container-w980 mx-auto">
     <div class="container mission-container">
 
@@ -71,18 +72,15 @@
     </div>
 
 </div>
-
+</section>
 
 
 <!-- box 3 -->
 
-
+<section>
 <div class="container-w980 mx-auto">
-
     <div class="container mission-container">
-
         <div class="w-full flex justify-center">
-
             <div class="col-span-12">
                 <div class="w-full">
                     <div class="">
@@ -117,11 +115,157 @@
     </div>
 
 </div>
-
+</section>
 
 <!-- cards -->
 
 
+
+<!-- CARDS HEADER -->
+<section class="w-full bg-white">
+  <div class="mx-auto w-full max-w-6xl px-6">
+    <div class="my-12 text-center">
+      <h5 class="section-header-title-small">
+        {{ cards.cards_header_title_small }}
+      </h5>
+      <h2 class="section-header-title">
+        {{ cards.cards_header_title }}
+      </h2>
+    </div>
+  </div>
+</section>
+
+<!-- CARDS -->
+<section class="w-full cards-container">
+  <div class="mx-auto w-full max-w-6xl px-6">
+    <div class="container-w980 mx-auto">
+      <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-4">
+        <!-- Card 1 -->
+        <div>
+          <div class="flex h-full flex-col overflow-hidden rounded-[12px] bg-white shadow">
+            <img
+              class="card-img-top cards-static-images h-auto max-w-full"
+              src="{{ cards.card_1_image }}"
+              alt="{{ cards.card_1_title }}"
+              loading="lazy"
+            />
+
+            <div class="card-body home-resources-body flex h-full flex-col p-4">
+              <h5 class="card-title mb-3">
+                <a class="block text-left" href="{{ cards.card_1_url }}">
+                  {{ cards.card_1_title }}
+                </a>
+              </h5>
+
+              <p class="card-text home-resources-text h-full text-left">
+                {{ cards.card_1_text }}
+              </p>
+
+              <p class="contents">
+                <a class="btn basic-arche-btn home-resources-btn" href="{{ cards.card_1_url }}">
+                  Show
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div>
+          <div class="flex h-full flex-col overflow-hidden rounded-[12px] bg-white shadow">
+            <img
+              class="card-img-top cards-static-images h-auto max-w-full"
+              src="{{ cards.card_2_image }}"
+              alt="{{ cards.card_2_title }}"
+              loading="lazy"
+            />
+
+            <div class="card-body home-resources-body flex h-full flex-col p-4">
+              <h5 class="card-title mb-3">
+                <a class="block text-left" href="{{ cards.card_2_url }}">
+                  {{ cards.card_2_title }}
+                </a>
+              </h5>
+
+              <p class="card-text home-resources-text h-full text-left">
+                {{ cards.card_2_text }}
+              </p>
+
+              <p class="contents">
+                <a class="btn basic-arche-btn home-resources-btn" href="{{ cards.card_2_url }}">
+                  Show
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div>
+          <div class="flex h-full flex-col overflow-hidden rounded-[12px] bg-white shadow">
+            <img
+              class="card-img-top cards-static-images h-auto max-w-full"
+              src="{{ cards.card_3_image }}"
+              alt="{{ cards.card_3_title }}"
+              loading="lazy"
+            />
+
+            <div class="card-body home-resources-body flex h-full flex-col p-4">
+              <h5 class="card-title mb-3">
+                <a class="block text-left" href="{{ cards.card_3_url }}">
+                  {{ cards.card_3_title }}
+                </a>
+              </h5>
+
+              <p class="card-text home-resources-text h-full text-left">
+                {{ cards.card_3_text }}
+              </p>
+
+              <p class="contents">
+                <a class="btn basic-arche-btn home-resources-btn" href="{{ cards.card_3_url }}">
+                  Show
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div>
+          <div class="flex h-full flex-col overflow-hidden rounded-[12px] bg-white shadow">
+            <img
+              class="card-img-top cards-static-images h-auto max-w-full"
+              src="{{ cards.card_4_image }}"
+              alt="{{ cards.card_4_title }}"
+              loading="lazy"
+            />
+
+            <div class="card-body home-resources-body flex h-full flex-col p-4">
+              <h5 class="card-title mb-3">
+                <a class="block text-left" href="{{ cards.card_4_url }}">
+                  {{ cards.card_4_title }}
+                </a>
+              </h5>
+
+              <p class="card-text home-resources-text h-full text-left">
+                {{ cards.card_4_text }}
+              </p>
+
+              <p class="contents">
+                <a class="btn basic-arche-btn home-resources-btn" href="{{ cards.card_4_url }}">
+                  Show
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+OLD:
 
 <div class="max-w-[980px] mx-auto">
     <div class="grid grid-cols-6 gap-4 w-full">
