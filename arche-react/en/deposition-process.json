@@ -51,7 +51,7 @@
         "header_title": "Costs",
         "text": "The deposition and storage itself are free of charge. The repository is run as part of the research infrastructure as a service to the community. If the data requires further processing and extensive curation, we might charge for the curation effort."
     },
-    "element_4": {
+    "cards": {
         "cards_header_title_small": "GUIDANCE",
         "cards_header_title": "Important Information",
         "card_1_title": "Collection Policy",
