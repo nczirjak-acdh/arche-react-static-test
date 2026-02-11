@@ -2,6 +2,8 @@
     "element_1": {
         "header_title_small": "DEPOSITION PROCESS",
         "header_title": "How does the data deposition work?",
+        "header_url": "#how-does-the-data-deposition-work",        
+        "header_url_text": "Link to this section: How does the data deposition work?",        
         "video_url": "<iframe width='100%' height='315' src='https://www.youtube.com/embed/mmRfc7fNNSA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen=''></iframe>",
         "text": "During the submission of digital resources to the repository the data undergoes a curation process in order to ensure quality and consistency. We assist you in meeting necessary requirements for sustainable resource archiving: data have to be provided with metadata and in preferred formats, persistent identifiers (PIDs) have to be assigned, IPR issues have to be resolved and clear statements with regard to licensing and possible use of the resources are to be made."
     },
