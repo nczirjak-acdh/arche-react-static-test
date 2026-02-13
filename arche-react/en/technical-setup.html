@@ -6,7 +6,8 @@
         </div>
     </div>
 
-
+</section>
+<section>
     <div class="container-w980 mx-auto">
         <div class="w-full ">
             <div class="my-12 text-center">
@@ -23,231 +24,206 @@
             {{ element_2.content }}
         </div>
     </div>
+</section>
+<section>
+    <div class="container-w980 mx-auto">
+        <div class="w-full ">
+            <div class="my-12 text-center">
+                <h1 class="section-header-title" id="client-libraries">
+                    {{ element_3.title }}&nbsp;<a class="anchor-link" href="{{ element_3.title_url }}" aria-label="{{ element_3.title_url_text }}">#</a>
+                </h1>
+            </div>
+        </div>
+    </div>
 
 
     <div class="container-w980 mx-auto">
         <div class="w-full ">
+            {{ element_3.content }}
+        </div>
+    </div>
+</section>
+<section>
+
+    <div class="container-w980 mx-auto">
+        <div class="w-full ">
             <div class="my-12 text-center">
-                <div class="my-12 text-center">
-                    <h1 class="section-header-title" id="client-libraries">
-                        {{ element_3.title }}&nbsp;<a class="anchor-link" href="{{ element_3.title_url }}" aria-label="{{ element_3.title_url_text }}">#</a>
-                    </h1>
-                </div>
+                <h2 class="section-header-title" id="dissemination-services">
+                    {{ element_4.title }}&nbsp;<a class="anchor-link" href="{{ element_4.title_url }}" aria-label="{{ element_4.title_url_text }}">#</a>
+                </h2>
             </div>
         </div>
     </div>
 
-    <div class="w-full flex justify-center mt-10">
-        <div class="grid grid-cols-6 gap-4">
-            <div class="col-span-4 col-start-2">
-                <div class="w-full ">
-                    <div class="container-w980">
-                        <div class="flex flex-col gap-8">
-                            {{ element_3.content }}
-                        </div>
-                    </div>
-                </div>
+    <div class="container-w980 mx-auto">
+        <div class="w-full ">
+            {{ element_4.content }}
+        </div>
+    </div>
+</section>
+<section>
+
+    <div class="container-w980 mx-auto">
+        <div class="w-full ">
+            <div class="my-12 text-center">
+                <h2 class="section-header-title" id="storage-procedures">
+                    {{ element_5.title }}&nbsp;<a class="anchor-link" href="{{ element_5.title_url }}" aria-label="{{ element_5.title_url_text }}">#</a>
+                </h2>
             </div>
         </div>
     </div>
 
-
-    <div class="w-full flex justify-center">
-        <div class="container">
-            <div class="grid grid-cols-6 gap-4">
-                <div class="col-span-4 col-start-2">
-                    <div class="w-full">
-                        <div class="my-12 text-center">
-                            <h2 class="section-header-title" id="dissemination-services">
-                                {{ element_4.title }}&nbsp;<a class="anchor-link" href="{{ element_4.title_url }}" aria-label="{{ element_4.title_url_text }}">#</a>
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="container-w980 mx-auto">
+        <div class="w-full ">
+            {{ element_5.content }}
         </div>
     </div>
 
+</section>
+
+<!-- CARDS -->
 
 
-    <div class="w-full flex justify-center mt-10">
-        <div class="grid grid-cols-6 gap-4">
-            <div class="col-span-4 col-start-2">
-                <div class="w-full ">
-                    <div class="container-w980">
-                        <div class="flex flex-col gap-8">
-                            {{ element_4.content }}
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<!-- CARDS HEADER -->
+<section class="w-full bg-white " style="margin-top: 3rem;">    
+    <div class="mx-auto w-full max-w-6xl px-6">
+        <div class="static-heading-div text-center">
+            <h1 class="section-header-title-small">
+                {{ cards.cards_header_title_small }}
+            </h1>
+            <h2 class="section-header-title" id="preservation-and-dissemination-of-digital-research-data">
+                {{ cards.cards_header_title }}
+            </h2>
+        </div>            
     </div>
 
+</section>
 
-    <div class="w-full flex justify-center">
-        <div class="container">
-            <div class="grid grid-cols-6 gap-4">
-                <div class="col-span-4 col-start-2">
-                    <div class="w-full">
-                        <div class="my-12 text-center">
-                            <h2 class="section-header-title" id="storage-procedures">
-                                {{ element_5.title }}&nbsp;<a class="anchor-link" href="{{ element_5.title_url }}" aria-label="{{ element_5.title_url_text }}">#</a>
-                            </h2>
+<!-- CARDS -->
+<section class="w-full cards-container">
+    <div class="mx-auto w-full max-w-6xl px-6">
+        <div class="container-w980 mx-auto">
+            <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-4">
+                <!-- Card 1 -->
+                <div>
+                    <div class="flex h-full flex-col overflow-hidden rounded-[12px] bg-white shadow">
+                        <img
+                            class="card-img-top cards-static-images h-auto max-w-full"
+                            src="{{ cards.card_1_image }}"
+                            alt="{{ cards.card_1_title }}"
+                            loading="lazy"
+                            />
+
+                        <div class="card-body home-resources-body flex h-full flex-col p-4">
+                            <h5 class="card-title mb-3">
+                                <a class="block text-left" href="{{ cards.card_1_url }}">
+                                    {{ cards.card_1_title }}
+                                </a>
+                            </h5>
+
+                            <p class="card-text home-resources-text h-full text-left">
+                                {{ cards.card_1_text }}
+                            </p>
+
+                            <p class="contents">
+                                <a class="btn basic-arche-btn home-resources-btn" href="{{ cards.card_1_url }}">
+                                    Show
+                                </a>
+                            </p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
 
+                <!-- Card 2 -->
+                <div>
+                    <div class="flex h-full flex-col overflow-hidden rounded-[12px] bg-white shadow">
+                        <img
+                            class="card-img-top cards-static-images h-auto max-w-full"
+                            src="{{ cards.card_2_image }}"
+                            alt="{{ cards.card_2_title }}"
+                            loading="lazy"
+                            />
 
+                        <div class="card-body home-resources-body flex h-full flex-col p-4">
+                            <h5 class="card-title mb-3">
+                                <a class="block text-left" href="{{ cards.card_2_url }}">
+                                    {{ cards.card_2_title }}
+                                </a>
+                            </h5>
 
-    <div class="w-full flex justify-center mt-10">
-        <div class="grid grid-cols-6 gap-4">
-            <div class="col-span-4 col-start-2">
-                <div class="w-full ">
-                    <div class="container-w980">
-                        <div class="flex flex-col gap-8">
-                            {{ element_5.content }}
+                            <p class="card-text home-resources-text h-full text-left">
+                                {{ cards.card_2_text }}
+                            </p>
+
+                            <p class="contents">
+                                <a class="btn basic-arche-btn home-resources-btn" href="{{ cards.card_2_url }}">
+                                    Show
+                                </a>
+                            </p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
 
+                <!-- Card 3 -->
+                <div>
+                    <div class="flex h-full flex-col overflow-hidden rounded-[12px] bg-white shadow">
+                        <img
+                            class="card-img-top cards-static-images h-auto max-w-full"
+                            src="{{ cards.card_3_image }}"
+                            alt="{{ cards.card_3_title }}"
+                            loading="lazy"
+                            />
 
+                        <div class="card-body home-resources-body flex h-full flex-col p-4">
+                            <h5 class="card-title mb-3">
+                                <a class="block text-left" href="{{ cards.card_3_url }}">
+                                    {{ cards.card_3_title }}
+                                </a>
+                            </h5>
 
-    <!-- CARDS -->
+                            <p class="card-text home-resources-text h-full text-left">
+                                {{ cards.card_3_text }}
+                            </p>
 
-    <div class="w-full flex justify-center bg-white">
-        <div class="grid grid-cols-6 gap-4 w-full">
-            <div class="col-span-4 col-start-2">
-                <div class="w-full">
-                    <div class="my-12 text-center">
-                        <h5 class="section-header-title-small">
-                            {{ element_6.cards_header_title_small }}
-                        </h5>
-                        <h2 id="how-does-the-data-deposition-work" class="section-header-title">
-                            {{ element_6.cards_header_title }}                        
-                        </h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="w-full flex justify-center cards-container">
-        <div class="grid grid-cols-6 gap-4">
-            <div class="col-span-4 col-start-2 container-w980">
-
-                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-                    <div class="">
-                        <div class="h-full shadow bg-white flex flex-col rounded-[12px] shadow overflow-hidden">
-                            <div class="h-full shadow bg-white flex flex-col border-0">
-                                <img
-                                    class="card-img-top cards-static-images max-w-full h-auto"
-                                    src="{{ element_6.card_1_image }}" alt="{{ element_6.card_1_title }}"
-                                    loading="lazy"
-                                    />
-
-                                <div class="card-body home-resources-body p-4 h-full">
-                                    <h5 class="card-title mb-3">
-                                        <a class="text-left block"  href="{{ element_6.card_1_url }}">{{ element_6.card_1_title }}</a>
-                                    </h5>
-
-                                    <p class="card-text home-resources-text text-left  h-full">
-                                        {{ element_6.card_1_text }}
-                                    </p>
-
-                                    <!-- display: contents -->
-                                    <p class="contents">
-                                        <a class="btn basic-arche-btn home-resources-btn" href="{{ element_6.card_1_url }}">Show</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="">
-                        <div class="h-full shadow bg-white flex flex-col rounded-[12px] shadow overflow-hidden">
-                            <div class="h-full shadow bg-white flex flex-col border-0">
-                                <img
-                                    class="card-img-top cards-static-images max-w-full h-auto"
-                                    src="{{ element_6.card_2_image }}" alt="{{ element_6.card_2_title }}"
-                                    loading="lazy"
-                                    />
-
-                                <div class="card-body home-resources-body p-4 h-full">
-                                    <h5 class="card-title mb-3">
-                                        <a class="text-left block"  href="{{ element_6.card_2_url }}">{{ element_6.card_2_title }}</a>
-                                    </h5>
-
-                                    <p class="card-text home-resources-text text-left  h-full">
-                                        {{ element_6.card_2_text }}
-                                    </p>
-
-                                    <!-- display: contents -->
-                                    <p class="contents">
-                                        <a class="btn basic-arche-btn home-resources-btn" href="{{ element_6.card_2_url }}">Show</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="">
-                        <div class="h-full shadow bg-white flex flex-col rounded-[12px] shadow overflow-hidden">
-                            <div class="h-full shadow bg-white flex flex-col border-0">
-                                <img
-                                    class="card-img-top cards-static-images max-w-full h-auto"
-                                    src="{{ element_6.card_3_image }}" alt="{{ element_6.card_3_title }}"
-                                    loading="lazy"
-                                    />
-
-                                <div class="card-body home-resources-body p-4 h-full">
-                                    <h5 class="card-title mb-3">
-                                        <a class="text-left block"  href="{{ element_6.card_3_url }}">{{ element_6.card_3_title }}</a>
-                                    </h5>
-
-                                    <p class="card-text home-resources-text text-left  h-full">
-                                        {{ element_6.card_3_text }}
-                                    </p>
-
-                                    <!-- display: contents -->
-                                    <p class="contents">
-                                        <a class="btn basic-arche-btn home-resources-btn" href="{{ element_6.card_3_url }}">Show</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="">
-                        <div class="h-full shadow bg-white flex flex-col rounded-[12px] shadow overflow-hidden">
-                            <div class="h-full shadow bg-white flex flex-col border-0">
-                                <img
-                                    class="card-img-top cards-static-images max-w-full h-auto"
-                                    src="{{ element_6.card_4_image }}" alt="{{ element_6.card_4_title }}"
-                                    loading="lazy"
-                                    />
-
-                                <div class="card-body home-resources-body p-4 h-full">
-                                    <h5 class="card-title mb-3">
-                                        <a class="text-left block"  href="{{ element_6.card_4_url }}">{{ element_6.card_4_title }}</a>
-                                    </h5>
-
-                                    <p class="card-text home-resources-text text-left  h-full">
-                                        {{ element_6.card_4_text }}
-                                    </p>
-
-                                    <!-- display: contents -->
-                                    <p class="contents">
-                                        <a class="btn basic-arche-btn home-resources-btn" href="{{ element_6.card_4_url }}">Show</a>
-                                    </p>
-                                </div>
-                            </div>
+                            <p class="contents">
+                                <a class="btn basic-arche-btn home-resources-btn" href="{{ cards.card_3_url }}">
+                                    Show
+                                </a>
+                            </p>
                         </div>
                     </div>
                 </div>
+
+                <!-- Card 4 -->
+                <div>
+                    <div class="flex h-full flex-col overflow-hidden rounded-[12px] bg-white shadow">
+                        <img
+                            class="card-img-top cards-static-images h-auto max-w-full"
+                            src="{{ cards.card_4_image }}"
+                            alt="{{ cards.card_4_title }}"
+                            loading="lazy"
+                            />
+
+                        <div class="card-body home-resources-body flex h-full flex-col p-4">
+                            <h5 class="card-title mb-3">
+                                <a class="block text-left" href="{{ cards.card_4_url }}">
+                                    {{ cards.card_4_title }}
+                                </a>
+                            </h5>
+
+                            <p class="card-text home-resources-text h-full text-left">
+                                {{ cards.card_4_text }}
+                            </p>
+
+                            <p class="contents">
+                                <a class="btn basic-arche-btn home-resources-btn" href="{{ cards.card_4_url }}">
+                                    Show
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
