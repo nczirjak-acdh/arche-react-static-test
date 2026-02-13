@@ -77,7 +77,7 @@
         "content":["<p>Data storage and backup procedures are essential to our data management system. To avoid data loss due to deterioration of physical storage, malicious threats or other emergencies, redundancy is the key for the preservation of data. The primary data storage is a live-mirrored network-attached <a href='http://www.netapp.com/'>NetApp</a> storage managed by the Data Center of the <a href='https://www.oeaw.ac.at'>OEAW</a>. The mirror is stored in a separate location/</p>",
                     "<p>Our backup policy follows a multi-layered setup: The full metadata dump is taken daily with a 7-day retention period. Every week a full metadata dump and an incremental binaries dump are taken and stored indefinitely on a dedicated network-attached storage provided by the Data Center of the <a href='https://www.oeaw.ac.at'>OEAW</a>. This storage is also mirrored to a secondary location.</p>"]
     },
-    "element_6": {
+    "cards": {
         "cards_header_title_small": "GUIDANCE",
         "cards_header_title": "Important Information",
         "card_1_title": "Preservation Policy",
