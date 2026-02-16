@@ -1,933 +1,905 @@
 
-<!-- Accordion 1 -->
 
-<div class="w-full flex justify-center">
-    <div class="container">
-        <div class="grid grid-cols-6 gap-4">
-            <div class="col-span-4 col-start-2">
-                <div class="w-full">
-                    <div class="my-12 text-center">
-                        <h5 class="section-header-title-small">
-                        {{ element_1.header_title_small }} 
-                    </h5>
-                    <h2 id="archive-data" class="section-header-title">
-                        {{ element_1.header_title }}&nbsp;<a class="anchor-link" href="#archive-data" aria-label="Link to this section: Archive Data">#</a>
-                    </h2>
+<section class="static-pages mt-[50px]  pt-[50px]">
+
+
+
+    <div class="container-w980 mx-auto">
+        <div class="mx-auto w-full max-w-6xl px-6">
+            <div class="static-heading-div text-center">
+                <h1 class="section-header-title-small">
+                    {{ element_1.header_title_small }} 
+                </h1>
+                <h2 class="section-header-title" id="preservation-and-dissemination-of-digital-research-data">
+                    {{ element_1.header_title }}&nbsp;<a class="anchor-link" href="#archive-data" aria-label="Link to this section: Archive Data">#</a>
+                </h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-w980 mx-auto">
+        <div class="mx-auto w-full max-w-6xl px-6">
+
+
+            <div class="accordion-static col-span-full w-full">
+                <!-- Item 1 -->
+                <details name="acc" class="group" open>
+                    <summary
+                        class="bg-white bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                        transition-colors open:bg-blue-50 open:text-white
+                        [&::-webkit-details-marker]:hidden">
+                        <span class="static-acc-title">{{ accordion_1.item_1_title }}</span>
+                        <!-- chevron -->
+                        <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                        </svg>
+                    </summary>
+                    <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                        <div class="p-4 pt-0 text-sm accordion-static-body">
+                            {{ accordion_1.item_1_body }}
+                        </div>
+                    </div>
+                </details>
+
+                <!-- Item 2 -->
+                <details name="acc" class="group">
+                    <summary
+                        class="bg-white bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                        transition-colors open:bg-blue-50 open:text-white
+                        [&::-webkit-details-marker]:hidden">
+                        <span class="static-acc-title">{{ accordion_1.item_2_title }}</span>
+                        <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                        </svg>
+                    </summary>
+                    <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                        <div class="p-4 pt-0 text-sm accordion-static-body">
+                            {{ accordion_1.item_2_body }}
+                        </div>
+                    </div>
+                </details>
+
+                <details name="acc" class="group">
+                    <summary
+                        class="bg-white bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                        transition-colors open:bg-blue-50 open:text-white
+                        [&::-webkit-details-marker]:hidden">
+                        <span class="static-acc-title">{{ accordion_1.item_3_title }}</span>
+                        <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                        </svg>
+                    </summary>
+                    <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                        <div class="p-4 pt-0 text-sm accordion-static-body">
+                            {{ accordion_1.item_3_body }}
+                        </div>
+                    </div>
+                </details>
+
+                <details name="acc" class="group">
+                    <summary
+                        class="bg-white bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                        transition-colors open:bg-blue-50 open:text-white
+                        [&::-webkit-details-marker]:hidden">
+                        <span class="static-acc-title">{{ accordion_1.item_4_title }}</span>
+                        <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                        </svg>
+                    </summary>
+                    <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                        <div class="p-4 pt-0 text-sm accordion-static-body">
+                            {{ accordion_1.item_4_body }}
+                        </div>
+                    </div>
+                </details>
+
+                <details name="acc" class="group">
+                    <summary
+                        class="bg-white bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                        transition-colors open:bg-blue-50 open:text-white
+                        [&::-webkit-details-marker]:hidden">
+                        <span class="static-acc-title">{{ accordion_1.item_5_title }}</span>
+                        <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                        </svg>
+                    </summary>
+                    <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                        <div class="p-4 pt-0 text-sm accordion-static-body">
+                            {{ accordion_1.item_5_body }}
+                        </div>
+                    </div>
+                </details>
+
+                <details name="acc" class="group">
+                    <summary
+                        class="bg-white bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                        transition-colors open:bg-blue-50 open:text-white
+                        [&::-webkit-details-marker]:hidden">
+                        <span class="static-acc-title">{{ accordion_1.item_6_title }}</span>
+                        <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                        </svg>
+                    </summary>
+                    <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                        <div class="p-4 pt-0 text-sm accordion-static-body">
+                            {{ accordion_1.item_6_body }}
+                        </div>
+                    </div>
+                </details>
+
+                <details name="acc" class="group">
+                    <summary
+                        class="bg-white bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                        transition-colors open:bg-blue-50 open:text-white
+                        [&::-webkit-details-marker]:hidden">
+                        <span class="static-acc-title">{{ accordion_1.item_7_title }}</span>
+                        <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                        </svg>
+                    </summary>
+                    <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                        <div class="p-4 pt-0 text-sm accordion-static-body">
+                            {{ accordion_1.item_7_body }}
+                        </div>
+                    </div>
+                </details>
+
+                <details name="acc" class="group">
+                    <summary
+                        class="bg-white bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                        transition-colors open:bg-blue-50 open:text-white
+                        [&::-webkit-details-marker]:hidden">
+                        <span class="static-acc-title">{{ accordion_1.item_8_title }}</span>
+                        <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                        </svg>
+                    </summary>
+                    <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                        <div class="p-4 pt-0 text-sm accordion-static-body">
+                            {{ accordion_1.item_8_body }}
+                        </div>
+                    </div>
+                </details>
+
+                <details name="acc" class="group">
+                    <summary
+                        class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                        transition-colors open:bg-blue-50 open:text-white
+                        [&::-webkit-details-marker]:hidden">
+                        <span class="static-acc-title">{{ accordion_1.item_9_title }}</span>
+                        <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                        </svg>
+                    </summary>
+                    <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                        <div class="p-4 pt-0 text-sm accordion-static-body">
+                            {{ accordion_1.item_9_body }}
+                        </div>
+                    </div>
+                </details>
+
+                <details name="acc" class="group">
+                    <summary
+                        class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                        transition-colors open:bg-blue-50 open:text-white
+                        [&::-webkit-details-marker]:hidden">
+                        <span class="static-acc-title">{{ accordion_1.item_10_title }}</span>
+                        <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                        </svg>
+                    </summary>
+                    <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                        <div class="p-4 pt-0 text-sm accordion-static-body">
+                            {{ accordion_1.item_10_body }}
+                        </div>
+                    </div>
+                </details>
+
+                <details name="acc" class="group">
+                    <summary
+                        class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                        transition-colors open:bg-blue-50 open:text-white
+                        [&::-webkit-details-marker]:hidden">
+                        <span class="static-acc-title">{{ accordion_1.item_11_title }}</span>
+                        <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                        </svg>
+                    </summary>
+                    <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                        <div class="p-4 pt-0 text-sm accordion-static-body">
+                            {{ accordion_1.item_11_body }}
+                        </div>
+                    </div>
+                </details>
+
+                <details name="acc" class="group">
+                    <summary
+                        class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                        transition-colors open:bg-blue-50 open:text-white
+                        [&::-webkit-details-marker]:hidden">
+                        <span class="static-acc-title">{{ accordion_1.item_12_title }}</span>
+                        <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                        </svg>
+                    </summary>
+                    <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                        <div class="p-4 pt-0 text-sm accordion-static-body">
+                            {{ accordion_1.item_12_body }}
+                        </div>
+                    </div>
+                </details>
+
+                <details name="acc" class="group">
+                    <summary
+                        class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                        transition-colors open:bg-blue-50 open:text-white
+                        [&::-webkit-details-marker]:hidden">
+                        <span class="static-acc-title">{{ accordion_1.item_13_title }}</span>
+                        <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                        </svg>
+                    </summary>
+                    <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                        <div class="p-4 pt-0 text-sm accordion-static-body">
+                            {{ accordion_1.item_13_body }}
+                        </div>
+                    </div>
+                </details>
+
+                <details name="acc" class="group">
+                    <summary
+                        class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                        transition-colors open:bg-blue-50 open:text-white
+                        [&::-webkit-details-marker]:hidden">
+                        <span class="static-acc-title">{{ accordion_1.item_14_title }}</span>
+                        <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                        </svg>
+                    </summary>
+                    <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                        <div class="p-4 pt-0 text-sm accordion-static-body">
+                            {{ accordion_1.item_14_body }}
+                        </div>
+                    </div>
+                </details>
+
+                <details name="acc" class="group">
+                    <summary
+                        class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                        transition-colors open:bg-blue-50 open:text-white
+                        [&::-webkit-details-marker]:hidden">
+                        <span class="static-acc-title">{{ accordion_1.item_15_title }}</span>
+                        <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                        </svg>
+                    </summary>
+                    <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                        <div class="p-4 pt-0 text-sm accordion-static-body">
+                            {{ accordion_1.item_15_body }}
+                        </div>
+                    </div>
+                </details>
+
+                <details name="acc" class="group">
+                    <summary
+                        class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                        transition-colors open:bg-blue-50 open:text-white
+                        [&::-webkit-details-marker]:hidden">
+                        <span class="static-acc-title">{{ accordion_1.item_16_title }}</span>
+                        <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                        </svg>
+                    </summary>
+                    <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                        <div class="p-4 pt-0 text-sm accordion-static-body">
+                            {{ accordion_1.item_16_body }}
+                        </div>
+                    </div>
+                </details>
+
+                <details name="acc" class="group">
+                    <summary
+                        class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                        transition-colors open:bg-blue-50 open:text-white
+                        [&::-webkit-details-marker]:hidden">
+                        <span class="static-acc-title">{{ accordion_1.item_17_title }}</span>
+                        <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                        </svg>
+                    </summary>
+                    <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                        <div class="p-4 pt-0 text-sm accordion-static-body">
+                            {{ accordion_1.item_17_body }}
+                        </div>
+                    </div>
+                </details>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Accordion 2 -->
+
+    <div class="container-w980 mx-auto">
+        <div class="mx-auto w-full max-w-6xl px-6">
+            <div class="static-heading-div text-center">
+                <h1 class="section-header-title-small">
+                     {{ element_2.header_title_small }} 
+                </h1>
+                <h2 class="section-header-title" id="search-and-use-data">
+                    {{ element_2.header_title }}&nbsp;<a class="anchor-link" href="#search-and-use-data" aria-label="Link to this section: Search and Use Data">#</a>
+                </h2>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <div class="w-full flex justify-center">
+        <div class="grid w-full grid-cols-6 gap-4">     
+            <div class="col-span-4 col-start-2 w-full flex justify-center">            
+                <div class="container-w980 w-full">
+                    <div class="grid grid-cols-12 gap-y-8">
+                        <div class="accordion-static col-span-full w-full">
+                            <!-- Item 1 -->
+                            <details name="acc" class="group">
+                                <summary
+                                    class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                                    transition-colors open:bg-blue-50 open:text-white
+                                    [&::-webkit-details-marker]:hidden">
+                                    <span class="static-acc-title">{{ accordion_2.item_1_title }}</span>
+                                    <!-- chevron -->
+                                    <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                    </svg>
+                                </summary>
+                                <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                    <div class="p-4 pt-0 text-sm accordion-static-body">
+                                        {{ accordion_2.item_1_body }}
+                                    </div>
+                                </div>
+                            </details>
+
+                            <details name="acc" class="group">
+                                <summary
+                                    class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                                    transition-colors open:bg-blue-50 open:text-white
+                                    [&::-webkit-details-marker]:hidden">
+                                    <span class="static-acc-title">{{ accordion_2.item_2_title }}</span>
+                                    <!-- chevron -->
+                                    <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                    </svg>
+                                </summary>
+                                <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                    <div class="p-4 pt-0 text-sm accordion-static-body">
+                                        {{ accordion_2.item_2_body }}
+                                    </div>
+                                </div>
+                            </details>
+
+                            <details name="acc" class="group">
+                                <summary
+                                    class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                                    transition-colors open:bg-blue-50 open:text-white
+                                    [&::-webkit-details-marker]:hidden">
+                                    <span class="static-acc-title">{{ accordion_2.item_3_title }}</span>
+                                    <!-- chevron -->
+                                    <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                    </svg>
+                                </summary>
+                                <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                    <div class="p-4 pt-0 text-sm accordion-static-body">
+                                        {{ accordion_2.item_3_body }}
+                                    </div>
+                                </div>
+                            </details>
+
+                            <details name="acc" class="group">
+                                <summary
+                                    class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                                    transition-colors open:bg-blue-50 open:text-white
+                                    [&::-webkit-details-marker]:hidden">
+                                    <span class="static-acc-title">{{ accordion_2.item_4_title }}</span>
+                                    <!-- chevron -->
+                                    <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                    </svg>
+                                </summary>
+                                <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                    <div class="p-4 pt-0 text-sm accordion-static-body">
+                                        {{ accordion_2.item_4_body }}
+                                    </div>
+                                </div>
+                            </details>
+
+                            <details name="acc" class="group">
+                                <summary
+                                    class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                                    transition-colors open:bg-blue-50 open:text-white
+                                    [&::-webkit-details-marker]:hidden">
+                                    <span class="static-acc-title">{{ accordion_2.item_5_title }}</span>
+                                    <!-- chevron -->
+                                    <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                    </svg>
+                                </summary>
+                                <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                    <div class="p-4 pt-0 text-sm accordion-static-body">
+                                        {{ accordion_2.item_5_body }}
+                                    </div>
+                                </div>
+                            </details>
+
+                            <details name="acc" class="group">
+                                <summary
+                                    class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                                    transition-colors open:bg-blue-50 open:text-white
+                                    [&::-webkit-details-marker]:hidden">
+                                    <span class="static-acc-title">{{ accordion_2.item_6_title }}</span>
+                                    <!-- chevron -->
+                                    <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                    </svg>
+                                </summary>
+                                <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                    <div class="p-4 pt-0 text-sm accordion-static-body">
+                                        {{ accordion_2.item_6_body }}
+                                    </div>
+                                </div>
+                            </details>
+
+                            <details name="acc" class="group">
+                                <summary
+                                    class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                                    transition-colors open:bg-blue-50 open:text-white
+                                    [&::-webkit-details-marker]:hidden">
+                                    <span class="static-acc-title">{{ accordion_2.item_7_title }}</span>
+                                    <!-- chevron -->
+                                    <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                    </svg>
+                                </summary>
+                                <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                    <div class="p-4 pt-0 text-sm accordion-static-body">
+                                        {{ accordion_2.item_7_body }}
+                                    </div>
+                                </div>
+                            </details>
+
+                            <details name="acc" class="group">
+                                <summary
+                                    class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                                    transition-colors open:bg-blue-50 open:text-white
+                                    [&::-webkit-details-marker]:hidden">
+                                    <span class="static-acc-title">{{ accordion_2.item_8_title }}</span>
+                                    <!-- chevron -->
+                                    <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                    </svg>
+                                </summary>
+                                <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                    <div class="p-4 pt-0 text-sm accordion-static-body">
+                                        {{ accordion_2.item_8_body }}
+                                    </div>
+                                </div>
+                            </details>
+
+                            <details name="acc" class="group">
+                                <summary
+                                    class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                                    transition-colors open:bg-blue-50 open:text-white
+                                    [&::-webkit-details-marker]:hidden">
+                                    <span class="static-acc-title">{{ accordion_2.item_9_title }}</span>
+                                    <!-- chevron -->
+                                    <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                    </svg>
+                                </summary>
+                                <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                    <div class="p-4 pt-0 text-sm accordion-static-body">
+                                        {{ accordion_2.item_9_body }}
+                                    </div>
+                                </div>
+                            </details>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
 
 
 
-<div class="w-full flex justify-center">
-    <div class="grid w-full grid-cols-6 gap-4">     
-        <div class="col-span-4 col-start-2 w-full flex justify-center">            
-            <div class="container-w980 w-full">
-                <div class="grid grid-cols-12 gap-y-8">
-                    <div class="accordion-static col-span-full w-full">
-                        <!-- Item 1 -->
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_1.item_1_title }}</span>
-                                <!-- chevron -->
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_1.item_1_body }}
-                                </div>
-                            </div>
-                        </details>
+    <!-- Accordion 3 -->
 
-                        <!-- Item 2 -->
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_1.item_2_title }}</span>
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_1.item_2_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_1.item_3_title }}</span>
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_1.item_3_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_1.item_4_title }}</span>
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_1.item_4_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_1.item_5_title }}</span>
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_1.item_5_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_1.item_6_title }}</span>
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_1.item_6_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_1.item_7_title }}</span>
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_1.item_7_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_1.item_8_title }}</span>
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_1.item_8_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_1.item_9_title }}</span>
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_1.item_9_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_1.item_10_title }}</span>
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_1.item_10_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_1.item_11_title }}</span>
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_1.item_11_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_1.item_12_title }}</span>
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_1.item_12_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_1.item_13_title }}</span>
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_1.item_13_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_1.item_14_title }}</span>
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_1.item_14_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_1.item_15_title }}</span>
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_1.item_15_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_1.item_16_title }}</span>
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_1.item_16_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_1.item_17_title }}</span>
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_1.item_17_body }}
-                                </div>
-                            </div>
-                        </details>
-
-
-                    </div>
-                </div>
+     <div class="container-w980 mx-auto">
+        <div class="mx-auto w-full max-w-6xl px-6">
+            <div class="static-heading-div text-center">
+                <h1 class="section-header-title-small">
+                     {{ element_3.header_title_small }} 
+                </h1>
+                <h2 class="section-header-title" id="practical-tips-for-depositors">
+                    {{ element_3.header_title }}&nbsp;<a class="anchor-link" href="#practical-tips-for-depositors" aria-label="Link to this section: Practical Tips for Depositors">#</a>
+                </h2>
             </div>
-
         </div>
     </div>
-</div>
+    
+    <div class="w-full flex justify-center">
+        <div class="grid w-full grid-cols-6 gap-4">     
+            <div class="col-span-4 col-start-2 w-full flex justify-center">            
+                <div class="container-w980 w-full">
+                    <div class="grid grid-cols-12 gap-y-8">
+                        <div class="accordion-static col-span-full w-full">
+                            <!-- Item 1 -->
+                            <details name="acc" class="group">
+                                <summary
+                                    class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                                    transition-colors open:bg-blue-50 open:text-white
+                                    [&::-webkit-details-marker]:hidden">
+                                    <span class="static-acc-title">{{ accordion_3.item_1_title }}</span>
+                                    <!-- chevron -->
+                                    <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                    </svg>
+                                </summary>
+                                <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                    <div class="p-4 pt-0 text-sm accordion-static-body">
+                                        {{ accordion_3.item_1_body }}
+                                    </div>
+                                </div>
+                            </details>
 
+                            <details name="acc" class="group">
+                                <summary
+                                    class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                                    transition-colors open:bg-blue-50 open:text-white
+                                    [&::-webkit-details-marker]:hidden">
+                                    <span class="static-acc-title">{{ accordion_3.item_2_title }}</span>
+                                    <!-- chevron -->
+                                    <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                    </svg>
+                                </summary>
+                                <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                    <div class="p-4 pt-0 text-sm accordion-static-body">
+                                        {{ accordion_3.item_2_body }}
+                                    </div>
+                                </div>
+                            </details>
 
-<!-- Accordion 2 -->
+                            <details name="acc" class="group">
+                                <summary
+                                    class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                                    transition-colors open:bg-blue-50 open:text-white
+                                    [&::-webkit-details-marker]:hidden">
+                                    <span class="static-acc-title">{{ accordion_3.item_3_title }}</span>
+                                    <!-- chevron -->
+                                    <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                    </svg>
+                                </summary>
+                                <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                    <div class="p-4 pt-0 text-sm accordion-static-body">
+                                        {{ accordion_3.item_3_body }}
+                                    </div>
+                                </div>
+                            </details>
 
-<div class="w-full flex justify-center">
-    <div class="container">
-        <div class="grid grid-cols-6 gap-4">
-            <div class="col-span-4 col-start-2">
-                <div class="w-full">
-                    <div class="my-12 text-center">
-                      <h5 class="section-header-title-small">
-                        {{ element_2.header_title_small }} 
-                    </h5>
-                    <h2 class="section-header-title" id="search-and-use-data">
-                        {{ element_2.header_title }}&nbsp;<a class="anchor-link" href="#search-and-use-data" aria-label="Link to this section: Search and Use Data">#</a>
-                    </h2>
+                            <details name="acc" class="group">
+                                <summary
+                                    class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                                    transition-colors open:bg-blue-50 open:text-white
+                                    [&::-webkit-details-marker]:hidden">
+                                    <span class="static-acc-title">{{ accordion_3.item_4_title }}</span>
+                                    <!-- chevron -->
+                                    <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                    </svg>
+                                </summary>
+                                <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                    <div class="p-4 pt-0 text-sm accordion-static-body">
+                                        {{ accordion_3.item_4_body }}
+                                    </div>
+                                </div>
+                            </details>
+
+                            <details name="acc" class="group">
+                                <summary
+                                    class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                                    transition-colors open:bg-blue-50 open:text-white
+                                    [&::-webkit-details-marker]:hidden">
+                                    <span class="static-acc-title">{{ accordion_3.item_5_title }}</span>
+                                    <!-- chevron -->
+                                    <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                    </svg>
+                                </summary>
+                                <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                    <div class="p-4 pt-0 text-sm accordion-static-body">
+                                        {{ accordion_3.item_5_body }}
+                                    </div>
+                                </div>
+                            </details>
+
+                            <details name="acc" class="group">
+                                <summary
+                                    class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                                    transition-colors open:bg-blue-50 open:text-white
+                                    [&::-webkit-details-marker]:hidden">
+                                    <span class="static-acc-title">{{ accordion_3.item_6_title }}</span>
+                                    <!-- chevron -->
+                                    <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                    </svg>
+                                </summary>
+                                <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                    <div class="p-4 pt-0 text-sm accordion-static-body">
+                                        {{ accordion_3.item_6_body }}
+                                    </div>
+                                </div>
+                            </details>
+
+                            <details name="acc" class="group">
+                                <summary
+                                    class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                                    transition-colors open:bg-blue-50 open:text-white
+                                    [&::-webkit-details-marker]:hidden">
+                                    <span class="static-acc-title">{{ accordion_3.item_7_title }}</span>
+                                    <!-- chevron -->
+                                    <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                    </svg>
+                                </summary>
+                                <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                    <div class="p-4 pt-0 text-sm accordion-static-body">
+                                        {{ accordion_3.item_7_body }}
+                                    </div>
+                                </div>
+                            </details>
+
+                            <details name="acc" class="group">
+                                <summary
+                                    class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                                    transition-colors open:bg-blue-50 open:text-white
+                                    [&::-webkit-details-marker]:hidden">
+                                    <span class="static-acc-title">{{ accordion_3.item_8_title }}</span>
+                                    <!-- chevron -->
+                                    <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                    </svg>
+                                </summary>
+                                <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                    <div class="p-4 pt-0 text-sm accordion-static-body">
+                                        {{ accordion_3.item_8_body }}
+                                    </div>
+                                </div>
+                            </details>
+
+                            <details name="acc" class="group">
+                                <summary
+                                    class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                                    transition-colors open:bg-blue-50 open:text-white
+                                    [&::-webkit-details-marker]:hidden">
+                                    <span class="static-acc-title">{{ accordion_3.item_9_title }}</span>
+                                    <!-- chevron -->
+                                    <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                    </svg>
+                                </summary>
+                                <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                    <div class="p-4 pt-0 text-sm accordion-static-body">
+                                        {{ accordion_3.item_9_body }}
+                                    </div>
+                                </div>
+                            </details>
+
+                            <details name="acc" class="group">
+                                <summary
+                                    class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                                    transition-colors open:bg-blue-50 open:text-white
+                                    [&::-webkit-details-marker]:hidden">
+                                    <span class="static-acc-title">{{ accordion_3.item_10_title }}</span>
+                                    <!-- chevron -->
+                                    <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                    </svg>
+                                </summary>
+                                <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                    <div class="p-4 pt-0 text-sm accordion-static-body">
+                                        {{ accordion_3.item_10_body }}
+                                    </div>
+                                </div>
+                            </details>
+
+                            <details name="acc" class="group">
+                                <summary
+                                    class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                                    transition-colors open:bg-blue-50 open:text-white
+                                    [&::-webkit-details-marker]:hidden">
+                                    <span class="static-acc-title">{{ accordion_3.item_11_title }}</span>
+                                    <!-- chevron -->
+                                    <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                    </svg>
+                                </summary>
+                                <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                    <div class="p-4 pt-0 text-sm accordion-static-body">
+                                        {{ accordion_3.item_11_body }}
+                                    </div>
+                                </div>
+                            </details>
+
+                            <details name="acc" class="group">
+                                <summary
+                                    class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                                    transition-colors open:bg-blue-50 open:text-white
+                                    [&::-webkit-details-marker]:hidden">
+                                    <span class="static-acc-title">{{ accordion_3.item_12_title }}</span>
+                                    <!-- chevron -->
+                                    <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                    </svg>
+                                </summary>
+                                <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                    <div class="p-4 pt-0 text-sm accordion-static-body">
+                                        {{ accordion_3.item_12_body }}
+                                    </div>
+                                </div>
+                            </details>
+
+                            <details name="acc" class="group">
+                                <summary
+                                    class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                                    transition-colors open:bg-blue-50 open:text-white
+                                    [&::-webkit-details-marker]:hidden">
+                                    <span class="static-acc-title">{{ accordion_3.item_13_title }}</span>
+                                    <!-- chevron -->
+                                    <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                    </svg>
+                                </summary>
+                                <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                    <div class="p-4 pt-0 text-sm accordion-static-body">
+                                        {{ accordion_3.item_13_body }}
+                                    </div>
+                                </div>
+                            </details>
+
+                            <details name="acc" class="group">
+                                <summary
+                                    class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                                    transition-colors open:bg-blue-50 open:text-white
+                                    [&::-webkit-details-marker]:hidden">
+                                    <span class="static-acc-title">{{ accordion_3.item_14_title }}</span>
+                                    <!-- chevron -->
+                                    <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                    </svg>
+                                </summary>
+                                <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                    <div class="p-4 pt-0 text-sm accordion-static-body">
+                                        {{ accordion_3.item_14_body }}
+                                    </div>
+                                </div>
+                            </details>
+
+                            <details name="acc" class="group">
+                                <summary
+                                    class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                                    transition-colors open:bg-blue-50 open:text-white
+                                    [&::-webkit-details-marker]:hidden">
+                                    <span class="static-acc-title">{{ accordion_3.item_15_title }}</span>
+                                    <!-- chevron -->
+                                    <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                    </svg>
+                                </summary>
+                                <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                    <div class="p-4 pt-0 text-sm accordion-static-body">
+                                        {{ accordion_3.item_15_body }}
+                                    </div>
+                                </div>
+                            </details>
+
+                            <details name="acc" class="group">
+                                <summary
+                                    class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                                    transition-colors open:bg-blue-50 open:text-white
+                                    [&::-webkit-details-marker]:hidden">
+                                    <span class="static-acc-title">{{ accordion_3.item_16_title }}</span>
+                                    <!-- chevron -->
+                                    <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                    </svg>
+                                </summary>
+                                <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                    <div class="p-4 pt-0 text-sm accordion-static-body">
+                                        {{ accordion_3.item_16_body }}
+                                    </div>
+                                </div>
+                            </details>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
 
 
-<div class="w-full flex justify-center">
-    <div class="grid w-full grid-cols-6 gap-4">     
-        <div class="col-span-4 col-start-2 w-full flex justify-center">            
-            <div class="container-w980 w-full">
-                <div class="grid grid-cols-12 gap-y-8">
-                    <div class="accordion-static col-span-full w-full">
-                        <!-- Item 1 -->
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_2.item_1_title }}</span>
-                                <!-- chevron -->
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_2.item_1_body }}
+    <!-- Accordion 4 -->
+
+    <div class="container-w980 mx-auto">
+        <div class="mx-auto w-full max-w-6xl px-6">
+            <div class="static-heading-div text-center">
+                <h1 class="section-header-title-small">
+                     {{ element_4.header_title_small }} 
+                </h1>
+                <h2 class="section-header-title" id="technical-basis">
+                    {{ element_4.header_title }}&nbsp;<a class="anchor-link" href="#technical-basis" aria-label="Link to this section: Technical Basis">#</a>
+                </h2>
+            </div>
+        </div>
+    </div>
+    
+    <div class="w-full flex justify-center">
+        <div class="grid w-full grid-cols-6 gap-4">     
+            <div class="col-span-4 col-start-2 w-full flex justify-center">            
+                <div class="container-w980 w-full">
+                    <div class="grid grid-cols-12 gap-y-8">
+                        <div class="accordion-static col-span-full w-full">
+                            <!-- Item 1 -->
+                            <details name="acc" class="group">
+                                <summary
+                                    class="bg-white flex items-center justify-between cursor-pointer p-4 select-none
+                                    transition-colors open:bg-blue-50 open:text-white
+                                    [&::-webkit-details-marker]:hidden">
+                                    <span class="static-acc-title">{{ accordion_4.item_1_title }}</span>
+                                    <!-- chevron -->
+                                    <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
+                                    </svg>
+                                </summary>
+                                <div class="bg-white overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
+                                    <div class="p-4 pt-0 text-sm accordion-static-body">
+                                        {{ accordion_4.item_1_body }}
+                                    </div>
                                 </div>
-                            </div>
-                        </details>
+                            </details>
 
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_2.item_2_title }}</span>
-                                <!-- chevron -->
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_2.item_2_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_2.item_3_title }}</span>
-                                <!-- chevron -->
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_2.item_3_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_2.item_4_title }}</span>
-                                <!-- chevron -->
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_2.item_4_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_2.item_5_title }}</span>
-                                <!-- chevron -->
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_2.item_5_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_2.item_6_title }}</span>
-                                <!-- chevron -->
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_2.item_6_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_2.item_7_title }}</span>
-                                <!-- chevron -->
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_2.item_7_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_2.item_8_title }}</span>
-                                <!-- chevron -->
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_2.item_8_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_2.item_9_title }}</span>
-                                <!-- chevron -->
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_2.item_9_body }}
-                                </div>
-                            </div>
-                        </details>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
 
-
-
-<!-- Accordion 3 -->
-
-
-<div class="w-full flex justify-center">
-    <div class="container">
-        <div class="grid grid-cols-6 gap-4">
-            <div class="col-span-4 col-start-2">
-                <div class="w-full">
-                    <div class="my-12 text-center">
-                      <h5 class="section-header-title-small">
-                        {{ element_3.header_title_small }}
-                    </h5>
-                    <h2 class="section-header-title" id="practical-tips-for-depositors">
-                        {{ element_3.header_title }}&nbsp;<a class="anchor-link" href="#practical-tips-for-depositors" aria-label="Link to this section: Practical Tips for Depositors">#</a>
-                    </h2>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- FOOTER -->
+    <div>
+        <p dir="ltr">
+            &nbsp;
+        </p>
+        <center>
+            <p>
+                Suggestions for more detailed information can be found in the <a href="/browser/further-guidance">Further Guidance</a> link collection.
+            </p>
+        </center>
+        <p>
+            &nbsp;
+        </p>
     </div>
-</div>
 
-
-<div class="w-full flex justify-center">
-    <div class="grid w-full grid-cols-6 gap-4">     
-        <div class="col-span-4 col-start-2 w-full flex justify-center">            
-            <div class="container-w980 w-full">
-                <div class="grid grid-cols-12 gap-y-8">
-                    <div class="accordion-static col-span-full w-full">
-                        <!-- Item 1 -->
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_3.item_1_title }}</span>
-                                <!-- chevron -->
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_3.item_1_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_3.item_2_title }}</span>
-                                <!-- chevron -->
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_3.item_2_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_3.item_3_title }}</span>
-                                <!-- chevron -->
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_3.item_3_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_3.item_4_title }}</span>
-                                <!-- chevron -->
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_3.item_4_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_3.item_5_title }}</span>
-                                <!-- chevron -->
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_3.item_5_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_3.item_6_title }}</span>
-                                <!-- chevron -->
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_3.item_6_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_3.item_7_title }}</span>
-                                <!-- chevron -->
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_3.item_7_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_3.item_8_title }}</span>
-                                <!-- chevron -->
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_3.item_8_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_3.item_9_title }}</span>
-                                <!-- chevron -->
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_3.item_9_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_3.item_10_title }}</span>
-                                <!-- chevron -->
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_3.item_10_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_3.item_11_title }}</span>
-                                <!-- chevron -->
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_3.item_11_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_3.item_12_title }}</span>
-                                <!-- chevron -->
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_3.item_12_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_3.item_13_title }}</span>
-                                <!-- chevron -->
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_3.item_13_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_3.item_14_title }}</span>
-                                <!-- chevron -->
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_3.item_14_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_3.item_15_title }}</span>
-                                <!-- chevron -->
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_3.item_15_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_3.item_16_title }}</span>
-                                <!-- chevron -->
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_3.item_16_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-<!-- Accordion 4 -->
-
-<div class="w-full flex justify-center">
-    <div class="container">
-        <div class="grid grid-cols-6 gap-4">
-            <div class="col-span-4 col-start-2">
-                <div class="w-full">
-                    <div class="my-12 text-center">
-                       <h5 class="section-header-title-small">
-                        {{ element_4.header_title_small }}
-                    </h5>
-                    <h2 class="section-header-title" id="technical-basis">
-                        {{ element_4.header_title }}&nbsp;<a class="anchor-link" href="#technical-basis" aria-label="Link to this section: Technical Basis">#</a>
-                    </h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-<div class="w-full flex justify-center">
-    <div class="grid w-full grid-cols-6 gap-4">     
-        <div class="col-span-4 col-start-2 w-full flex justify-center">            
-            <div class="container-w980 w-full">
-                <div class="grid grid-cols-12 gap-y-8">
-                    <div class="accordion-static col-span-full w-full">
-                        <!-- Item 1 -->
-                        <details name="acc" class="group">
-                            <summary
-                                class="flex items-center justify-between cursor-pointer p-4 select-none
-                                transition-colors open:bg-blue-50 open:text-blue-700
-                                [&::-webkit-details-marker]:hidden">
-                                <span class="static-acc-title">{{ accordion_4.item_1_title }}</span>
-                                <!-- chevron -->
-                                <svg class="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M10 12.5a1 1 0 0 1-.7-.29l-5-5a1 1 0 1 1 1.4-1.42L10 10.09l4.3-4.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-.7.29z" clip-rule="evenodd"/>
-                                </svg>
-                            </summary>
-                            <div class="overflow-hidden max-h-0 open:max-h-[60vh] transition-[max-height] duration-300">
-                                <div class="p-4 pt-0 text-sm accordion-static-body">
-                                    {{ accordion_4.item_1_body }}
-                                </div>
-                            </div>
-                        </details>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<!-- FOOTER -->
-
-<p dir="ltr">
-    &nbsp;
-</p>
-<center>
-    <p>
-        Suggestions for more detailed information can be found in the <a href="/browser/further-guidance">Further Guidance</a> link collection.
-    </p>
-</center>
-<p>
-    &nbsp;
-</p>
+</section>    
 
 
 
