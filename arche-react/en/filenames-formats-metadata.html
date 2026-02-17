@@ -25,75 +25,55 @@
 
 
     <!-- formats -->
-
-    <div class="w-full flex justify-center bg-white">
-        <div class="grid grid-cols-6 gap-4">
-            <div class="col-span-4 col-start-2">
-                <div class="w-full">
-                    <div class="my-12 text-center">
-                        <h5 class="section-header-title-small">
-                            {{ element_2.header_title_small }}&nbsp;
-                        </h5>
-                        <h2 id="formats" class="section-header-title">
-                            {{ element_2.header_title }}&nbsp;<a class="anchor-link" href="#formats" aria-label="Link to this section: Formats">#</a>
-                        </h2>
-                    </div>
-                </div>
+    <div class="container-w980 mx-auto">
+        <div class="mx-auto w-full max-w-6xl px-6">
+            <div class="static-heading-div text-center">            
+                <h1 class="section-header-title-small">
+                    {{ element_2.header_title_small }} 
+                </h1>
+                <h2 class="section-header-title" id="formats">
+                    {{ element_1.header_title }}
+                    {{ element_2.header_title }}&nbsp;<a class="anchor-link" href="#formats" aria-label="Link to this section: Formats">#</a>
+                </h2>
             </div>
         </div>
     </div>
 
-    <div class="w-full flex justify-center">
 
-        <div class="grid grid-cols-6 gap-4">     
-
-            <div class="col-span-4 col-start-2">
-                <div class="w-full ">
-                    <div class="container-w980">
-                        {{ element_2.content }}
-                        <div id="filenames-formats-dynamic-table"></div>
-                    </div>
-                </div>
-            </div>
+    <div class="container-w980 mx-auto">
+        <div class="mx-auto w-full max-w-6xl px-6">            
+            {{ element_2.content }} 
+            <div id="filenames-formats-dynamic-table"></div>
         </div>
     </div>
+
 
     <!-- metadata -->
 
-
-    <div class="w-full flex justify-center bg-white">
-        <div class="grid grid-cols-6 gap-4">
-            <div class="col-span-4 col-start-2">
-                <div class="w-full">
-                    <div class="my-12 text-center">
-                        <h5 class="section-header-title-small">
-                            {{ element_3.header_title_small }}&nbsp;
-                        </h5>
-                        <h2 id="metadata" class="section-header-title">
-                            {{ element_3.header_title }}&nbsp;<a class="anchor-link" href="#metadata" aria-label="Link to this section: Metadata">#</a>
-                        </h2>
-                    </div>
-                </div>
+    <div class="container-w980 mx-auto">
+        <div class="mx-auto w-full max-w-6xl px-6">
+            <div class="static-heading-div text-center">            
+                <h1 class="section-header-title-small">
+                    {{ element_3.header_title_small }} 
+                </h1>
+                <h2 id="metadata" class="section-header-title">
+                    {{ element_3.header_title }}&nbsp;<a class="anchor-link" href="#metadata" aria-label="Link to this section: Metadata">#</a>
+                </h2>
             </div>
         </div>
     </div>
 
-    <div class="w-full flex justify-center">
 
-        <div class="grid grid-cols-6 gap-4">     
-
-            <div class="col-span-4 col-start-2">
-                <div class="w-full ">
-                    <div class="container-w980">
-                        {{ element_3.content }}
-                        <div id="metadata-table">
-                            &nbsp;
-                        </div>
-                    </div>
-                </div>
+    <div class="container-w980 mx-auto">
+        <div class="mx-auto w-full max-w-6xl px-6">            
+            {{ element_3.content }} 
+            <div id="metadata-table">
+                &nbsp;
             </div>
         </div>
     </div>
+
+
 
     <!-- cards -->
 
