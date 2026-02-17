@@ -28,7 +28,7 @@
             " <p><em>«Negotiate for and accept appropriate information from information Producers.»</em> [OAIS mandatory responsibilities]</p>",
                         "<p>Negotiations for appropriate information take place before and during the deposition process between the depositors) and ARCHE. They are based on the Collection Policy and the Deposition Agreement, which detail the requirements for deposition of research data.</p>",
                        " <p>Key requirements include:</p>",
-                       " <ul>",
+                       " <ul class='static-pages-list'>",
                        "     <li>",
                        "         Data must fit into the scope of the Collection Policy (consult <a href='/browser/collection-policy'>Collection Policy</a>)",
                        "     </li>",
@@ -111,7 +111,7 @@
             "<p><em>«Make the preserved information available to the Designated Community and enable the information to be disseminated as copies of, or as traceable to, the original submitted Data Objects with evidence supporting its Authenticity.»</em> [OAIS mandatory responsibilities]</p>",
                         "<p> All data ingested in ARCHE is represented via its accompanying metadata. It can be browsed on a dedicated web interface and accessed via a set of machine readable endpoints, the dissemination services. This growing set of services delivers the data and metadata in custom DIPs, depending on the data type and format requested.</p>",
                        " <p> Three access modes can be applied on collection or individual resource level:</p>",
-                       " <ul>",
+                       " <ul class='static-pages-list'>",
                        "     <li>",
                        "         Public content implies free access to the general public without any restriction. The classification of a resource as public content does not mean that the resources may be used for any purpose. The permissible types of use are further detailed by the licence accompanying every resource.",
                        "     </li>",
@@ -210,7 +210,7 @@
         "content":["<p>",
                "     ARCHE follows a variety of external standards, frameworks, and best practices for data management in general and for digital preservation in particular. These help in maximising the quality of the data and the interoperability of the repository service. The list will be reviewed and updated when required. The <a href='/browser/technical-setup'>Technical Setup</a> provides an insight on the technical implementation of ARCHE’s systems.",
                " </p>",
-               " <ul>",
+               " <ul class='static-pages-list'>",
                "     <li>",
                "         <a href='https://www.clarin.eu/content/component-metadata'>Component Metadata of CLARIN (CMDI)</a>",
                "     </li>",
@@ -253,7 +253,7 @@
     "accordion_3": {
         "item_1_title": "Preservation Policies",
         "item_1_body": [
-            "<ul>",
+            " <ul class='static-pages-list'>",
                        "     <li>",
                        "         Archaeology Data Service (ADS): Collections Policy. <a href='https://archaeologydataservice.ac.uk/about/policies/collections-policy'>https://archaeologydataservice.ac.uk/about/policies/collections-policy</a> (Version 9.0)",
                        "     </li>",
@@ -300,7 +300,7 @@
         ],
         "item_2_title": "Curation Workflow",
         "item_2_body": [
-            "<ul>",
+            " <ul class='static-pages-list'>",
                        "     <li>",
                        "         Archivematica: Micro-services. <a href='https://wiki.archivematica.org/Micro-services'>https://wiki.archivematica.org/Micro-services</a>",
                        "     </li>",
@@ -320,7 +320,7 @@
         ],
         "item_3_title": "File Formats",
         "item_3_body": [
-            " <ul>",
+            " <ul class='static-pages-list'>",
                        "     <li>Archaeology Data Service (ADS): Guides to Good Practice <a href='https://guides.archaeologydataservice.ac.uk/g2gp/Main'>https://guides.archaeologydataservice.ac.uk/g2gp/Main</a></li>",
                        "     <li>IANUS: IT-Empfehlungen für den nachhaltigen Umgang mit digitalen Daten in den Altertumswissenschaften. DOI: <a href='http://dx.doi.org/10.13149/000.111000-a'>10.13149/000.111000-a</a></li>",
                        "     <li>CLARIN: Standard Recommendations. <a href='https://www.clarin.eu/sites/default/files/Standards%20for%20LRT-v6.pdf'>https://www.clarin.eu/sites/default/files/Standards%20for%20LRT-v6.pdf</a></li>",
@@ -331,7 +331,7 @@
         ],
         "item_4_title": "Risk Management",
         "item_4_body": [
-            "<ul>",
+            " <ul class='static-pages-list'>",
                        "     <li>",
                        "         Bodleian Libraries: Introduction to Digital Preservation: Risks to digital assets <a href='https://web.archive.org/web/20211009015508/https://libguides.bodleian.ox.ac.uk/digitalpreservation/risks'>https://web.archive.org/web/20211009015508/https://libguides.bodleian.ox.ac.uk/digitalpreservation/risks</a>",
                        "     </li>",
