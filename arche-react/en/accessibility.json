@@ -2,7 +2,7 @@
     "element_1": {
         "title": "Accessibility",        
         "content": ["<div class='flex w-full'>",
-            "    This website is partially compliant with conformance level AA of the “Web Content Accessibility Guidelines – WCAG 2.1” and with the applicable European standard EN 301 549 V3.2.1 (2021-03) according to Directive (EU) 2016/2102 of the European Parliament and of the Council.",
+            "    This website is partially compliant with conformance level AA of the 'Web Content Accessibility Guidelines – WCAG 2.1' and with the applicable European standard EN 301 549 V3.2.1 (2021-03) according to Directive (EU) 2016/2102 of the European Parliament and of the Council.",
             "</div>"]
     },    
     "element_2": {
