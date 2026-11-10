@@ -293,19 +293,19 @@
         "cards_header_title": "Important Information",
         "card_1_title": "Preservation Policy",
         "card_1_text": "Archiving, maintenance, and risk management",
-        "card_1_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-preservation-policy.png",
+        "card_1_image": "/images/common/card-img-preservation-policy.png",
         "card_1_url": "/browser/preservation-policy",
         "card_2_title": "Technical Setup",
         "card_2_text": "Software components, client libraries, dissemination services, and storage",
-        "card_2_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-technical-setup.png",
+        "card_2_image": "/images/common/card-img-technical-setup.png",
         "card_2_url": "/browser/technical-setup",
         "card_3_title": "Dissemination Services",
         "card_3_text": "Web applications designed to process and visualise specific data types or formats",
-        "card_3_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-dissemination.png",
+        "card_3_image": "/images/common/card-img-dissemination.png",
         "card_3_url": "/browser/technical-setup#dissemination-services",
         "card_4_title": "FAQ",
         "card_4_text": "Answers to frequently asked questions and practical tips for depositors",
-        "card_4_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-faq-new.png",
+        "card_4_image": "/images/common/card-img-faq-new.png",
         "card_4_url": "/browser/faq"
     }
 }
